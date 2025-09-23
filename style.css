@@ -198,3 +198,70 @@ footer { margin-top: 60px; }
 }
 
 .popup-close:hover { background-color: #0056b3; }
+
+/* ================== NEW: State dropdown (custom combobox) ================== */
+.state-picker {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;   /* căn giữa dưới tiêu đề */
+  margin: 8px 0 14px 0;
+  position: relative;
+}
+
+.combo {
+  position: relative;
+  min-width: 160px;
+  font-size: 14px; /* cỡ chữ cơ sở */
+}
+
+.combo-trigger {
+  width: 100%;
+  padding: 8px 12px;               /* tăng nhẹ kích thước nút */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+  text-align: center;
+  user-select: none;
+  font-size: 15px;                  /* to hơn một chút */
+}
+
+.combo-trigger:focus {
+  outline: none;
+  border-color: #007BFF;
+  box-shadow: 0 0 0 2px rgba(0,123,255,0.15);
+}
+
+/* Danh sách cuộn như #suggestions */
+.combo-list {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 6px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-height: 200px;        /* cho phép cuộn dọc */
+  overflow-y: auto;         /* cuộn dọc */
+  z-index: 1500;
+}
+
+.combo.open .combo-list { display: block; }
+
+/* Mục trong danh sách: tăng cỡ chữ “to hơn chút” */
+.combo-option {
+  padding: 10px 12px;       /* tăng đệm để dễ bấm */
+  cursor: pointer;
+  text-align: center;
+  font-size: 17px;          /* ⬅️ TĂNG CỠ CHỮ CHO NSW, ACT, ... */
+  line-height: 1.25;
+}
+
+.combo-option:hover,
+.combo-option[aria-selected="true"] {
+  background: #f0f0f0;
+}
+/* ================= END State dropdown (custom combobox) =================== */

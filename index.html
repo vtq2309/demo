@@ -19,64 +19,6 @@
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
   <link rel="manifest" href="images/site.webmanifest">
   <link rel="stylesheet" href="style.css">
-
-  <style>
-    /* Dropdown state đặt trong container, căn giữa dưới tiêu đề */
-    .state-picker {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 8px 0 14px 0;
-      position: relative;
-    }
-    /* Khung combobox */
-    .combo {
-      position: relative;
-      min-width: 160px;
-      font-size: 14px;
-    }
-    .combo-trigger {
-      width: 100%;
-      padding: 6px 10px;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      background: #fff;
-      cursor: pointer;
-      text-align: center;
-      user-select: none;
-    }
-    .combo-trigger:focus {
-      outline: none;
-      border-color: #007BFF;
-      box-shadow: 0 0 0 2px rgba(0,123,255,0.15);
-    }
-    /* Danh sách cuộn như suggestions */
-    .combo-list {
-      display: none;
-      position: absolute;
-      left: 0;
-      right: 0;
-      margin-top: 6px;
-      background: #fff;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      max-height: 200px;           /* cuộn dọc */
-      overflow-y: auto;            /* cuộn dọc */
-      z-index: 1500;
-    }
-    .combo.open .combo-list { display: block; }
-    .combo-option {
-      padding: 8px 10px;
-      cursor: pointer;
-      text-align: center;
-    }
-    .combo-option:hover,
-    .combo-option[aria-selected="true"] {
-      background: #f0f0f0;
-    }
-  </style>
 </head>
 <body>
   <div class="container">

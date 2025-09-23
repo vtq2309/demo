@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tìm kiếm số trên hình ảnh</title>
+    <style>
+        /* CSS cho việc định dạng */
+        #image-container {
+            position: relative;
+            display: inline-block;
+        }
+        #image-container img {
+            display: block;
+        }
+        .highlight {
+            position: absolute;
+            border: 2px solid red;
+            border-radius: 50%;
+            pointer-events: none;
+            transform: translate(-50%, -50%); /* Để tâm vòng tròn nằm chính giữa tọa độ */
+        }
+        #search-box {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <input type="text" id="search-box" placeholder="Nhập số cần tìm">
+    <button onclick="highlightNumber()">Tìm kiếm</button>
+    <button onclick="downloadCoords()">Tải tọa độ</button>
+    <div id="image-container">
+        <img src="map.png" alt="Sơ đồ số" id="number-image">
+    </div>
+
+    <script>
+        // Đối tượng để lưu trữ tọa độ
+        const numberCoords = {};
+
+        function highlightNumber() {
+            const searchValue = document.getElementById('search-box').value;
+            const imageContainer = document.getElementById('image-container');
+            const numberImage = document.getElementById('number-image');
+            
+            // Xóa bất kỳ highlight nào hiện có
+            const existingHighlight = document.querySelector('.highlight');
+            if (existingHighlight) {
+                existingHighlight.remove();
+            }
+
+            if (numberCoords[searchValue]) {
+                const coords = numberCoords[searchValue];
+                const highlight = document.createElement('div');
+                highlight.className = 'highlight';
+                highlight.style.left = `${coords[0]}px`;
+                highlight.style.top = `${coords[1]}px`;
+                highlight.style.width = `${coords[2]}px`;
+                highlight.style.height = `${coords[3]}px`;
+                imageContainer.appendChild(highlight);
+            }
+        }
+
+        // Mã để lấy tọa độ nhanh hơn và tự động lưu chúng vào numberCoords
+        document.addEventListener('click', function(event) {
+            const imageRect = document.getElementById('number-image').getBoundingClientRect();
+            const x = event.clientX - imageRect.left;
+            const y = event.clientY - imageRect.top;
+            const number = prompt("Nhập số bạn đã click vào:");
+            if (number) {
+                numberCoords[number] = [x, y, 30, 30];  // Kích thước mặc định 30x30
+                console.log(`Tọa độ cho số ${number}: [${x}, ${y}, 30, 30]`);
+                console.log(numberCoords);  // In toàn bộ đối tượng numberCoords
+            }
+        });
+
+        // Hàm để tải xuống tọa độ dưới dạng tệp văn bản JSON
+        function downloadCoords() {
+            const jsonCoords = JSON.stringify(numberCoords, null, 2);  // Tạo định dạng JSON đẹp
+            const blob = new Blob([jsonCoords], { type: "application/json" });
+            const url = URL.createObjectURL(blob);
+            const downloadAnchorNode = document.createElement('a');
+            downloadAnchorNode.setAttribute("href", url);
+            downloadAnchorNode.setAttribute("download", "coords.json");
+            document.body.appendChild(downloadAnchorNode); // required for firefox
+            downloadAnchorNode.click();
+            document.body.removeChild(downloadAnchorNode); // cleanup
+        }
+    </script>
+
+</body>
+</html>

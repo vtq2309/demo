@@ -199,32 +199,32 @@ footer { margin-top: 60px; }
 
 .popup-close:hover { background-color: #0056b3; }
 
-/* ================== NEW: State dropdown (custom combobox) ================== */
+/* ================== State dropdown (custom combobox) ================== */
 .state-picker {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;   /* căn giữa dưới tiêu đề */
-  margin: 8px 0 14px 0;
+  margin: 8px 0 8px 0;
   position: relative;
 }
 
 .combo {
   position: relative;
   min-width: 160px;
-  font-size: 14px; /* cỡ chữ cơ sở */
+  font-size: 14px;
 }
 
 .combo-trigger {
   width: 100%;
-  padding: 8px 12px;               /* tăng nhẹ kích thước nút */
+  padding: 8px 12px;
   border: 1px solid #ccc;
   border-radius: 6px;
   background: #fff;
   cursor: pointer;
   text-align: center;
   user-select: none;
-  font-size: 15px;                  /* to hơn một chút */
+  font-size: 15px;
 }
 
 .combo-trigger:focus {
@@ -233,7 +233,6 @@ footer { margin-top: 60px; }
   box-shadow: 0 0 0 2px rgba(0,123,255,0.15);
 }
 
-/* Danh sách cuộn như #suggestions */
 .combo-list {
   display: none;
   position: absolute;
@@ -251,12 +250,11 @@ footer { margin-top: 60px; }
 
 .combo.open .combo-list { display: block; }
 
-/* Mục trong danh sách: tăng cỡ chữ “to hơn chút” */
 .combo-option {
   padding: 10px 12px;       /* tăng đệm để dễ bấm */
   cursor: pointer;
   text-align: center;
-  font-size: 17px;          /* ⬅️ TĂNG CỠ CHỮ CHO NSW, ACT, ... */
+  font-size: 17px;          /* cỡ chữ lớn hơn cho NSW, ACT, ... */
   line-height: 1.25;
 }
 
@@ -264,4 +262,24 @@ footer { margin-top: 60px; }
 .combo-option[aria-selected="true"] {
   background: #f0f0f0;
 }
-/* ================= END State dropdown (custom combobox) =================== */
+
+/* ================== Data loaded toast ================== */
+.data-toast {
+  display: none;                  /* chỉ hiện trong 1s */
+  margin: 6px auto 10px;
+  padding: 6px 10px;
+  max-width: 220px;
+  border: 1px solid #c3e6cb;
+  background: #d4edda;
+  color: #155724;
+  border-radius: 6px;
+  font-size: 13px;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.data-toast .check {
+  font-weight: bold;
+  margin-right: 6px;
+  color: #2e7d32; /* xanh đậm */
+}

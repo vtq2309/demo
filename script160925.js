@@ -16,16 +16,17 @@ document.addEventListener('DOMContentLoaded', () => {
   };
 
   // DOM refs
-  const combo           = document.getElementById('state-combobox');
-  const trigger         = document.getElementById('state-trigger');
-  const listbox         = document.getElementById('state-list');
-  const suburbInput     = document.getElementById('suburb-input');
-  const suggestions     = document.getElementById('suggestions');
-  const result          = document.getElementById('result');
-  const suburbNameEl    = document.getElementById('suburb');
-  const postcodeEl      = document.getElementById('postcode');
-  const sortcodeEl      = document.getElementById('sortcode');
-  const mapBtnContainer = document.getElementById('map-button-container');
+  const combo            = document.getElementById('state-combobox');
+  const trigger          = document.getElementById('state-trigger');
+  const listbox          = document.getElementById('state-list');
+  const suburbInput      = document.getElementById('suburb-input');
+  const suggestions      = document.getElementById('suggestions');
+  const result           = document.getElementById('result');
+  const suburbNameEl     = document.getElementById('suburb');
+  const postcodeEl       = document.getElementById('postcode');
+  const sortcodeEl       = document.getElementById('sortcode');
+  const mapBtnContainer  = document.getElementById('map-button-container');
+  const dataToast        = document.getElementById('data-toast');
 
   // ====== Sort options A→Z nhưng luôn giữ "All" ở đầu ======
   (function sortStateOptionsKeepAllOnTop() {
@@ -35,11 +36,10 @@ document.addEventListener('DOMContentLoaded', () => {
     rest.sort((a, b) =>
       a.textContent.trim().toLowerCase().localeCompare(b.textContent.trim().toLowerCase())
     );
-    listbox.innerHTML = ''; // clear
-    if (allOpt) listbox.appendChild(allOpt);  // All trước
+    listbox.innerHTML = '';
+    if (allOpt) listbox.appendChild(allOpt);
     rest.forEach(opt => listbox.appendChild(opt));
   })();
-  // =========================================================
 
   // Helpers
   function clearUI() {
@@ -49,6 +49,14 @@ document.addEventListener('DOMContentLoaded', () => {
     suburbNameEl.textContent = '';
     postcodeEl.textContent   = '';
     sortcodeEl.textContent   = '';
+  }
+
+  function showToastLoaded(label) {
+    if (!dataToast) return;
+    dataToast.innerHTML = `<span class="check">✔</span> Data for ${label} loaded`;
+    dataToast.style.display = 'block';
+    // Tự ẩn sau 1s
+    setTimeout(() => { dataToast.style.display = 'none'; }, 1000);
   }
 
   async function loadDataFor(stateCode) {
@@ -61,9 +69,12 @@ document.addEventListener('DOMContentLoaded', () => {
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const json = await res.json();
       data = Array.isArray(json) ? json : [];
+      // Hiển thị toast khi load thành công
+      showToastLoaded(stateCode);
     } catch (e) {
       console.error('Error loading data:', e);
       data = [];
+      // (tuỳ chọn) có thể hiển thị thông báo lỗi riêng nếu cần
     }
   }
 
@@ -78,6 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function toggleCombo() {
     if (combo.classList.contains('open')) closeCombo(); else openCombo();
   }
+
   function selectState(value, label) {
     trigger.textContent = label || 'Choose…'; // hiển thị state đã chọn
     currentState = value || null;
@@ -105,7 +117,7 @@ document.addEventListener('DOMContentLoaded', () => {
     toggleCombo();
   });
 
-  // Gắn sự kiện chọn option (sau khi đã sort/đặt All lên đầu)
+  // Gắn sự kiện chọn option
   listbox.querySelectorAll('.combo-option').forEach(opt => {
     opt.addEventListener('click', () => {
       const value = opt.getAttribute('data-value');

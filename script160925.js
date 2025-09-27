@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Map state -> data file (trong thư mục con /data)
   const DATA_URLS = {
+    ALL: 'data/dataAll.json',
     NSW: 'data/dataNSW.json',
     VIC: 'data/dataVIC.json',
     QLD: 'data/dataQLD.json',
@@ -26,16 +27,19 @@ document.addEventListener('DOMContentLoaded', () => {
   const sortcodeEl      = document.getElementById('sortcode');
   const mapBtnContainer = document.getElementById('map-button-container');
 
-  // ====== NEW: Sắp xếp các option state theo A→Z ======
-  (function sortStateOptions() {
+  // ====== Sort options A→Z nhưng luôn giữ "All" ở đầu ======
+  (function sortStateOptionsKeepAllOnTop() {
     const options = Array.from(listbox.querySelectorAll('.combo-option'));
-    options
-      .sort((a, b) =>
-        a.textContent.trim().toLowerCase().localeCompare(b.textContent.trim().toLowerCase())
-      )
-      .forEach(opt => listbox.appendChild(opt)); // re-append theo thứ tự mới
+    const allOpt = options.find(o => o.textContent.trim().toLowerCase() === 'all');
+    const rest = options.filter(o => o !== allOpt);
+    rest.sort((a, b) =>
+      a.textContent.trim().toLowerCase().localeCompare(b.textContent.trim().toLowerCase())
+    );
+    listbox.innerHTML = ''; // clear
+    if (allOpt) listbox.appendChild(allOpt);  // All trước
+    rest.forEach(opt => listbox.appendChild(opt));
   })();
-  // ====================================================
+  // =========================================================
 
   // Helpers
   function clearUI() {
@@ -101,7 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
     toggleCombo();
   });
 
-  // Gắn sự kiện chọn option (sau khi đã sort)
+  // Gắn sự kiện chọn option (sau khi đã sort/đặt All lên đầu)
   listbox.querySelectorAll('.combo-option').forEach(opt => {
     opt.addEventListener('click', () => {
       const value = opt.getAttribute('data-value');

@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
     dataToast.innerHTML = `<span class="check">✔</span> Data for ${label} loaded`;
     dataToast.style.display = 'block';
     // Tự ẩn sau 1s
-    setTimeout(() => { dataToast.style.display = 'none'; }, 1000);
+    setTimeout(() => { dataToast.style.display = 'none'; }, 2000);
   }
 
   async function loadDataFor(stateCode) {

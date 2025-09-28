@@ -5,14 +5,14 @@ document.addEventListener('DOMContentLoaded', () => {
   // Map state -> data file (trong thư mục con /data)
   const DATA_URLS = {
     ALL: 'data/dataAll.json',
+    ACT: 'data/dataACT.json',
+    NT : 'data/dataNT.json',
     NSW: 'data/dataNSW.json',
-    VIC: 'data/dataVIC.json',
     QLD: 'data/dataQLD.json',
-    WA : 'data/dataWA.json',
     SA : 'data/dataSA.json',
     TAS: 'data/dataTAS.json',
-    NT : 'data/dataNT.json',
-    ACT: 'data/dataACT.json'
+    VIC: 'data/dataVIC.json',
+    WA : 'data/dataWA.json'
   };
 
   // DOM refs
@@ -27,6 +27,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const sortcodeEl       = document.getElementById('sortcode');
   const mapBtnContainer  = document.getElementById('map-button-container');
   const dataToast        = document.getElementById('data-toast');
+  const progressWrap     = document.getElementById('data-progress');
+  const progressBar      = document.getElementById('data-progress-bar');
 
   // ====== Sort options A→Z nhưng luôn giữ "All" ở đầu ======
   (function sortStateOptionsKeepAllOnTop() {
@@ -41,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
     rest.forEach(opt => listbox.appendChild(opt));
   })();
 
-  // Helpers
+  // ---------- UI Helpers ----------
   function clearUI() {
     suggestions.innerHTML = '';
     suggestions.style.display = 'none';
@@ -51,12 +53,93 @@ document.addEventListener('DOMContentLoaded', () => {
     sortcodeEl.textContent   = '';
   }
 
+  function setProgress(pct) {
+    if (!progressWrap || !progressBar) return;
+    progressWrap.style.display = 'block';
+    progressWrap.setAttribute('aria-hidden', 'false');
+    progressBar.classList.remove('indeterminate');
+    progressBar.style.width = `${pct}%`;
+    progressWrap.setAttribute('aria-valuenow', String(Math.floor(pct)));
+  }
+  function setProgressIndeterminate() {
+    if (!progressWrap || !progressBar) return;
+    progressWrap.style.display = 'block';
+    progressWrap.setAttribute('aria-hidden', 'false');
+    progressBar.style.width = '30%';
+    progressBar.classList.add('indeterminate');
+    progressWrap.setAttribute('aria-valuenow', '0');
+  }
+  function hideProgress() {
+    if (!progressWrap || !progressBar) return;
+    progressWrap.style.display = 'none';
+    progressWrap.setAttribute('aria-hidden', 'true');
+    progressBar.classList.remove('indeterminate');
+    progressBar.style.width = '0%';
+  }
+
+  const TOAST_DURATION_MS = 1000;
   function showToastLoaded(label) {
     if (!dataToast) return;
+    dataToast.classList.remove('error');
     dataToast.innerHTML = `<span class="check">✔</span> Data for ${label} loaded`;
     dataToast.style.display = 'block';
-    // Tự ẩn sau 1s
-    setTimeout(() => { dataToast.style.display = 'none'; }, 2000);
+    setTimeout(() => { dataToast.style.display = 'none'; }, TOAST_DURATION_MS);
+  }
+  function showToastError(message) {
+    if (!dataToast) return;
+    dataToast.classList.add('error');
+    dataToast.innerHTML = `<span class="cross">❌</span> ${message}`;
+    dataToast.style.display = 'block';
+    setTimeout(() => { dataToast.style.display = 'none'; }, 2500);
+  }
+
+  // ---------- Fetch with REAL progress ----------
+  async function fetchJsonWithProgress(url) {
+    // 1) Thử HEAD để lấy Content-Length
+    let total = null;
+    try {
+      const head = await fetch(url, { method: 'HEAD', cache: 'no-store' });
+      const len = head.headers.get('content-length') || head.headers.get('Content-Length');
+      if (len && !isNaN(parseInt(len, 10))) total = parseInt(len, 10);
+    } catch {
+      // HEAD có thể bị chặn; bỏ qua -> sẽ dùng indeterminate
+    }
+
+    // 2) GET + stream
+    const res = await fetch(url, { cache: 'no-store' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+    // Nếu có tổng dung lượng -> determinate, ngược lại indeterminate
+    if (total && total > 0) setProgress(0); else setProgressIndeterminate();
+
+    if (!res.body) {
+      // Không có readable stream: fallback tải thường
+      const text = await res.text();
+      hideProgress();
+      return JSON.parse(text);
+    }
+
+    const reader = res.body.getReader();
+    const chunks = [];
+    let received = 0;
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      chunks.push(value);
+      received += value.byteLength;
+
+      if (total && total > 0) {
+        const pct = Math.max(0.01, Math.min(99.0, (received / total) * 100));
+        setProgress(pct);
+      }
+    }
+
+    // Gộp -> parse
+    const blob = new Blob(chunks, { type: 'application/json' });
+    const text = await blob.text();
+    hideProgress();
+    return JSON.parse(text);
   }
 
   async function loadDataFor(stateCode) {
@@ -64,20 +147,20 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!url) return;
     clearUI();
     data = [];
+
     try {
-      const res = await fetch(url, { cache: 'no-store' });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const json = await res.json();
+      const json = await fetchJsonWithProgress(url);
       data = Array.isArray(json) ? json : [];
-      // Hiển thị toast khi load thành công
       showToastLoaded(stateCode);
     } catch (e) {
       console.error('Error loading data:', e);
       data = [];
-      // (tuỳ chọn) có thể hiển thị thông báo lỗi riêng nếu cần
+      hideProgress();
+      showToastError('Failed to load data. Please check your network or data file.');
     }
   }
 
+  // ---------- Combobox behaviors ----------
   function openCombo() {
     combo.classList.add('open');
     combo.setAttribute('aria-expanded', 'true');
@@ -91,7 +174,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function selectState(value, label) {
-    trigger.textContent = label || 'Choose…'; // hiển thị state đã chọn
+    trigger.textContent = label || 'Choose…';
     currentState = value || null;
 
     // Nút map chỉ hiện khi NSW
@@ -104,7 +187,7 @@ document.addEventListener('DOMContentLoaded', () => {
     suburbInput.disabled = !currentState;
     suburbInput.placeholder = currentState ? ' ' : '';
 
-    // Tải lại data
+    // Tải dữ liệu
     loadDataFor(currentState);
   }
 
@@ -136,12 +219,11 @@ document.addEventListener('DOMContentLoaded', () => {
     if (e.key === 'Escape') closeCombo();
   });
 
-  // Search by suburb or postcode
+  // ---------- Search by suburb or postcode ----------
   suburbInput.addEventListener('input', function () {
     const input = suburbInput.value.trim().toLowerCase();
     suggestions.innerHTML = '';
 
-    // Yêu cầu chọn state trước
     if (!currentState) {
       suggestions.style.display = 'block';
       suggestions.innerHTML = `<div>Please select a state first.</div>`;
@@ -155,14 +237,12 @@ document.addEventListener('DOMContentLoaded', () => {
       return;
     }
 
-    // Match: Suburb startsWith OR Postcode startsWith
     let matched = data.filter(item => {
       const suburb = (item.Suburb || '').toLowerCase();
       const pcStr  = item.Postcode != null ? String(item.Postcode) : '';
       return suburb.startsWith(input) || pcStr.startsWith(input);
     });
 
-    // Sort by Suburb asc, then Postcode asc
     matched.sort((a, b) => {
       const bySuburb = (a.Suburb || '').localeCompare(b.Suburb || '');
       if (bySuburb !== 0) return bySuburb;
@@ -178,7 +258,6 @@ document.addEventListener('DOMContentLoaded', () => {
     suggestions.style.display = 'block';
     matched.forEach(item => {
       const row = document.createElement('div');
-      // Gợi ý: chỉ hiển thị Suburb + Postcode
       row.textContent = `${item.Suburb} (${item.Postcode})`;
       row.addEventListener('click', () => {
         suburbInput.value = '';

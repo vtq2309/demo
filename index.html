@@ -38,17 +38,21 @@
         <div id="state-list" class="combo-list" role="listbox">
           <!-- All luôn đứng đầu -->
           <div role="option" class="combo-option" data-value="ALL">All</div>
-
+          <div role="option" class="combo-option" data-value="ACT">ACT</div>
+          <div role="option" class="combo-option" data-value="NT">NT</div>
           <div role="option" class="combo-option" data-value="NSW">NSW</div>
-          <div role="option" class="combo-option" data-value="VIC">VIC</div>
           <div role="option" class="combo-option" data-value="QLD">QLD</div>
-          <div role="option" class="combo-option" data-value="WA">WA</div>
           <div role="option" class="combo-option" data-value="SA">SA</div>
           <div role="option" class="combo-option" data-value="TAS">TAS</div>
-          <div role="option" class="combo-option" data-value="NT">NT</div>
-          <div role="option" class="combo-option" data-value="ACT">ACT</div>
+          <div role="option" class="combo-option" data-value="VIC">VIC</div>
+          <div role="option" class="combo-option" data-value="WA">WA</div>
         </div>
       </div>
+    </div>
+
+    <!-- Thanh tiến trình tải data -->
+    <div id="data-progress" class="data-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-hidden="true">
+      <div id="data-progress-bar" class="data-progress-bar"></div>
     </div>
 
     <!-- Toast báo tải xong data -->

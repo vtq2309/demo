@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', () => {
       console.error('Error loading data:', e);
       data = [];
       hideProgress();
-      showToastError('Failed to load data. Please check your network or data file.');
+      showToastError('Failed to load data. Please check your network and try again.');
     }
   }
 

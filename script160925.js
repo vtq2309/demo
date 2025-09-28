@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
     progressBar.style.width = '0%';
   }
 
-  const TOAST_DURATION_MS = 1000;
+  const TOAST_DURATION_MS = 2000;
   function showToastLoaded(label) {
     if (!dataToast) return;
     dataToast.classList.remove('error');

@@ -29,23 +29,17 @@
       <h1>Suburb Lookup</h1>
     </div>
 
-    <!-- Custom dropdown chọn State (không label) -->
+    <!-- Dropdown chọn state -->
     <div class="state-picker" aria-label="Select state">
       <div id="state-combobox" class="combo" role="combobox" aria-haspopup="listbox" aria-expanded="false">
         <button id="state-trigger" class="combo-trigger" aria-controls="state-list" aria-label="Choose state" type="button">
           Choose…
         </button>
         <div id="state-list" class="combo-list" role="listbox">
-          <!-- All luôn đứng đầu -->
-          <div role="option" class="combo-option" data-value="ALL">All</div>
-          <div role="option" class="combo-option" data-value="ACT">ACT</div>
-          <div role="option" class="combo-option" data-value="NT">NT</div>
-          <div role="option" class="combo-option" data-value="NSW">NSW</div>
-          <div role="option" class="combo-option" data-value="QLD">QLD</div>
-          <div role="option" class="combo-option" data-value="SA">SA</div>
-          <div role="option" class="combo-option" data-value="TAS">TAS</div>
+          <!-- Giá trị nội bộ data-value dùng để ánh xạ data file -->
+          <div role="option" class="combo-option" data-value="NSW">NSW - All</div>
+          <div role="option" class="combo-option" data-value="NSW_SYDNEYZONE">NSW - SydneyZone</div>
           <div role="option" class="combo-option" data-value="VIC">VIC</div>
-          <div role="option" class="combo-option" data-value="WA">WA</div>
         </div>
       </div>
     </div>
@@ -55,10 +49,10 @@
       <div id="data-progress-bar" class="data-progress-bar"></div>
     </div>
 
-    <!-- Toast báo tải xong data -->
+    <!-- Toast báo tải xong / lỗi -->
     <div id="data-toast" class="data-toast" role="status" aria-live="polite"></div>
 
-    <!-- Search by Suburb or Postcode -->
+    <!-- Search -->
     <div class="input-section">
       <div class="input-container">
         <input type="text" id="suburb-input" placeholder=" " required disabled>
@@ -68,13 +62,16 @@
 
     <div id="suggestions"></div>
 
-    <div id="result">
+    <!-- KẾT QUẢ -->
+    <div id="result" style="display:none;">
       <p><strong>Suburb:</strong> <span id="suburb"></span></p>
       <p><strong>Postcode:</strong> <span id="postcode"></span></p>
-      <p><strong>SortCode:</strong> <span id="sortcode"></span></p>
+
+      <!-- Vùng hiển thị động các field khác như SortCode / Zone / Run / Chute / ... -->
+      <div id="dynamic-fields"></div>
     </div>
 
-    <!-- Chỉ hiển thị khi chọn NSW -->
+    <!-- Chỉ hiển thị khi chọn NSW - Pemulwuy -->
     <div id="map-button-container" class="map-button-container" style="display:none;">
       <a href="cpmap/index.html" class="map-button">
         <img src="images/iconmap.ico" alt="Hình bàn tay trỏ" class="pointing-hand-image">
@@ -86,7 +83,7 @@
       <div class="footer-content">
         <a href="report/index.html" class="small-button">Report Missing Data</a>
         <p>Created by: Thien Quang VU</p>
-        <p>(CTY AM Shift)</p>
+        <p>(CTY AM Shift - Pemulwuy)</p>
       </div>
     </footer>
   </div>

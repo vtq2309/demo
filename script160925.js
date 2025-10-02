@@ -1,18 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
   let data = [];
   let currentState = null;
+  let currentStateLabel = null;
 
-  // Map state -> data file (trong thư mục con /data)
+  // Map state -> data file
   const DATA_URLS = {
-    ALL: 'data/dataAll.json',
-    ACT: 'data/dataACT.json',
-    NT : 'data/dataNT.json',
-    NSW: 'data/dataNSW.json',
-    QLD: 'data/dataQLD.json',
-    SA : 'data/dataSA.json',
-    TAS: 'data/dataTAS.json',
-    VIC: 'data/dataVIC.json',
-    WA : 'data/dataWA.json'
+    NSW: 'data/dataNSW.json',                    // Suburb, Postcode, SortCode
+    NSW_SYDNEYZONE: 'data/dataNSW-SydneyZone.json', // Suburb, Postcode, Zone, Run, Chute
+    VIC: 'data/dataVIC.json',                    // Suburb, Postcode, SortCode
+    // mở rộng sau này:
+    // NSW_NEWCASTLE: 'data/dataNSW-Newcastle.json',
   };
 
   // DOM refs
@@ -22,35 +19,29 @@ document.addEventListener('DOMContentLoaded', () => {
   const suburbInput      = document.getElementById('suburb-input');
   const suggestions      = document.getElementById('suggestions');
   const result           = document.getElementById('result');
+
   const suburbNameEl     = document.getElementById('suburb');
   const postcodeEl       = document.getElementById('postcode');
-  const sortcodeEl       = document.getElementById('sortcode');
+  const dynamicFieldsEl  = document.getElementById('dynamic-fields');
+
+  // Map button: chỉ hiển thị khi NSW - SydneyZone
   const mapBtnContainer  = document.getElementById('map-button-container');
+
+  // Toast + progress
   const dataToast        = document.getElementById('data-toast');
   const progressWrap     = document.getElementById('data-progress');
   const progressBar      = document.getElementById('data-progress-bar');
-
-  // ====== Sort options A→Z nhưng luôn giữ "All" ở đầu ======
-  (function sortStateOptionsKeepAllOnTop() {
-    const options = Array.from(listbox.querySelectorAll('.combo-option'));
-    const allOpt = options.find(o => o.textContent.trim().toLowerCase() === 'all');
-    const rest = options.filter(o => o !== allOpt);
-    rest.sort((a, b) =>
-      a.textContent.trim().toLowerCase().localeCompare(b.textContent.trim().toLowerCase())
-    );
-    listbox.innerHTML = '';
-    if (allOpt) listbox.appendChild(allOpt);
-    rest.forEach(opt => listbox.appendChild(opt));
-  })();
 
   // ---------- UI Helpers ----------
   function clearUI() {
     suggestions.innerHTML = '';
     suggestions.style.display = 'none';
     result.style.display = 'none';
+
     suburbNameEl.textContent = '';
     postcodeEl.textContent   = '';
-    sortcodeEl.textContent   = '';
+
+    if (dynamicFieldsEl) dynamicFieldsEl.innerHTML = '';
   }
 
   function setProgress(pct) {
@@ -93,27 +84,21 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => { dataToast.style.display = 'none'; }, 2500);
   }
 
-  // ---------- Fetch with REAL progress ----------
+  // ---------- Fetch with real progress ----------
   async function fetchJsonWithProgress(url) {
-    // 1) Thử HEAD để lấy Content-Length
     let total = null;
     try {
       const head = await fetch(url, { method: 'HEAD', cache: 'no-store' });
       const len = head.headers.get('content-length') || head.headers.get('Content-Length');
       if (len && !isNaN(parseInt(len, 10))) total = parseInt(len, 10);
-    } catch {
-      // HEAD có thể bị chặn; bỏ qua -> sẽ dùng indeterminate
-    }
+    } catch {/* ignore */}
 
-    // 2) GET + stream
     const res = await fetch(url, { cache: 'no-store' });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
-    // Nếu có tổng dung lượng -> determinate, ngược lại indeterminate
     if (total && total > 0) setProgress(0); else setProgressIndeterminate();
 
     if (!res.body) {
-      // Không có readable stream: fallback tải thường
       const text = await res.text();
       hideProgress();
       return JSON.parse(text);
@@ -128,21 +113,19 @@ document.addEventListener('DOMContentLoaded', () => {
       if (done) break;
       chunks.push(value);
       received += value.byteLength;
-
       if (total && total > 0) {
         const pct = Math.max(0.01, Math.min(99.0, (received / total) * 100));
         setProgress(pct);
       }
     }
 
-    // Gộp -> parse
     const blob = new Blob(chunks, { type: 'application/json' });
     const text = await blob.text();
     hideProgress();
     return JSON.parse(text);
   }
 
-  async function loadDataFor(stateCode) {
+  async function loadDataFor(stateCode, displayLabel = '') {
     const url = DATA_URLS[stateCode];
     if (!url) return;
     clearUI();
@@ -151,7 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
     try {
       const json = await fetchJsonWithProgress(url);
       data = Array.isArray(json) ? json : [];
-      showToastLoaded(stateCode);
+      showToastLoaded(displayLabel || stateCode);
     } catch (e) {
       console.error('Error loading data:', e);
       data = [];
@@ -176,19 +159,20 @@ document.addEventListener('DOMContentLoaded', () => {
   function selectState(value, label) {
     trigger.textContent = label || 'Choose…';
     currentState = value || null;
+    currentStateLabel = label || value || '';
 
-    // Nút map chỉ hiện khi NSW
+    // Map button chỉ hiển thị khi chọn NSW - Pemulwuy
     if (mapBtnContainer) {
-      mapBtnContainer.style.display = (currentState === 'NSW') ? 'block' : 'none';
+      mapBtnContainer.style.display = (currentState === 'NSW_SYDNEYZONE') ? 'block' : 'none';
     }
 
-    // Enable/disable input + placeholder
+    // Reset input + enable khi có state
     suburbInput.value = '';
     suburbInput.disabled = !currentState;
     suburbInput.placeholder = currentState ? ' ' : '';
 
     // Tải dữ liệu
-    loadDataFor(currentState);
+    loadDataFor(currentState, currentStateLabel);
   }
 
   // Ẩn map button ban đầu
@@ -200,7 +184,6 @@ document.addEventListener('DOMContentLoaded', () => {
     toggleCombo();
   });
 
-  // Gắn sự kiện chọn option
   listbox.querySelectorAll('.combo-option').forEach(opt => {
     opt.addEventListener('click', () => {
       const value = opt.getAttribute('data-value');
@@ -215,9 +198,47 @@ document.addEventListener('DOMContentLoaded', () => {
   // Click ngoài để đóng
   document.addEventListener('click', () => closeCombo());
   // ESC để đóng
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') closeCombo();
-  });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeCombo(); });
+
+  // ---------- Render kết quả động ----------
+  const PREFERRED_ORDER = ['SortCode', 'Zone', 'Run', 'Chute']; // ưu tiên hiển thị nếu có
+
+  function renderDynamicFields(item) {
+    if (!dynamicFieldsEl) return;
+    dynamicFieldsEl.innerHTML = '';
+
+    // Lấy tất cả key trừ Suburb, Postcode
+    const keys = Object.keys(item || {}).filter(k => k !== 'Suburb' && k !== 'Postcode');
+
+    if (!keys.length) return;
+
+    // Sắp xếp: các key trong PREFERRED_ORDER trước, còn lại theo alphabet
+    keys.sort((a, b) => {
+      const ia = PREFERRED_ORDER.indexOf(a);
+      const ib = PREFERRED_ORDER.indexOf(b);
+      if (ia !== -1 && ib !== -1) return ia - ib;
+      if (ia !== -1) return -1;
+      if (ib !== -1) return 1;
+      return a.localeCompare(b);
+    });
+
+    // Render
+    for (const key of keys) {
+      const value = item[key];
+      // Bỏ qua undefined/null/chuỗi rỗng
+      if (value === undefined || value === null || String(value).trim() === '') continue;
+
+      const p = document.createElement('p');
+      const strong = document.createElement('strong');
+      strong.textContent = key + ':';
+      const span = document.createElement('span');
+      span.textContent = ' ' + String(value);
+
+      p.appendChild(strong);
+      p.appendChild(span);
+      dynamicFieldsEl.appendChild(p);
+    }
+  }
 
   // ---------- Search by suburb or postcode ----------
   suburbInput.addEventListener('input', function () {
@@ -260,10 +281,13 @@ document.addEventListener('DOMContentLoaded', () => {
       const row = document.createElement('div');
       row.textContent = `${item.Suburb} (${item.Postcode})`;
       row.addEventListener('click', () => {
+        // Clear input + fill common
         suburbInput.value = '';
         suburbNameEl.textContent = item.Suburb ?? '';
         postcodeEl.textContent   = item.Postcode ?? '';
-        sortcodeEl.textContent   = item.SortCode ?? '';
+
+        // Render động các field còn lại
+        renderDynamicFields(item);
 
         result.style.display = 'block';
         suggestions.innerHTML = '';

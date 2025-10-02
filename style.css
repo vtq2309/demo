@@ -142,6 +142,7 @@ footer { margin-top: 60px; }
   margin: 0;
 }
 
+
 .small-button {
   margin: 5px 0;
   display: inline-block;
@@ -150,11 +151,21 @@ footer { margin-top: 60px; }
   color: #fff;
   text-decoration: none;
   border-radius: 4px;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: bold;
 }
 
 .small-button:hover { background-color: #0056b3; }
+
+.footer-content p:first-of-type { /* "Created by: Thien Quang VU" */
+  font-size: 13px;
+  font-weight: 500;  
+}
+
+.footer-content p:last-of-type {  /* "(CTY AM Shift)" */
+  font-size: 12px;
+  font-style: italic; /* tùy chọn */
+}
 
 /* Popup  */
 .popup-overlay {
@@ -212,7 +223,7 @@ footer { margin-top: 60px; }
 
 .combo {
   position: relative;
-  min-width: 160px;
+  min-width: 220px;
   font-size: 14px; /* base font for component */
 }
 

@@ -69,9 +69,10 @@
 
       <!-- Vùng hiển thị động các field khác như SortCode / Zone / Run / Chute / ... -->
       <div id="dynamic-fields"></div>
+      <!-- Link “Show all Run Numbers in Zone …” sẽ được JS chèn tại đây khi phù hợp -->
     </div>
 
-    <!-- Chỉ hiển thị khi chọn NSW - Pemulwuy -->
+    <!-- Chỉ hiển thị khi chọn NSW - SydneyZone -->
     <div id="map-button-container" class="map-button-container" style="display:none;">
       <a href="cpmap/index.html" class="map-button">
         <img src="images/iconmap.ico" alt="Hình bàn tay trỏ" class="pointing-hand-image">
@@ -86,6 +87,15 @@
         <p>(CTY AM Shift - Pemulwuy)</p>
       </div>
     </footer>
+  </div>
+
+  <!-- Popup cho “Show all Run Numbers in Zone …” -->
+  <div id="popupOverlay" class="popup-overlay" style="display:none;">
+    <div class="popup">
+      <h2 id="modal-title">Run Numbers</h2>
+      <div id="modalRunList" class="popup-content"></div>
+      <button id="modalCloseButton" class="popup-close">Close</button>
+    </div>
   </div>
 
   <script src="script160925.js"></script>

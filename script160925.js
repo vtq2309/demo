@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Map state -> data file
   const DATA_URLS = {
-    NSW: 'data/dataNSW.json',                    // Suburb, Postcode, SortCode
-    NSW_SYDNEYZONE: 'data/dataNSW-SydneyZone.json', // Suburb, Postcode, Zone, Run, Chute
-    VIC: 'data/dataVIC.json',                    // Suburb, Postcode, SortCode
+    NSW: 'data/dataNSW.json',                        // Suburb, Postcode, SortCode
+    NSW_SYDNEYZONE: 'data/dataNSW-SydneyZone.json',  // Suburb, Postcode, Zone, Run, Chute
+    VIC: 'data/dataVIC.json',                        // Suburb, Postcode, SortCode
     // mở rộng sau này:
     // NSW_NEWCASTLE: 'data/dataNSW-Newcastle.json',
   };
@@ -27,6 +27,12 @@ document.addEventListener('DOMContentLoaded', () => {
   // Map button: chỉ hiển thị khi NSW - SydneyZone
   const mapBtnContainer  = document.getElementById('map-button-container');
 
+  // Popup (Show all runs in Zone)
+  const popupOverlay     = document.getElementById('popupOverlay');
+  const modalTitle       = document.getElementById('modal-title');
+  const modalRunList     = document.getElementById('modalRunList');
+  const modalCloseButton = document.getElementById('modalCloseButton');
+
   // Toast + progress
   const dataToast        = document.getElementById('data-toast');
   const progressWrap     = document.getElementById('data-progress');
@@ -40,8 +46,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     suburbNameEl.textContent = '';
     postcodeEl.textContent   = '';
-
     if (dynamicFieldsEl) dynamicFieldsEl.innerHTML = '';
+
+    // Gỡ link show-all cũ nếu có
+    const old = document.getElementById('show-all-runs');
+    if (old) old.remove();
+
+    // Đóng popup nếu đang mở
+    if (popupOverlay) popupOverlay.style.display = 'none';
   }
 
   function setProgress(pct) {
@@ -161,7 +173,7 @@ document.addEventListener('DOMContentLoaded', () => {
     currentState = value || null;
     currentStateLabel = label || value || '';
 
-    // Map button chỉ hiển thị khi chọn NSW - Pemulwuy
+    // Map button chỉ hiển thị khi chọn NSW - SydneyZone
     if (mapBtnContainer) {
       mapBtnContainer.style.display = (currentState === 'NSW_SYDNEYZONE') ? 'block' : 'none';
     }
@@ -202,7 +214,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ---------- Render kết quả động ----------
   const PREFERRED_ORDER = ['SortCode', 'Zone', 'Run', 'Chute']; // ưu tiên hiển thị nếu có
-
   function renderDynamicFields(item) {
     if (!dynamicFieldsEl) return;
     dynamicFieldsEl.innerHTML = '';
@@ -240,7 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // ---------- Search by suburb or postcode ----------
+  // ---------- Suburb/Postcode search ----------
   suburbInput.addEventListener('input', function () {
     const input = suburbInput.value.trim().toLowerCase();
     suggestions.innerHTML = '';
@@ -289,6 +300,19 @@ document.addEventListener('DOMContentLoaded', () => {
         // Render động các field còn lại
         renderDynamicFields(item);
 
+        // THÊM LINK: “Show all Run Numbers in Zone …” (chỉ NSW_SYDNEYZONE & có Zone)
+        const old = document.getElementById('show-all-runs');
+        if (old) old.remove();
+
+        if (currentState === 'NSW_SYDNEYZONE' && item.Zone != null && String(item.Zone).trim() !== '') {
+          const showAll = document.createElement('p');
+          showAll.id = 'show-all-runs';
+          showAll.classList.add('small-text', 'clickable');
+          showAll.textContent = `Show all Run Numbers in Zone ${item.Zone}`;
+          showAll.addEventListener('click', () => showRunPopup(item.Zone));
+          result.appendChild(showAll);
+        }
+
         result.style.display = 'block';
         suggestions.innerHTML = '';
         suggestions.style.display = 'none';
@@ -296,4 +320,39 @@ document.addEventListener('DOMContentLoaded', () => {
       suggestions.appendChild(row);
     });
   });
+
+  // ---------- “Show all Run Numbers in Zone …” ----------
+  function removeRunDuplicates(arr) {
+    const seen = new Set();
+    return arr.filter(item => {
+      const runVal = item.Run != null ? String(item.Run) : '';
+      if (!runVal) return false;
+      if (seen.has(runVal)) return false;
+      seen.add(runVal);
+      return true;
+    });
+  }
+
+  function showRunPopup(zoneNumber) {
+    if (currentState !== 'NSW_SYDNEYZONE') return; // chỉ cho SydneyZone
+    // Lọc các record trong Zone, có Run
+    let runsInZone = data.filter(item => String(item.Zone) === String(zoneNumber) && item.Run != null);
+    let uniqueRuns = removeRunDuplicates(runsInZone);
+    uniqueRuns.sort((a, b) => Number(a.Run) - Number(b.Run));
+
+    // Render modal
+    modalTitle.textContent = `Run Numbers in Zone ${zoneNumber}`;
+    let html = `<table class="run-table"><thead><tr><th>Run Number</th></tr></thead><tbody>`;
+    uniqueRuns.forEach(item => {
+      html += `<tr><td>Run ${item.Run}</td></tr>`;
+    });
+    html += `</tbody></table>`;
+    modalRunList.innerHTML = html;
+
+    popupOverlay.style.display = 'flex';
+  }
+
+  if (modalCloseButton) {
+    modalCloseButton.addEventListener('click', () => { popupOverlay.style.display = 'none'; });
+  }
 });

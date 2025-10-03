@@ -1,0 +1,817 @@
+[
+  {
+    "Suburb": "BARTON",
+    "Postcode": 2600,
+    "SortCode": "CBR254"
+  },
+  {
+    "Suburb": "CANBERRA",
+    "Postcode": 2600,
+    "SortCode": "CBR243"
+  },
+  {
+    "Suburb": "CAPITAL HILL",
+    "Postcode": 2600,
+    "SortCode": "CBR243"
+  },
+  {
+    "Suburb": "DEAKIN",
+    "Postcode": 2600,
+    "SortCode": "CBR239"
+  },
+  {
+    "Suburb": "DEAKIN WEST",
+    "Postcode": 2600,
+    "SortCode": "CBR239"
+  },
+  {
+    "Suburb": "DUNTROON",
+    "Postcode": 2600,
+    "SortCode": "CBR243"
+  },
+  {
+    "Suburb": "HARMAN",
+    "Postcode": 2600,
+    "SortCode": "CBR243"
+  },
+  {
+    "Suburb": "HMAS HARMAN",
+    "Postcode": 2600,
+    "SortCode": "CBR243"
+  },
+  {
+    "Suburb": "PARKES",
+    "Postcode": 2600,
+    "SortCode": "CBR254"
+  },
+  {
+    "Suburb": "PARLIAMENT HOUSE",
+    "Postcode": 2600,
+    "SortCode": "CBR254"
+  },
+  {
+    "Suburb": "RUSSELL",
+    "Postcode": 2600,
+    "SortCode": "CBR243"
+  },
+  {
+    "Suburb": "YARRALUMLA",
+    "Postcode": 2600,
+    "SortCode": "CBR254"
+  },
+  {
+    "Suburb": "ACTON",
+    "Postcode": 2601,
+    "SortCode": "CBR243"
+  },
+  {
+    "Suburb": "BLACK MOUNTAIN",
+    "Postcode": 2601,
+    "SortCode": "CBR243"
+  },
+  {
+    "Suburb": "CANBERRA",
+    "Postcode": 2601,
+    "SortCode": "CBR243"
+  },
+  {
+    "Suburb": "CANBERRA CENTRAL",
+    "Postcode": 2601,
+    "SortCode": "CBR243"
+  },
+  {
+    "Suburb": "CANBERRA CITY",
+    "Postcode": 2601,
+    "SortCode": "CBR243"
+  },
+  {
+    "Suburb": "CITY",
+    "Postcode": 2601,
+    "SortCode": "CBR243"
+  },
+  {
+    "Suburb": "AINSLIE",
+    "Postcode": 2602,
+    "SortCode": "CBR247"
+  },
+  {
+    "Suburb": "DICKSON",
+    "Postcode": 2602,
+    "SortCode": "CBR247"
+  },
+  {
+    "Suburb": "DOWNER",
+    "Postcode": 2602,
+    "SortCode": "CBR247"
+  },
+  {
+    "Suburb": "HACKETT",
+    "Postcode": 2602,
+    "SortCode": "CBR247"
+  },
+  {
+    "Suburb": "LYNEHAM",
+    "Postcode": 2602,
+    "SortCode": "CBR244"
+  },
+  {
+    "Suburb": "O'CONNOR",
+    "Postcode": 2602,
+    "SortCode": "CBR253"
+  },
+  {
+    "Suburb": "WATSON",
+    "Postcode": 2602,
+    "SortCode": "CBR247"
+  },
+  {
+    "Suburb": "FORREST",
+    "Postcode": 2603,
+    "SortCode": "CBR254"
+  },
+  {
+    "Suburb": "GRIFFITH",
+    "Postcode": 2603,
+    "SortCode": "CBR240"
+  },
+  {
+    "Suburb": "MANUKA",
+    "Postcode": 2603,
+    "SortCode": "CBR240"
+  },
+  {
+    "Suburb": "RED HILL",
+    "Postcode": 2603,
+    "SortCode": "CBR240"
+  },
+  {
+    "Suburb": "CAUSEWAY",
+    "Postcode": 2604,
+    "SortCode": "CBR254"
+  },
+  {
+    "Suburb": "KINGSTON",
+    "Postcode": 2604,
+    "SortCode": "CBR254"
+  },
+  {
+    "Suburb": "NARRABUNDAH",
+    "Postcode": 2604,
+    "SortCode": "CBR240"
+  },
+  {
+    "Suburb": "CURTIN",
+    "Postcode": 2605,
+    "SortCode": "CBR239"
+  },
+  {
+    "Suburb": "GARRAN",
+    "Postcode": 2605,
+    "SortCode": "CBR239"
+  },
+  {
+    "Suburb": "HUGHES",
+    "Postcode": 2605,
+    "SortCode": "CBR239"
+  },
+  {
+    "Suburb": "CHIFLEY",
+    "Postcode": 2606,
+    "SortCode": "CBR242"
+  },
+  {
+    "Suburb": "LYONS",
+    "Postcode": 2606,
+    "SortCode": "CBR239"
+  },
+  {
+    "Suburb": "O'MALLEY",
+    "Postcode": 2606,
+    "SortCode": "CBR242"
+  },
+  {
+    "Suburb": "PHILLIP",
+    "Postcode": 2606,
+    "SortCode": "CBR239"
+  },
+  {
+    "Suburb": "WODEN",
+    "Postcode": 2606,
+    "SortCode": "CBR239"
+  },
+  {
+    "Suburb": "WODEN VALLEY",
+    "Postcode": 2606,
+    "SortCode": "CBR239"
+  },
+  {
+    "Suburb": "FARRER",
+    "Postcode": 2607,
+    "SortCode": "CBR242"
+  },
+  {
+    "Suburb": "ISAACS",
+    "Postcode": 2607,
+    "SortCode": "CBR242"
+  },
+  {
+    "Suburb": "MAWSON",
+    "Postcode": 2607,
+    "SortCode": "CBR242"
+  },
+  {
+    "Suburb": "PEARCE",
+    "Postcode": 2607,
+    "SortCode": "CBR242"
+  },
+  {
+    "Suburb": "TORRENS",
+    "Postcode": 2607,
+    "SortCode": "CBR242"
+  },
+  {
+    "Suburb": "CIVIC SQUARE",
+    "Postcode": 2608,
+    "SortCode": "CBR243"
+  },
+  {
+    "Suburb": "CANBERRA AIRPORT",
+    "Postcode": 2609,
+    "SortCode": "CBR248"
+  },
+  {
+    "Suburb": "FYSHWICK",
+    "Postcode": 2609,
+    "SortCode": "CBR240"
+  },
+  {
+    "Suburb": "MAJURA",
+    "Postcode": 2609,
+    "SortCode": "CBR248"
+  },
+  {
+    "Suburb": "PIALLIGO",
+    "Postcode": 2609,
+    "SortCode": "CBR248"
+  },
+  {
+    "Suburb": "SYMONSTON",
+    "Postcode": 2609,
+    "SortCode": "CBR240"
+  },
+  {
+    "Suburb": "CHAPMAN",
+    "Postcode": 2611,
+    "SortCode": "CBR242"
+  },
+  {
+    "Suburb": "COOMBS",
+    "Postcode": 2611,
+    "SortCode": "CBR239"
+  },
+  {
+    "Suburb": "COREE",
+    "Postcode": 2611,
+    "SortCode": "S-CTY"
+  },
+  {
+    "Suburb": "DENMAN PROSPECT",
+    "Postcode": 2611,
+    "SortCode": "CBR239"
+  },
+  {
+    "Suburb": "DUFFY",
+    "Postcode": 2611,
+    "SortCode": "CBR242"
+  },
+  {
+    "Suburb": "FISHER",
+    "Postcode": 2611,
+    "SortCode": "CBR242"
+  },
+  {
+    "Suburb": "HOLDER",
+    "Postcode": 2611,
+    "SortCode": "CBR242"
+  },
+  {
+    "Suburb": "MOUNT STROMLO",
+    "Postcode": 2611,
+    "SortCode": "S-CTY"
+  },
+  {
+    "Suburb": "PIERCES CREEK",
+    "Postcode": 2611,
+    "SortCode": "S-CTY"
+  },
+  {
+    "Suburb": "RIVETT",
+    "Postcode": 2611,
+    "SortCode": "CBR242"
+  },
+  {
+    "Suburb": "STIRLING",
+    "Postcode": 2611,
+    "SortCode": "CBR242"
+  },
+  {
+    "Suburb": "STROMLO",
+    "Postcode": 2611,
+    "SortCode": "S-CTY"
+  },
+  {
+    "Suburb": "URIARRA",
+    "Postcode": 2611,
+    "SortCode": "S-CTY"
+  },
+  {
+    "Suburb": "URIARRA FOREST",
+    "Postcode": 2611,
+    "SortCode": "S-CTY"
+  },
+  {
+    "Suburb": "URIARRA VILLAGE",
+    "Postcode": 2611,
+    "SortCode": "S-CTY"
+  },
+  {
+    "Suburb": "WARAMANGA",
+    "Postcode": 2611,
+    "SortCode": "CBR242"
+  },
+  {
+    "Suburb": "WESTON",
+    "Postcode": 2611,
+    "SortCode": "CBR245"
+  },
+  {
+    "Suburb": "WESTON CREEK",
+    "Postcode": 2611,
+    "SortCode": "CBR239"
+  },
+  {
+    "Suburb": "WHITLAM",
+    "Postcode": 2611,
+    "SortCode": "CBR245"
+  },
+  {
+    "Suburb": "WRIGHT",
+    "Postcode": 2611,
+    "SortCode": "CBR239"
+  },
+  {
+    "Suburb": "BRADDON",
+    "Postcode": 2612,
+    "SortCode": "CBR243"
+  },
+  {
+    "Suburb": "CAMPBELL",
+    "Postcode": 2612,
+    "SortCode": "CBR243"
+  },
+  {
+    "Suburb": "REID",
+    "Postcode": 2612,
+    "SortCode": "CBR243"
+  },
+  {
+    "Suburb": "TURNER",
+    "Postcode": 2612,
+    "SortCode": "CBR243"
+  },
+  {
+    "Suburb": "ARANDA",
+    "Postcode": 2614,
+    "SortCode": "CBR245"
+  },
+  {
+    "Suburb": "COOK",
+    "Postcode": 2614,
+    "SortCode": "CBR245"
+  },
+  {
+    "Suburb": "HAWKER",
+    "Postcode": 2614,
+    "SortCode": "CBR245"
+  },
+  {
+    "Suburb": "JAMISON CENTRE",
+    "Postcode": 2614,
+    "SortCode": "CBR245"
+  },
+  {
+    "Suburb": "MACQUARIE",
+    "Postcode": 2614,
+    "SortCode": "CBR245"
+  },
+  {
+    "Suburb": "PAGE",
+    "Postcode": 2614,
+    "SortCode": "CBR245"
+  },
+  {
+    "Suburb": "SCULLIN",
+    "Postcode": 2614,
+    "SortCode": "CBR245"
+  },
+  {
+    "Suburb": "WEETANGERA",
+    "Postcode": 2614,
+    "SortCode": "CBR245"
+  },
+  {
+    "Suburb": "BELCONNEN",
+    "Postcode": 2615,
+    "SortCode": "CBR245"
+  },
+  {
+    "Suburb": "CHARNWOOD",
+    "Postcode": 2615,
+    "SortCode": "CBR252"
+  },
+  {
+    "Suburb": "DUNLOP",
+    "Postcode": 2615,
+    "SortCode": "CBR252"
+  },
+  {
+    "Suburb": "FLOREY",
+    "Postcode": 2615,
+    "SortCode": "CBR252"
+  },
+  {
+    "Suburb": "FLYNN",
+    "Postcode": 2615,
+    "SortCode": "CBR252"
+  },
+  {
+    "Suburb": "FRASER",
+    "Postcode": 2615,
+    "SortCode": "CBR252"
+  },
+  {
+    "Suburb": "HIGGINS",
+    "Postcode": 2615,
+    "SortCode": "CBR245"
+  },
+  {
+    "Suburb": "HOLT",
+    "Postcode": 2615,
+    "SortCode": "CBR245"
+  },
+  {
+    "Suburb": "KIPPAX",
+    "Postcode": 2615,
+    "SortCode": "CBR245"
+  },
+  {
+    "Suburb": "LATHAM",
+    "Postcode": 2615,
+    "SortCode": "CBR252"
+  },
+  {
+    "Suburb": "MACGREGOR",
+    "Postcode": 2615,
+    "SortCode": "CBR245"
+  },
+  {
+    "Suburb": "MACNAMARA",
+    "Postcode": 2615,
+    "SortCode": "CBR245"
+  },
+  {
+    "Suburb": "MELBA",
+    "Postcode": 2615,
+    "SortCode": "CBR252"
+  },
+  {
+    "Suburb": "SPENCE",
+    "Postcode": 2615,
+    "SortCode": "CBR252"
+  },
+  {
+    "Suburb": "STRATHNAIRN",
+    "Postcode": 2615,
+    "SortCode": "CBR245"
+  },
+  {
+    "Suburb": "BELCONNEN",
+    "Postcode": 2616,
+    "SortCode": "CBR244"
+  },
+  {
+    "Suburb": "BELCONNEN",
+    "Postcode": 2617,
+    "SortCode": "CBR244"
+  },
+  {
+    "Suburb": "BRUCE",
+    "Postcode": 2617,
+    "SortCode": "CBR244"
+  },
+  {
+    "Suburb": "EVATT",
+    "Postcode": 2617,
+    "SortCode": "CBR244"
+  },
+  {
+    "Suburb": "GIRALANG",
+    "Postcode": 2617,
+    "SortCode": "CBR244"
+  },
+  {
+    "Suburb": "KALEEN",
+    "Postcode": 2617,
+    "SortCode": "CBR244"
+  },
+  {
+    "Suburb": "LAWSON",
+    "Postcode": 2617,
+    "SortCode": "CBR244"
+  },
+  {
+    "Suburb": "MCKELLAR",
+    "Postcode": 2617,
+    "SortCode": "CBR244"
+  },
+  {
+    "Suburb": "MOLONGLO",
+    "Postcode": 2617,
+    "SortCode": "CBR244"
+  },
+  {
+    "Suburb": "MOLONGLO VALLEY",
+    "Postcode": 2617,
+    "SortCode": "CBR244"
+  },
+  {
+    "Suburb": "UNIVERSITY OF CANBERRA",
+    "Postcode": 2617,
+    "SortCode": "CBR244"
+  },
+  {
+    "Suburb": "HALL",
+    "Postcode": 2618,
+    "SortCode": "CBR246"
+  },
+  {
+    "Suburb": "BEARD",
+    "Postcode": 2620,
+    "SortCode": "CBR248"
+  },
+  {
+    "Suburb": "COTTER RIVER",
+    "Postcode": 2620,
+    "SortCode": "S-CTY"
+  },
+  {
+    "Suburb": "HUME",
+    "Postcode": 2620,
+    "SortCode": "CBR241"
+  },
+  {
+    "Suburb": "KOWEN",
+    "Postcode": 2620,
+    "SortCode": "S-CTY"
+  },
+  {
+    "Suburb": "MOUNT CLEAR",
+    "Postcode": 2620,
+    "SortCode": "S-CTY"
+  },
+  {
+    "Suburb": "OAKS ESTATE",
+    "Postcode": 2620,
+    "SortCode": "CBR248"
+  },
+  {
+    "Suburb": "PADDYS RIVER",
+    "Postcode": 2620,
+    "SortCode": "S-CTY"
+  },
+  {
+    "Suburb": "RENDEZVOUS CREEK",
+    "Postcode": 2620,
+    "SortCode": "S-CTY"
+  },
+  {
+    "Suburb": "TENNENT",
+    "Postcode": 2620,
+    "SortCode": "S-CTY"
+  },
+  {
+    "Suburb": "THARWA",
+    "Postcode": 2620,
+    "SortCode": "S-CTY"
+  },
+  {
+    "Suburb": "TOP NAAS",
+    "Postcode": 2620,
+    "SortCode": "S-CTY"
+  },
+  {
+    "Suburb": "GREENWAY",
+    "Postcode": 2900,
+    "SortCode": "CBR253"
+  },
+  {
+    "Suburb": "TUGGERANONG",
+    "Postcode": 2900,
+    "SortCode": "CBR241"
+  },
+  {
+    "Suburb": "KAMBAH",
+    "Postcode": 2902,
+    "SortCode": "CBR253"
+  },
+  {
+    "Suburb": "KAMBAH VILLAGE",
+    "Postcode": 2902,
+    "SortCode": "CBR253"
+  },
+  {
+    "Suburb": "ERINDALE CENTRE",
+    "Postcode": 2903,
+    "SortCode": "CBR253"
+  },
+  {
+    "Suburb": "OXLEY",
+    "Postcode": 2903,
+    "SortCode": "CBR253"
+  },
+  {
+    "Suburb": "WANNIASSA",
+    "Postcode": 2903,
+    "SortCode": "CBR242"
+  },
+  {
+    "Suburb": "FADDEN",
+    "Postcode": 2904,
+    "SortCode": "CBR253"
+  },
+  {
+    "Suburb": "GOWRIE",
+    "Postcode": 2904,
+    "SortCode": "CBR253"
+  },
+  {
+    "Suburb": "MACARTHUR",
+    "Postcode": 2904,
+    "SortCode": "CBR253"
+  },
+  {
+    "Suburb": "MONASH",
+    "Postcode": 2904,
+    "SortCode": "CBR253"
+  },
+  {
+    "Suburb": "BONYTHON",
+    "Postcode": 2905,
+    "SortCode": "CBR241"
+  },
+  {
+    "Suburb": "CALWELL",
+    "Postcode": 2905,
+    "SortCode": "CBR241"
+  },
+  {
+    "Suburb": "CHISHOLM",
+    "Postcode": 2905,
+    "SortCode": "CBR241"
+  },
+  {
+    "Suburb": "GILMORE",
+    "Postcode": 2905,
+    "SortCode": "CBR241"
+  },
+  {
+    "Suburb": "ISABELLA PLAINS",
+    "Postcode": 2905,
+    "SortCode": "CBR241"
+  },
+  {
+    "Suburb": "RICHARDSON",
+    "Postcode": 2905,
+    "SortCode": "CBR241"
+  },
+  {
+    "Suburb": "THEODORE",
+    "Postcode": 2905,
+    "SortCode": "CBR241"
+  },
+  {
+    "Suburb": "BANKS",
+    "Postcode": 2906,
+    "SortCode": "CBR241"
+  },
+  {
+    "Suburb": "CONDER",
+    "Postcode": 2906,
+    "SortCode": "CBR241"
+  },
+  {
+    "Suburb": "GORDON",
+    "Postcode": 2906,
+    "SortCode": "CBR241"
+  },
+  {
+    "Suburb": "CRACE",
+    "Postcode": 2911,
+    "SortCode": "CBR246"
+  },
+  {
+    "Suburb": "KENNY",
+    "Postcode": 2911,
+    "SortCode": "CBR247"
+  },
+  {
+    "Suburb": "MITCHELL",
+    "Postcode": 2911,
+    "SortCode": "CBR247"
+  },
+  {
+    "Suburb": "GUNGAHLIN",
+    "Postcode": 2912,
+    "SortCode": "CBR246"
+  },
+  {
+    "Suburb": "CASEY",
+    "Postcode": 2913,
+    "SortCode": "CBR246"
+  },
+  {
+    "Suburb": "FRANKLIN",
+    "Postcode": 2913,
+    "SortCode": "CBR247"
+  },
+  {
+    "Suburb": "GINNINDERRA VILLAGE",
+    "Postcode": 2913,
+    "SortCode": "CBR247"
+  },
+  {
+    "Suburb": "KINLYSIDE",
+    "Postcode": 2913,
+    "SortCode": "S-CTY"
+  },
+  {
+    "Suburb": "NGUNNAWAL",
+    "Postcode": 2913,
+    "SortCode": "CBR246"
+  },
+  {
+    "Suburb": "NICHOLLS",
+    "Postcode": 2913,
+    "SortCode": "CBR246"
+  },
+  {
+    "Suburb": "PALMERSTON",
+    "Postcode": 2913,
+    "SortCode": "CBR246"
+  },
+  {
+    "Suburb": "TAYLOR",
+    "Postcode": 2913,
+    "SortCode": "CBR246"
+  },
+  {
+    "Suburb": "AMAROO",
+    "Postcode": 2914,
+    "SortCode": "CBR246"
+  },
+  {
+    "Suburb": "BONNER",
+    "Postcode": 2914,
+    "SortCode": "CBR246"
+  },
+  {
+    "Suburb": "FORDE",
+    "Postcode": 2914,
+    "SortCode": "CBR246"
+  },
+  {
+    "Suburb": "HARRISON",
+    "Postcode": 2914,
+    "SortCode": "CBR247"
+  },
+  {
+    "Suburb": "JACKA",
+    "Postcode": 2914,
+    "SortCode": "CBR246"
+  },
+  {
+    "Suburb": "MONCRIEFF",
+    "Postcode": 2914,
+    "SortCode": "CBR246"
+  },
+  {
+    "Suburb": "THROSBY",
+    "Postcode": 2914,
+    "SortCode": "CBR247"
+  },
+  {
+    "Suburb": "AUSTRALIAN NATIONAL UNIVERSITY",
+    "Postcode": 200,
+    "SortCode": "CBR243"
+  }
+]

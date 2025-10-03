@@ -347,8 +347,8 @@ document.addEventListener('DOMContentLoaded', () => {
     modalCloseButton.addEventListener('click', () => { popupOverlay.style.display = 'none'; });
   }
 
-  // ===== Default chọn NSW - SydneyZone khi vào trang =====
-  const defaultOpt = listbox.querySelector('[data-value="NSW_SYDNEYZONE"]');
+  // ===== Default chọn VIC khi vào trang /vic/ =====
+  const defaultOpt = listbox.querySelector('[data-value="VIC"]');
   if (defaultOpt) defaultOpt.setAttribute('aria-selected', 'true');
-  selectState('NSW_SYDNEYZONE', 'NSW - SydneyZone');
+  selectState('VIC', 'VIC');
 });

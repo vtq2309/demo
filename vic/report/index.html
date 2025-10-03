@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Form</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 350px;
+            padding: 20px;
+            box-sizing: border-box;
+            margin: 20px;
+        }
+
+        #logo {
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        #back-button-container {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        #back-button {
+            padding: 10px 15px;
+            font-size: 14px;
+            cursor: pointer;
+            text-decoration: none;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        #back-button img {
+            margin-left: 10px;
+            width: 20px;
+            height: 20px;
+        }
+
+        #back-button .icon-left {
+            margin-right: 10px;
+            margin-left: 0;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+            font-size: 30px;
+            color: #333;
+            margin-top: 0;
+        }
+
+        .subtext {
+            font-size: 14px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .thank-you-message {
+            display: none;
+            font-size: 16px;
+            color: green;
+            margin-top: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        button[type="submit"] {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 70%;
+            margin-top: 10px;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        /* Loading Spinner */
+        .spinner {
+            border: 4px solid rgba(0, 0, 0, 0.1);
+            border-left-color: #007BFF;
+            border-radius: 50%;
+            width: 18px;
+            height: 18px;
+            animation: spin 2s linear infinite;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        footer {
+            margin-top: 25px;
+            text-align: center;
+        }
+
+        .footer-content p {
+            font-size: 14px;
+            line-height: 1.5;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="images/logo.png" alt="Logo" id="logo">
+
+        <!-- Back Button Section -->
+        <div id="back-button-container">
+            <a href="../index.html" id="back-button">
+                <img src="images/back.png" alt="Back Icon" class="icon-left">
+                Back to Suburb Lookup
+                <img src="images/lookupicon.ico" alt="Icon">
+            </a>
+        </div>
+
+        <h1>Report Form</h1>
+        <p class="subtext" id="subtext">If you notice any missing data,<br> please leave a message.</p>
+
+        <!-- Form Section -->
+        <div class="form-container">
+            <form id="contact-form" action="https://script.google.com/macros/s/AKfycbxLMHT5QD6hyfV1W1Qv0a0Q3oiC4QpM8z_vZZriD4j_TJnEyBBQr98TlyLHbYG4WPA8/exec" method="POST" onsubmit="submitForm(event)">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <p class="thank-you-message" id="thank-you-message">Thank you for your message,<br>I will update the data soon.</p>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <p>Created by: Thien Quang VU</p>
+                <p>(Country AM Shift)</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        function submitForm(event) {
+            event.preventDefault(); // Ngăn chặn hành động submit mặc định
+
+            // Lấy tham chiếu đến nút submit
+            const submitButton = event.target.querySelector('button[type="submit"]');
+            
+            // Thay thế nội dung của nút submit bằng biểu tượng loading
+            submitButton.innerHTML = '<div class="spinner"></div>';
+            submitButton.disabled = true; // Vô hiệu hóa nút để ngăn chặn việc nhấp thêm lần nữa
+
+            // Thu thập dữ liệu từ form
+            const form = event.target;
+            const formData = new FormData(form);
+
+            // Gửi dữ liệu lên Google Apps Script
+            fetch(form.action, {
+                method: "POST",
+                body: formData,
+            })
+            .then(response => response.text())
+            .then(data => {
+                // Ẩn form sau khi gửi thành công
+                form.style.display = "none";
+                
+                // Ẩn dòng subtext
+                document.getElementById("subtext").style.display = "none";
+
+                // Hiển thị thông báo cảm ơn
+                document.getElementById("thank-you-message").style.display = "block";
+            })
+            .catch(error => {
+                console.error("Error:", error);
+                // Khôi phục lại nút submit nếu có lỗi
+                submitButton.innerHTML = 'Submit';
+                submitButton.disabled = false;
+            });
+        }
+    </script>
+</body>
+</html>

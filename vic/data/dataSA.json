@@ -1,0 +1,9967 @@
+[
+  {
+    "Suburb": "ADELAIDE",
+    "Postcode": 5000,
+    "SortCode": "AZ6000"
+  },
+  {
+    "Suburb": "CITY WEST CAMPUS",
+    "Postcode": 5000,
+    "SortCode": "AZ6027"
+  },
+  {
+    "Suburb": "HALIFAX STREET",
+    "Postcode": 5000,
+    "SortCode": "AZ6014"
+  },
+  {
+    "Suburb": "HUTT STREET",
+    "Postcode": 5000,
+    "SortCode": "AZ6014"
+  },
+  {
+    "Suburb": "PARLIAMENT HOUSE",
+    "Postcode": 5000,
+    "SortCode": "AZ6000"
+  },
+  {
+    "Suburb": "RUNDLE MALL",
+    "Postcode": 5000,
+    "SortCode": "AZ6015"
+  },
+  {
+    "Suburb": "STATION ARCADE",
+    "Postcode": 5000,
+    "SortCode": "AZ6027"
+  },
+  {
+    "Suburb": "STURT STREET",
+    "Postcode": 5000,
+    "SortCode": "AZ6027"
+  },
+  {
+    "Suburb": "ADELAIDE UNIVERSITY",
+    "Postcode": 5005,
+    "SortCode": "AZ6035"
+  },
+  {
+    "Suburb": "THE UNIVERSITY OF ADELAIDE",
+    "Postcode": 5005,
+    "SortCode": "AZ6035"
+  },
+  {
+    "Suburb": "UNIVERSITY OF ADELAIDE",
+    "Postcode": 5005,
+    "SortCode": "AZ6035"
+  },
+  {
+    "Suburb": "NORTH ADELAIDE",
+    "Postcode": 5006,
+    "SortCode": "AZ6035"
+  },
+  {
+    "Suburb": "NORTH ADELAIDE MELBOURNE ST",
+    "Postcode": 5006,
+    "SortCode": "AZ6035"
+  },
+  {
+    "Suburb": "BOWDEN",
+    "Postcode": 5007,
+    "SortCode": "AZ6035"
+  },
+  {
+    "Suburb": "BROMPTON",
+    "Postcode": 5007,
+    "SortCode": "AZ3024"
+  },
+  {
+    "Suburb": "HINDMARSH",
+    "Postcode": 5007,
+    "SortCode": "AZ2029"
+  },
+  {
+    "Suburb": "WELLAND",
+    "Postcode": 5007,
+    "SortCode": "AZ2004"
+  },
+  {
+    "Suburb": "WEST HINDMARSH",
+    "Postcode": 5007,
+    "SortCode": "AZ2004"
+  },
+  {
+    "Suburb": "CROYDON",
+    "Postcode": 5008,
+    "SortCode": "AZ2008"
+  },
+  {
+    "Suburb": "CROYDON PARK",
+    "Postcode": 5008,
+    "SortCode": "AZ2034"
+  },
+  {
+    "Suburb": "DEVON PARK",
+    "Postcode": 5008,
+    "SortCode": "AZ3024"
+  },
+  {
+    "Suburb": "DUDLEY PARK",
+    "Postcode": 5008,
+    "SortCode": "AZ3024"
+  },
+  {
+    "Suburb": "RENOWN PARK",
+    "Postcode": 5008,
+    "SortCode": "AZ3024"
+  },
+  {
+    "Suburb": "RIDLEYTON",
+    "Postcode": 5008,
+    "SortCode": "AZ3024"
+  },
+  {
+    "Suburb": "WEST CROYDON",
+    "Postcode": 5008,
+    "SortCode": "AZ2008"
+  },
+  {
+    "Suburb": "ALLENBY GARDENS",
+    "Postcode": 5009,
+    "SortCode": "AZ2004"
+  },
+  {
+    "Suburb": "BEVERLEY",
+    "Postcode": 5009,
+    "SortCode": "AZ2008"
+  },
+  {
+    "Suburb": "KILKENNY",
+    "Postcode": 5009,
+    "SortCode": "AZ2008"
+  },
+  {
+    "Suburb": "ANGLE PARK",
+    "Postcode": 5010,
+    "SortCode": "AZ2034"
+  },
+  {
+    "Suburb": "FERRYDEN PARK",
+    "Postcode": 5010,
+    "SortCode": "AZ2034"
+  },
+  {
+    "Suburb": "REGENCY PARK",
+    "Postcode": 5010,
+    "SortCode": "AZ3024"
+  },
+  {
+    "Suburb": "ST CLAIR",
+    "Postcode": 5011,
+    "SortCode": "AZ2008"
+  },
+  {
+    "Suburb": "WOODVILLE",
+    "Postcode": 5011,
+    "SortCode": "AZ2008"
+  },
+  {
+    "Suburb": "WOODVILLE PARK",
+    "Postcode": 5011,
+    "SortCode": "AZ2008"
+  },
+  {
+    "Suburb": "WOODVILLE SOUTH",
+    "Postcode": 5011,
+    "SortCode": "AZ2023"
+  },
+  {
+    "Suburb": "WOODVILLE WEST",
+    "Postcode": 5011,
+    "SortCode": "AZ2023"
+  },
+  {
+    "Suburb": "ATHOL PARK",
+    "Postcode": 5012,
+    "SortCode": "AZ2008"
+  },
+  {
+    "Suburb": "MANSFIELD PARK",
+    "Postcode": 5012,
+    "SortCode": "AZ2034"
+  },
+  {
+    "Suburb": "WOODVILLE GARDENS",
+    "Postcode": 5012,
+    "SortCode": "AZ2034"
+  },
+  {
+    "Suburb": "WOODVILLE NORTH",
+    "Postcode": 5012,
+    "SortCode": "AZ2008"
+  },
+  {
+    "Suburb": "GILLMAN",
+    "Postcode": 5013,
+    "SortCode": "AZ2049"
+  },
+  {
+    "Suburb": "OTTOWAY",
+    "Postcode": 5013,
+    "SortCode": "AZ2049"
+  },
+  {
+    "Suburb": "PENNINGTON",
+    "Postcode": 5013,
+    "SortCode": "AZ2049"
+  },
+  {
+    "Suburb": "ROSEWATER",
+    "Postcode": 5013,
+    "SortCode": "AZ2049"
+  },
+  {
+    "Suburb": "ROSEWATER EAST",
+    "Postcode": 5013,
+    "SortCode": "AZ2049"
+  },
+  {
+    "Suburb": "WINGFIELD",
+    "Postcode": 5013,
+    "SortCode": "AZ2034"
+  },
+  {
+    "Suburb": "ALBERT PARK",
+    "Postcode": 5014,
+    "SortCode": "AZ2023"
+  },
+  {
+    "Suburb": "ALBERTON",
+    "Postcode": 5014,
+    "SortCode": "AZ2049"
+  },
+  {
+    "Suburb": "CHELTENHAM",
+    "Postcode": 5014,
+    "SortCode": "AZ2049"
+  },
+  {
+    "Suburb": "HENDON",
+    "Postcode": 5014,
+    "SortCode": "AZ2023"
+  },
+  {
+    "Suburb": "QUEENSTOWN",
+    "Postcode": 5014,
+    "SortCode": "AZ2049"
+  },
+  {
+    "Suburb": "ROYAL PARK",
+    "Postcode": 5014,
+    "SortCode": "AZ2023"
+  },
+  {
+    "Suburb": "BIRKENHEAD",
+    "Postcode": 5015,
+    "SortCode": "AZ2007"
+  },
+  {
+    "Suburb": "ETHELTON",
+    "Postcode": 5015,
+    "SortCode": "AZ2018"
+  },
+  {
+    "Suburb": "GARDEN ISLAND",
+    "Postcode": 5015,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "GLANVILLE",
+    "Postcode": 5015,
+    "SortCode": "AZ2007"
+  },
+  {
+    "Suburb": "NEW PORT",
+    "Postcode": 5015,
+    "SortCode": "AZ2007"
+  },
+  {
+    "Suburb": "PORT ADELAIDE",
+    "Postcode": 5015,
+    "SortCode": "AZ2049"
+  },
+  {
+    "Suburb": "TORRENS ISLAND",
+    "Postcode": 5015,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "LARGS BAY",
+    "Postcode": 5016,
+    "SortCode": "AZ2007"
+  },
+  {
+    "Suburb": "LARGS NORTH",
+    "Postcode": 5016,
+    "SortCode": "AZ2007"
+  },
+  {
+    "Suburb": "PETERHEAD",
+    "Postcode": 5016,
+    "SortCode": "AZ2007"
+  },
+  {
+    "Suburb": "OSBORNE",
+    "Postcode": 5017,
+    "SortCode": "AZ2007"
+  },
+  {
+    "Suburb": "TAPEROO",
+    "Postcode": 5017,
+    "SortCode": "AZ2007"
+  },
+  {
+    "Suburb": "NORTH HAVEN",
+    "Postcode": 5018,
+    "SortCode": "AZ2007"
+  },
+  {
+    "Suburb": "OUTER HARBOR",
+    "Postcode": 5018,
+    "SortCode": "AZ2007"
+  },
+  {
+    "Suburb": "EXETER",
+    "Postcode": 5019,
+    "SortCode": "AZ2007"
+  },
+  {
+    "Suburb": "SEMAPHORE",
+    "Postcode": 5019,
+    "SortCode": "AZ2007"
+  },
+  {
+    "Suburb": "SEMAPHORE PARK",
+    "Postcode": 5019,
+    "SortCode": "AZ2018"
+  },
+  {
+    "Suburb": "SEMAPHORE SOUTH",
+    "Postcode": 5019,
+    "SortCode": "AZ2007"
+  },
+  {
+    "Suburb": "WEST LAKES SHORE",
+    "Postcode": 5020,
+    "SortCode": "AZ2018"
+  },
+  {
+    "Suburb": "WEST LAKES",
+    "Postcode": 5021,
+    "SortCode": "AZ2018"
+  },
+  {
+    "Suburb": "GRANGE",
+    "Postcode": 5022,
+    "SortCode": "AZ2018"
+  },
+  {
+    "Suburb": "HENLEY BEACH",
+    "Postcode": 5022,
+    "SortCode": "AZ2057"
+  },
+  {
+    "Suburb": "HENLEY BEACH SOUTH",
+    "Postcode": 5022,
+    "SortCode": "AZ2057"
+  },
+  {
+    "Suburb": "TENNYSON",
+    "Postcode": 5022,
+    "SortCode": "AZ2018"
+  },
+  {
+    "Suburb": "FINDON",
+    "Postcode": 5023,
+    "SortCode": "AZ2023"
+  },
+  {
+    "Suburb": "SEATON",
+    "Postcode": 5023,
+    "SortCode": "AZ2023"
+  },
+  {
+    "Suburb": "FULHAM",
+    "Postcode": 5024,
+    "SortCode": "AZ2003"
+  },
+  {
+    "Suburb": "FULHAM GARDENS",
+    "Postcode": 5024,
+    "SortCode": "AZ2004"
+  },
+  {
+    "Suburb": "WEST BEACH",
+    "Postcode": 5024,
+    "SortCode": "AZ2057"
+  },
+  {
+    "Suburb": "FLINDERS PARK",
+    "Postcode": 5025,
+    "SortCode": "AZ2004"
+  },
+  {
+    "Suburb": "KIDMAN PARK",
+    "Postcode": 5025,
+    "SortCode": "AZ2004"
+  },
+  {
+    "Suburb": "MILE END",
+    "Postcode": 5031,
+    "SortCode": "AZ2029"
+  },
+  {
+    "Suburb": "MILE END SOUTH",
+    "Postcode": 5031,
+    "SortCode": "AZ2038"
+  },
+  {
+    "Suburb": "THEBARTON",
+    "Postcode": 5031,
+    "SortCode": "AZ2029"
+  },
+  {
+    "Suburb": "TORRENSVILLE",
+    "Postcode": 5031,
+    "SortCode": "AZ2004"
+  },
+  {
+    "Suburb": "TORRENSVILLE PLAZA",
+    "Postcode": 5031,
+    "SortCode": "AZ2004"
+  },
+  {
+    "Suburb": "BROOKLYN PARK",
+    "Postcode": 5032,
+    "SortCode": "AZ2003"
+  },
+  {
+    "Suburb": "LOCKLEYS",
+    "Postcode": 5032,
+    "SortCode": "AZ2003"
+  },
+  {
+    "Suburb": "UNDERDALE",
+    "Postcode": 5032,
+    "SortCode": "AZ2004"
+  },
+  {
+    "Suburb": "COWANDILLA",
+    "Postcode": 5033,
+    "SortCode": "AZ2003"
+  },
+  {
+    "Suburb": "HILTON",
+    "Postcode": 5033,
+    "SortCode": "AZ2003"
+  },
+  {
+    "Suburb": "HILTON PLAZA",
+    "Postcode": 5033,
+    "SortCode": "AZ2003"
+  },
+  {
+    "Suburb": "MARLESTON",
+    "Postcode": 5033,
+    "SortCode": "AZ2038"
+  },
+  {
+    "Suburb": "RICHMOND",
+    "Postcode": 5033,
+    "SortCode": "AZ2003"
+  },
+  {
+    "Suburb": "WEST RICHMOND",
+    "Postcode": 5033,
+    "SortCode": "AZ2003"
+  },
+  {
+    "Suburb": "CLARENCE PARK",
+    "Postcode": 5034,
+    "SortCode": "AZ4019"
+  },
+  {
+    "Suburb": "GOODWOOD",
+    "Postcode": 5034,
+    "SortCode": "AZ4019"
+  },
+  {
+    "Suburb": "KINGS PARK",
+    "Postcode": 5034,
+    "SortCode": "AZ4019"
+  },
+  {
+    "Suburb": "MILLSWOOD",
+    "Postcode": 5034,
+    "SortCode": "AZ4019"
+  },
+  {
+    "Suburb": "WAYVILLE",
+    "Postcode": 5034,
+    "SortCode": "AZ4019"
+  },
+  {
+    "Suburb": "ASHFORD",
+    "Postcode": 5035,
+    "SortCode": "AZ2038"
+  },
+  {
+    "Suburb": "BLACK FOREST",
+    "Postcode": 5035,
+    "SortCode": "AZ4019"
+  },
+  {
+    "Suburb": "EVERARD PARK",
+    "Postcode": 5035,
+    "SortCode": "AZ4019"
+  },
+  {
+    "Suburb": "FORESTVILLE",
+    "Postcode": 5035,
+    "SortCode": "AZ4019"
+  },
+  {
+    "Suburb": "KESWICK",
+    "Postcode": 5035,
+    "SortCode": "AZ2038"
+  },
+  {
+    "Suburb": "KESWICK TERMINAL",
+    "Postcode": 5035,
+    "SortCode": "AZ2038"
+  },
+  {
+    "Suburb": "GLANDORE",
+    "Postcode": 5037,
+    "SortCode": "AZ1001"
+  },
+  {
+    "Suburb": "KURRALTA PARK",
+    "Postcode": 5037,
+    "SortCode": "AZ2038"
+  },
+  {
+    "Suburb": "NETLEY",
+    "Postcode": 5037,
+    "SortCode": "AZ2003"
+  },
+  {
+    "Suburb": "NORTH PLYMPTON",
+    "Postcode": 5037,
+    "SortCode": "AZ2038"
+  },
+  {
+    "Suburb": "CAMDEN PARK",
+    "Postcode": 5038,
+    "SortCode": "AZ1002"
+  },
+  {
+    "Suburb": "PLYMPTON",
+    "Postcode": 5038,
+    "SortCode": "AZ1002"
+  },
+  {
+    "Suburb": "PLYMPTON PARK",
+    "Postcode": 5038,
+    "SortCode": "AZ1001"
+  },
+  {
+    "Suburb": "SOUTH PLYMPTON",
+    "Postcode": 5038,
+    "SortCode": "AZ1001"
+  },
+  {
+    "Suburb": "CLARENCE GARDENS",
+    "Postcode": 5039,
+    "SortCode": "AZ4019"
+  },
+  {
+    "Suburb": "EDWARDSTOWN",
+    "Postcode": 5039,
+    "SortCode": "AZ1001"
+  },
+  {
+    "Suburb": "MELROSE PARK",
+    "Postcode": 5039,
+    "SortCode": "AZ4019"
+  },
+  {
+    "Suburb": "NOVAR GARDENS",
+    "Postcode": 5040,
+    "SortCode": "AZ2057"
+  },
+  {
+    "Suburb": "COLONEL LIGHT GARDENS",
+    "Postcode": 5041,
+    "SortCode": "AZ4037"
+  },
+  {
+    "Suburb": "CUMBERLAND PARK",
+    "Postcode": 5041,
+    "SortCode": "AZ4019"
+  },
+  {
+    "Suburb": "DAW PARK",
+    "Postcode": 5041,
+    "SortCode": "AZ4037"
+  },
+  {
+    "Suburb": "PANORAMA",
+    "Postcode": 5041,
+    "SortCode": "AZ4037"
+  },
+  {
+    "Suburb": "WESTBOURNE PARK",
+    "Postcode": 5041,
+    "SortCode": "AZ4016"
+  },
+  {
+    "Suburb": "BEDFORD PARK",
+    "Postcode": 5042,
+    "SortCode": "AZ1092"
+  },
+  {
+    "Suburb": "CLOVELLY PARK",
+    "Postcode": 5042,
+    "SortCode": "AZ1092"
+  },
+  {
+    "Suburb": "FLINDERS UNIVERSITY",
+    "Postcode": 5042,
+    "SortCode": "AZ1092"
+  },
+  {
+    "Suburb": "PASADENA",
+    "Postcode": 5042,
+    "SortCode": "AZ4037"
+  },
+  {
+    "Suburb": "ST MARYS",
+    "Postcode": 5042,
+    "SortCode": "AZ4037"
+  },
+  {
+    "Suburb": "TONSLEY",
+    "Postcode": 5042,
+    "SortCode": "AZ1092"
+  },
+  {
+    "Suburb": "ASCOT PARK",
+    "Postcode": 5043,
+    "SortCode": "AZ1001"
+  },
+  {
+    "Suburb": "MARION",
+    "Postcode": 5043,
+    "SortCode": "AZ1092"
+  },
+  {
+    "Suburb": "MITCHELL PARK",
+    "Postcode": 5043,
+    "SortCode": "AZ1092"
+  },
+  {
+    "Suburb": "MORPHETTVILLE",
+    "Postcode": 5043,
+    "SortCode": "AZ1001"
+  },
+  {
+    "Suburb": "PARK HOLME",
+    "Postcode": 5043,
+    "SortCode": "AZ1001"
+  },
+  {
+    "Suburb": "GLENGOWRIE",
+    "Postcode": 5044,
+    "SortCode": "AZ1002"
+  },
+  {
+    "Suburb": "SOMERTON PARK",
+    "Postcode": 5044,
+    "SortCode": "AZ1033"
+  },
+  {
+    "Suburb": "GLENELG",
+    "Postcode": 5045,
+    "SortCode": "AZ1002"
+  },
+  {
+    "Suburb": "GLENELG EAST",
+    "Postcode": 5045,
+    "SortCode": "AZ1002"
+  },
+  {
+    "Suburb": "GLENELG JETTY ROAD",
+    "Postcode": 5045,
+    "SortCode": "AZ1002"
+  },
+  {
+    "Suburb": "GLENELG NORTH",
+    "Postcode": 5045,
+    "SortCode": "AZ2057"
+  },
+  {
+    "Suburb": "GLENELG SOUTH",
+    "Postcode": 5045,
+    "SortCode": "AZ1002"
+  },
+  {
+    "Suburb": "OAKLANDS PARK",
+    "Postcode": 5046,
+    "SortCode": "AZ1033"
+  },
+  {
+    "Suburb": "WARRADALE",
+    "Postcode": 5046,
+    "SortCode": "AZ1033"
+  },
+  {
+    "Suburb": "WARRADALE NORTH",
+    "Postcode": 5046,
+    "SortCode": "AZ1033"
+  },
+  {
+    "Suburb": "DARLINGTON",
+    "Postcode": 5047,
+    "SortCode": "AZ1092"
+  },
+  {
+    "Suburb": "SEACOMBE GARDENS",
+    "Postcode": 5047,
+    "SortCode": "AZ1092"
+  },
+  {
+    "Suburb": "SEACOMBE HEIGHTS",
+    "Postcode": 5047,
+    "SortCode": "AZ1092"
+  },
+  {
+    "Suburb": "STURT",
+    "Postcode": 5047,
+    "SortCode": "AZ1092"
+  },
+  {
+    "Suburb": "BRIGHTON",
+    "Postcode": 5048,
+    "SortCode": "AZ1033"
+  },
+  {
+    "Suburb": "DOVER GARDENS",
+    "Postcode": 5048,
+    "SortCode": "AZ1033"
+  },
+  {
+    "Suburb": "HOVE",
+    "Postcode": 5048,
+    "SortCode": "AZ1033"
+  },
+  {
+    "Suburb": "NORTH BRIGHTON",
+    "Postcode": 5048,
+    "SortCode": "AZ1033"
+  },
+  {
+    "Suburb": "SOUTH BRIGHTON",
+    "Postcode": 5048,
+    "SortCode": "AZ1111"
+  },
+  {
+    "Suburb": "KINGSTON PARK",
+    "Postcode": 5049,
+    "SortCode": "AZ1111"
+  },
+  {
+    "Suburb": "MARINO",
+    "Postcode": 5049,
+    "SortCode": "AZ1111"
+  },
+  {
+    "Suburb": "SEACLIFF",
+    "Postcode": 5049,
+    "SortCode": "AZ1111"
+  },
+  {
+    "Suburb": "SEACLIFF PARK",
+    "Postcode": 5049,
+    "SortCode": "AZ1111"
+  },
+  {
+    "Suburb": "SEAVIEW DOWNS",
+    "Postcode": 5049,
+    "SortCode": "AZ1111"
+  },
+  {
+    "Suburb": "BELLEVUE HEIGHTS",
+    "Postcode": 5050,
+    "SortCode": "AZ1092"
+  },
+  {
+    "Suburb": "EDEN HILLS",
+    "Postcode": 5050,
+    "SortCode": "AZ4055"
+  },
+  {
+    "Suburb": "BLACKWOOD",
+    "Postcode": 5051,
+    "SortCode": "AZ4055"
+  },
+  {
+    "Suburb": "COROMANDEL VALLEY",
+    "Postcode": 5051,
+    "SortCode": "AZ4055"
+  },
+  {
+    "Suburb": "CRAIGBURN FARM",
+    "Postcode": 5051,
+    "SortCode": "AZ4055"
+  },
+  {
+    "Suburb": "HAWTHORNDENE",
+    "Postcode": 5051,
+    "SortCode": "AZ4055"
+  },
+  {
+    "Suburb": "BELAIR",
+    "Postcode": 5052,
+    "SortCode": "AZ4037"
+  },
+  {
+    "Suburb": "GLENALTA",
+    "Postcode": 5052,
+    "SortCode": "AZ4055"
+  },
+  {
+    "Suburb": "HYDE PARK",
+    "Postcode": 5061,
+    "SortCode": "AZ4016"
+  },
+  {
+    "Suburb": "MALVERN",
+    "Postcode": 5061,
+    "SortCode": "AZ4016"
+  },
+  {
+    "Suburb": "UNLEY",
+    "Postcode": 5061,
+    "SortCode": "AZ4016"
+  },
+  {
+    "Suburb": "UNLEY PARK",
+    "Postcode": 5061,
+    "SortCode": "AZ4016"
+  },
+  {
+    "Suburb": "BROWN HILL CREEK",
+    "Postcode": 5062,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CLAPHAM",
+    "Postcode": 5062,
+    "SortCode": "AZ4037"
+  },
+  {
+    "Suburb": "HAWTHORN",
+    "Postcode": 5062,
+    "SortCode": "AZ4016"
+  },
+  {
+    "Suburb": "KINGSWOOD",
+    "Postcode": 5062,
+    "SortCode": "AZ4065"
+  },
+  {
+    "Suburb": "LOWER MITCHAM",
+    "Postcode": 5062,
+    "SortCode": "AZ4037"
+  },
+  {
+    "Suburb": "LYNTON",
+    "Postcode": 5062,
+    "SortCode": "AZ4037"
+  },
+  {
+    "Suburb": "MITCHAM",
+    "Postcode": 5062,
+    "SortCode": "AZ4065"
+  },
+  {
+    "Suburb": "MITCHAM SHOPPING CENTRE",
+    "Postcode": 5062,
+    "SortCode": "AZ4065"
+  },
+  {
+    "Suburb": "NETHERBY",
+    "Postcode": 5062,
+    "SortCode": "AZ4065"
+  },
+  {
+    "Suburb": "SPRINGFIELD",
+    "Postcode": 5062,
+    "SortCode": "AZ6041"
+  },
+  {
+    "Suburb": "TORRENS PARK",
+    "Postcode": 5062,
+    "SortCode": "AZ4065"
+  },
+  {
+    "Suburb": "EASTWOOD",
+    "Postcode": 5063,
+    "SortCode": "AZ4016"
+  },
+  {
+    "Suburb": "FREWVILLE",
+    "Postcode": 5063,
+    "SortCode": "AZ4065"
+  },
+  {
+    "Suburb": "FULLARTON",
+    "Postcode": 5063,
+    "SortCode": "AZ4065"
+  },
+  {
+    "Suburb": "HIGHGATE",
+    "Postcode": 5063,
+    "SortCode": "AZ4065"
+  },
+  {
+    "Suburb": "PARKSIDE",
+    "Postcode": 5063,
+    "SortCode": "AZ4016"
+  },
+  {
+    "Suburb": "GLEN OSMOND",
+    "Postcode": 5064,
+    "SortCode": "AZ6041"
+  },
+  {
+    "Suburb": "GLENUNGA",
+    "Postcode": 5064,
+    "SortCode": "AZ4065"
+  },
+  {
+    "Suburb": "MOUNT OSMOND",
+    "Postcode": 5064,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MYRTLE BANK",
+    "Postcode": 5064,
+    "SortCode": "AZ4065"
+  },
+  {
+    "Suburb": "ST GEORGES",
+    "Postcode": 5064,
+    "SortCode": "AZ6041"
+  },
+  {
+    "Suburb": "URRBRAE",
+    "Postcode": 5064,
+    "SortCode": "AZ6041"
+  },
+  {
+    "Suburb": "DULWICH",
+    "Postcode": 5065,
+    "SortCode": "AZ4048"
+  },
+  {
+    "Suburb": "GLENSIDE",
+    "Postcode": 5065,
+    "SortCode": "AZ4065"
+  },
+  {
+    "Suburb": "LINDEN PARK",
+    "Postcode": 5065,
+    "SortCode": "AZ4048"
+  },
+  {
+    "Suburb": "TOORAK GARDENS",
+    "Postcode": 5065,
+    "SortCode": "AZ4048"
+  },
+  {
+    "Suburb": "TUSMORE",
+    "Postcode": 5065,
+    "SortCode": "AZ4048"
+  },
+  {
+    "Suburb": "BEAUMONT",
+    "Postcode": 5066,
+    "SortCode": "AZ6041"
+  },
+  {
+    "Suburb": "BURNSIDE",
+    "Postcode": 5066,
+    "SortCode": "AZ6041"
+  },
+  {
+    "Suburb": "ERINDALE",
+    "Postcode": 5066,
+    "SortCode": "AZ4048"
+  },
+  {
+    "Suburb": "HAZELWOOD PARK",
+    "Postcode": 5066,
+    "SortCode": "AZ4048"
+  },
+  {
+    "Suburb": "STONYFELL",
+    "Postcode": 5066,
+    "SortCode": "AZ4048"
+  },
+  {
+    "Suburb": "WATERFALL GULLY",
+    "Postcode": 5066,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WATTLE PARK",
+    "Postcode": 5066,
+    "SortCode": "AZ4048"
+  },
+  {
+    "Suburb": "BEULAH PARK",
+    "Postcode": 5067,
+    "SortCode": "AZ3025"
+  },
+  {
+    "Suburb": "KENT TOWN",
+    "Postcode": 5067,
+    "SortCode": "AZ4036"
+  },
+  {
+    "Suburb": "NORWOOD",
+    "Postcode": 5067,
+    "SortCode": "AZ4036"
+  },
+  {
+    "Suburb": "NORWOOD SOUTH",
+    "Postcode": 5067,
+    "SortCode": "AZ4036"
+  },
+  {
+    "Suburb": "ROSE PARK",
+    "Postcode": 5067,
+    "SortCode": "AZ4048"
+  },
+  {
+    "Suburb": "HEATHPOOL",
+    "Postcode": 5068,
+    "SortCode": "AZ4048"
+  },
+  {
+    "Suburb": "KENSINGTON",
+    "Postcode": 5068,
+    "SortCode": "AZ3025"
+  },
+  {
+    "Suburb": "KENSINGTON GARDENS",
+    "Postcode": 5068,
+    "SortCode": "AZ3025"
+  },
+  {
+    "Suburb": "KENSINGTON PARK",
+    "Postcode": 5068,
+    "SortCode": "AZ3025"
+  },
+  {
+    "Suburb": "LEABROOK",
+    "Postcode": 5068,
+    "SortCode": "AZ4048"
+  },
+  {
+    "Suburb": "MARRYATVILLE",
+    "Postcode": 5068,
+    "SortCode": "AZ4048"
+  },
+  {
+    "Suburb": "ST MORRIS",
+    "Postcode": 5068,
+    "SortCode": "AZ3025"
+  },
+  {
+    "Suburb": "TRINITY GARDENS",
+    "Postcode": 5068,
+    "SortCode": "AZ3025"
+  },
+  {
+    "Suburb": "COLLEGE PARK",
+    "Postcode": 5069,
+    "SortCode": "AZ3005"
+  },
+  {
+    "Suburb": "EVANDALE",
+    "Postcode": 5069,
+    "SortCode": "AZ4036"
+  },
+  {
+    "Suburb": "HACKNEY",
+    "Postcode": 5069,
+    "SortCode": "AZ3005"
+  },
+  {
+    "Suburb": "MAYLANDS",
+    "Postcode": 5069,
+    "SortCode": "AZ4036"
+  },
+  {
+    "Suburb": "ST PETERS",
+    "Postcode": 5069,
+    "SortCode": "AZ3005"
+  },
+  {
+    "Suburb": "STEPNEY",
+    "Postcode": 5069,
+    "SortCode": "AZ4036"
+  },
+  {
+    "Suburb": "FELIXSTOW",
+    "Postcode": 5070,
+    "SortCode": "AZ3005"
+  },
+  {
+    "Suburb": "FIRLE",
+    "Postcode": 5070,
+    "SortCode": "AZ3005"
+  },
+  {
+    "Suburb": "GLYNDE",
+    "Postcode": 5070,
+    "SortCode": "AZ3005"
+  },
+  {
+    "Suburb": "GLYNDE PLAZA",
+    "Postcode": 5070,
+    "SortCode": "AZ3005"
+  },
+  {
+    "Suburb": "JOSLIN",
+    "Postcode": 5070,
+    "SortCode": "AZ3005"
+  },
+  {
+    "Suburb": "MARDEN",
+    "Postcode": 5070,
+    "SortCode": "AZ3005"
+  },
+  {
+    "Suburb": "PAYNEHAM",
+    "Postcode": 5070,
+    "SortCode": "AZ3005"
+  },
+  {
+    "Suburb": "PAYNEHAM SOUTH",
+    "Postcode": 5070,
+    "SortCode": "AZ3005"
+  },
+  {
+    "Suburb": "ROYSTON PARK",
+    "Postcode": 5070,
+    "SortCode": "AZ3005"
+  },
+  {
+    "Suburb": "AULDANA",
+    "Postcode": 5072,
+    "SortCode": "AZ4048"
+  },
+  {
+    "Suburb": "MAGILL",
+    "Postcode": 5072,
+    "SortCode": "AZ3025"
+  },
+  {
+    "Suburb": "MAGILL NORTH",
+    "Postcode": 5072,
+    "SortCode": "AZ3025"
+  },
+  {
+    "Suburb": "MAGILL SOUTH",
+    "Postcode": 5072,
+    "SortCode": "AZ3025"
+  },
+  {
+    "Suburb": "ROSSLYN PARK",
+    "Postcode": 5072,
+    "SortCode": "AZ4048"
+  },
+  {
+    "Suburb": "SKYE",
+    "Postcode": 5072,
+    "SortCode": "AZ4048"
+  },
+  {
+    "Suburb": "TERINGIE",
+    "Postcode": 5072,
+    "SortCode": "AZ3025"
+  },
+  {
+    "Suburb": "WOODFORDE",
+    "Postcode": 5072,
+    "SortCode": "AZ3005"
+  },
+  {
+    "Suburb": "HECTORVILLE",
+    "Postcode": 5073,
+    "SortCode": "AZ3005"
+  },
+  {
+    "Suburb": "ROSTREVOR",
+    "Postcode": 5073,
+    "SortCode": "AZ3056"
+  },
+  {
+    "Suburb": "TRANMERE",
+    "Postcode": 5073,
+    "SortCode": "AZ3005"
+  },
+  {
+    "Suburb": "TRANMERE NORTH",
+    "Postcode": 5073,
+    "SortCode": "AZ3005"
+  },
+  {
+    "Suburb": "CAMPBELLTOWN",
+    "Postcode": 5074,
+    "SortCode": "AZ3056"
+  },
+  {
+    "Suburb": "NEWTON",
+    "Postcode": 5074,
+    "SortCode": "AZ3056"
+  },
+  {
+    "Suburb": "DERNANCOURT",
+    "Postcode": 5075,
+    "SortCode": "AZ3331"
+  },
+  {
+    "Suburb": "PARADISE",
+    "Postcode": 5075,
+    "SortCode": "AZ3056"
+  },
+  {
+    "Suburb": "ATHELSTONE",
+    "Postcode": 5076,
+    "SortCode": "AZ3056"
+  },
+  {
+    "Suburb": "CASTAMBUL",
+    "Postcode": 5076,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "COLLINSWOOD",
+    "Postcode": 5081,
+    "SortCode": "AZ3030"
+  },
+  {
+    "Suburb": "GILBERTON",
+    "Postcode": 5081,
+    "SortCode": "AZ3030"
+  },
+  {
+    "Suburb": "MEDINDIE",
+    "Postcode": 5081,
+    "SortCode": "AZ6035"
+  },
+  {
+    "Suburb": "MEDINDIE GARDENS",
+    "Postcode": 5081,
+    "SortCode": "AZ6035"
+  },
+  {
+    "Suburb": "VALE PARK",
+    "Postcode": 5081,
+    "SortCode": "AZ3030"
+  },
+  {
+    "Suburb": "WALKERVILLE",
+    "Postcode": 5081,
+    "SortCode": "AZ3030"
+  },
+  {
+    "Suburb": "FITZROY",
+    "Postcode": 5082,
+    "SortCode": "AZ6035"
+  },
+  {
+    "Suburb": "OVINGHAM",
+    "Postcode": 5082,
+    "SortCode": "AZ6035"
+  },
+  {
+    "Suburb": "PROSPECT",
+    "Postcode": 5082,
+    "SortCode": "AZ3010"
+  },
+  {
+    "Suburb": "PROSPECT EAST",
+    "Postcode": 5082,
+    "SortCode": "AZ3010"
+  },
+  {
+    "Suburb": "THORNGATE",
+    "Postcode": 5082,
+    "SortCode": "AZ6035"
+  },
+  {
+    "Suburb": "BROADVIEW",
+    "Postcode": 5083,
+    "SortCode": "AZ3010"
+  },
+  {
+    "Suburb": "NAILSWORTH",
+    "Postcode": 5083,
+    "SortCode": "AZ3010"
+  },
+  {
+    "Suburb": "SEFTON PARK",
+    "Postcode": 5083,
+    "SortCode": "AZ3010"
+  },
+  {
+    "Suburb": "BLAIR ATHOL",
+    "Postcode": 5084,
+    "SortCode": "AZ3010"
+  },
+  {
+    "Suburb": "BLAIR ATHOL WEST",
+    "Postcode": 5084,
+    "SortCode": "AZ3010"
+  },
+  {
+    "Suburb": "KILBURN",
+    "Postcode": 5084,
+    "SortCode": "AZ3024"
+  },
+  {
+    "Suburb": "KILBURN NORTH",
+    "Postcode": 5084,
+    "SortCode": "AZ3024"
+  },
+  {
+    "Suburb": "CLEARVIEW",
+    "Postcode": 5085,
+    "SortCode": "AZ3010"
+  },
+  {
+    "Suburb": "ENFIELD",
+    "Postcode": 5085,
+    "SortCode": "AZ3010"
+  },
+  {
+    "Suburb": "ENFIELD PLAZA",
+    "Postcode": 5085,
+    "SortCode": "AZ3010"
+  },
+  {
+    "Suburb": "LIGHTSVIEW",
+    "Postcode": 5085,
+    "SortCode": "AZ3032"
+  },
+  {
+    "Suburb": "NORTHFIELD",
+    "Postcode": 5085,
+    "SortCode": "AZ3032"
+  },
+  {
+    "Suburb": "NORTHGATE",
+    "Postcode": 5085,
+    "SortCode": "AZ3032"
+  },
+  {
+    "Suburb": "GILLES PLAINS",
+    "Postcode": 5086,
+    "SortCode": "AZ3032"
+  },
+  {
+    "Suburb": "GREENACRES",
+    "Postcode": 5086,
+    "SortCode": "AZ3030"
+  },
+  {
+    "Suburb": "HAMPSTEAD GARDENS",
+    "Postcode": 5086,
+    "SortCode": "AZ3030"
+  },
+  {
+    "Suburb": "HILLCREST",
+    "Postcode": 5086,
+    "SortCode": "AZ3030"
+  },
+  {
+    "Suburb": "MANNINGHAM",
+    "Postcode": 5086,
+    "SortCode": "AZ3030"
+  },
+  {
+    "Suburb": "OAKDEN",
+    "Postcode": 5086,
+    "SortCode": "AZ3032"
+  },
+  {
+    "Suburb": "KLEMZIG",
+    "Postcode": 5087,
+    "SortCode": "AZ3030"
+  },
+  {
+    "Suburb": "WINDSOR GARDENS",
+    "Postcode": 5087,
+    "SortCode": "AZ3030"
+  },
+  {
+    "Suburb": "HOLDEN HILL",
+    "Postcode": 5088,
+    "SortCode": "AZ3331"
+  },
+  {
+    "Suburb": "HIGHBURY",
+    "Postcode": 5089,
+    "SortCode": "AZ3331"
+  },
+  {
+    "Suburb": "HOPE VALLEY",
+    "Postcode": 5090,
+    "SortCode": "AZ3331"
+  },
+  {
+    "Suburb": "BANKSIA PARK",
+    "Postcode": 5091,
+    "SortCode": "AZ5013"
+  },
+  {
+    "Suburb": "TEA TREE GULLY",
+    "Postcode": 5091,
+    "SortCode": "AZ3031"
+  },
+  {
+    "Suburb": "VISTA",
+    "Postcode": 5091,
+    "SortCode": "AZ3031"
+  },
+  {
+    "Suburb": "MODBURY",
+    "Postcode": 5092,
+    "SortCode": "AZ3031"
+  },
+  {
+    "Suburb": "MODBURY HEIGHTS",
+    "Postcode": 5092,
+    "SortCode": "AZ3045"
+  },
+  {
+    "Suburb": "MODBURY NORTH",
+    "Postcode": 5092,
+    "SortCode": "AZ5045"
+  },
+  {
+    "Suburb": "PARA VISTA",
+    "Postcode": 5093,
+    "SortCode": "AZ3045"
+  },
+  {
+    "Suburb": "VALLEY VIEW",
+    "Postcode": 5093,
+    "SortCode": "AZ3032"
+  },
+  {
+    "Suburb": "CAVAN",
+    "Postcode": 5094,
+    "SortCode": "AZ2028"
+  },
+  {
+    "Suburb": "DRY CREEK",
+    "Postcode": 5094,
+    "SortCode": "AZ2028"
+  },
+  {
+    "Suburb": "GEPPS CROSS",
+    "Postcode": 5094,
+    "SortCode": "AZ3010"
+  },
+  {
+    "Suburb": "MAWSON LAKES",
+    "Postcode": 5095,
+    "SortCode": "AZ3009"
+  },
+  {
+    "Suburb": "POORAKA",
+    "Postcode": 5095,
+    "SortCode": "AZ2028"
+  },
+  {
+    "Suburb": "GULFVIEW HEIGHTS",
+    "Postcode": 5096,
+    "SortCode": "AZ5043"
+  },
+  {
+    "Suburb": "PARA HILLS",
+    "Postcode": 5096,
+    "SortCode": "AZ5043"
+  },
+  {
+    "Suburb": "PARA HILLS WEST",
+    "Postcode": 5096,
+    "SortCode": "AZ5043"
+  },
+  {
+    "Suburb": "REDWOOD PARK",
+    "Postcode": 5097,
+    "SortCode": "AZ3045"
+  },
+  {
+    "Suburb": "RIDGEHAVEN",
+    "Postcode": 5097,
+    "SortCode": "AZ3031"
+  },
+  {
+    "Suburb": "ST AGNES",
+    "Postcode": 5097,
+    "SortCode": "AZ3031"
+  },
+  {
+    "Suburb": "INGLE FARM",
+    "Postcode": 5098,
+    "SortCode": "AZ3045"
+  },
+  {
+    "Suburb": "WALKLEY HEIGHTS",
+    "Postcode": 5098,
+    "SortCode": "AZ3032"
+  },
+  {
+    "Suburb": "PARAFIELD",
+    "Postcode": 5106,
+    "SortCode": "AZ3009"
+  },
+  {
+    "Suburb": "PARAFIELD AIRPORT",
+    "Postcode": 5106,
+    "SortCode": "AZ3009"
+  },
+  {
+    "Suburb": "SALISBURY SOUTH",
+    "Postcode": 5106,
+    "SortCode": "AZ3009"
+  },
+  {
+    "Suburb": "GREEN FIELDS",
+    "Postcode": 5107,
+    "SortCode": "AZ3009"
+  },
+  {
+    "Suburb": "PARAFIELD GARDENS",
+    "Postcode": 5107,
+    "SortCode": "AZ5063"
+  },
+  {
+    "Suburb": "PARALOWIE",
+    "Postcode": 5108,
+    "SortCode": "AZ5063"
+  },
+  {
+    "Suburb": "SALISBURY",
+    "Postcode": 5108,
+    "SortCode": "AZ5064"
+  },
+  {
+    "Suburb": "SALISBURY DOWNS",
+    "Postcode": 5108,
+    "SortCode": "AZ5063"
+  },
+  {
+    "Suburb": "SALISBURY NORTH",
+    "Postcode": 5108,
+    "SortCode": "AZ5060"
+  },
+  {
+    "Suburb": "SALISBURY NORTH WHITES ROAD",
+    "Postcode": 5108,
+    "SortCode": "AZ5060"
+  },
+  {
+    "Suburb": "BRAHMA LODGE",
+    "Postcode": 5109,
+    "SortCode": "AZ5064"
+  },
+  {
+    "Suburb": "SALISBURY EAST",
+    "Postcode": 5109,
+    "SortCode": "AZ5043"
+  },
+  {
+    "Suburb": "SALISBURY EAST NORTHBRI AVE",
+    "Postcode": 5109,
+    "SortCode": "AZ5043"
+  },
+  {
+    "Suburb": "SALISBURY HEIGHTS",
+    "Postcode": 5109,
+    "SortCode": "AZ5061"
+  },
+  {
+    "Suburb": "SALISBURY PARK",
+    "Postcode": 5109,
+    "SortCode": "AZ5064"
+  },
+  {
+    "Suburb": "SALISBURY PLAIN",
+    "Postcode": 5109,
+    "SortCode": "AZ5064"
+  },
+  {
+    "Suburb": "BOLIVAR",
+    "Postcode": 5110,
+    "SortCode": "AZ5063"
+  },
+  {
+    "Suburb": "BURTON",
+    "Postcode": 5110,
+    "SortCode": "AZ5060"
+  },
+  {
+    "Suburb": "DIREK",
+    "Postcode": 5110,
+    "SortCode": "AZ5060"
+  },
+  {
+    "Suburb": "GLOBE DERBY PARK",
+    "Postcode": 5110,
+    "SortCode": "AZ5063"
+  },
+  {
+    "Suburb": "ST KILDA",
+    "Postcode": 5110,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WATERLOO CORNER",
+    "Postcode": 5110,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "EDINBURGH",
+    "Postcode": 5111,
+    "SortCode": "AZ5060"
+  },
+  {
+    "Suburb": "EDINBURGH RAAF",
+    "Postcode": 5111,
+    "SortCode": "AZ5060"
+  },
+  {
+    "Suburb": "ELIZABETH",
+    "Postcode": 5112,
+    "SortCode": "AZ5061"
+  },
+  {
+    "Suburb": "ELIZABETH EAST",
+    "Postcode": 5112,
+    "SortCode": "AZ5061"
+  },
+  {
+    "Suburb": "ELIZABETH GROVE",
+    "Postcode": 5112,
+    "SortCode": "AZ5064"
+  },
+  {
+    "Suburb": "ELIZABETH SOUTH",
+    "Postcode": 5112,
+    "SortCode": "AZ5064"
+  },
+  {
+    "Suburb": "ELIZABETH VALE",
+    "Postcode": 5112,
+    "SortCode": "AZ5064"
+  },
+  {
+    "Suburb": "HILLBANK",
+    "Postcode": 5112,
+    "SortCode": "AZ5061"
+  },
+  {
+    "Suburb": "DAVOREN PARK",
+    "Postcode": 5113,
+    "SortCode": "AZ5060"
+  },
+  {
+    "Suburb": "DAVOREN PARK SOUTH",
+    "Postcode": 5113,
+    "SortCode": "AZ5060"
+  },
+  {
+    "Suburb": "EDINBURGH NORTH",
+    "Postcode": 5113,
+    "SortCode": "AZ5060"
+  },
+  {
+    "Suburb": "ELIZABETH DOWNS",
+    "Postcode": 5113,
+    "SortCode": "AZ5042"
+  },
+  {
+    "Suburb": "ELIZABETH NORTH",
+    "Postcode": 5113,
+    "SortCode": "AZ5060"
+  },
+  {
+    "Suburb": "ELIZABETH PARK",
+    "Postcode": 5113,
+    "SortCode": "AZ5042"
+  },
+  {
+    "Suburb": "ELIZABETH WEST",
+    "Postcode": 5113,
+    "SortCode": "AZ5060"
+  },
+  {
+    "Suburb": "ANDREWS FARM",
+    "Postcode": 5114,
+    "SortCode": "AZ5046"
+  },
+  {
+    "Suburb": "BLAKEVIEW",
+    "Postcode": 5114,
+    "SortCode": "AZ5042"
+  },
+  {
+    "Suburb": "CRAIGMORE",
+    "Postcode": 5114,
+    "SortCode": "AZ5061"
+  },
+  {
+    "Suburb": "GOULD CREEK",
+    "Postcode": 5114,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HUMBUG SCRUB",
+    "Postcode": 5114,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ONE TREE HILL",
+    "Postcode": 5114,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SAMPSON FLAT",
+    "Postcode": 5114,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SMITHFIELD",
+    "Postcode": 5114,
+    "SortCode": "AZ5046"
+  },
+  {
+    "Suburb": "SMITHFIELD PLAINS",
+    "Postcode": 5114,
+    "SortCode": "AZ5046"
+  },
+  {
+    "Suburb": "SMITHFIELD WEST",
+    "Postcode": 5114,
+    "SortCode": "AZ5046"
+  },
+  {
+    "Suburb": "ULEYBURY",
+    "Postcode": 5114,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "YATTALUNGA",
+    "Postcode": 5114,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KUDLA",
+    "Postcode": 5115,
+    "SortCode": "AZ5062"
+  },
+  {
+    "Suburb": "MUNNO PARA",
+    "Postcode": 5115,
+    "SortCode": "AZ5046"
+  },
+  {
+    "Suburb": "MUNNO PARA DOWNS",
+    "Postcode": 5115,
+    "SortCode": "AZ5046"
+  },
+  {
+    "Suburb": "MUNNO PARA WEST",
+    "Postcode": 5115,
+    "SortCode": "AZ5046"
+  },
+  {
+    "Suburb": "EVANSTON",
+    "Postcode": 5116,
+    "SortCode": "AZ5062"
+  },
+  {
+    "Suburb": "EVANSTON GARDENS",
+    "Postcode": 5116,
+    "SortCode": "AZ5062"
+  },
+  {
+    "Suburb": "EVANSTON PARK",
+    "Postcode": 5116,
+    "SortCode": "AZ5042"
+  },
+  {
+    "Suburb": "EVANSTON SOUTH",
+    "Postcode": 5116,
+    "SortCode": "AZ5042"
+  },
+  {
+    "Suburb": "HILLIER",
+    "Postcode": 5116,
+    "SortCode": "AZ5062"
+  },
+  {
+    "Suburb": "ANGLE VALE",
+    "Postcode": 5117,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BIBARINGA",
+    "Postcode": 5118,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BUCHFELDE",
+    "Postcode": 5118,
+    "SortCode": "AZ5062"
+  },
+  {
+    "Suburb": "CONCORDIA",
+    "Postcode": 5118,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GAWLER",
+    "Postcode": 5118,
+    "SortCode": "AZ5062"
+  },
+  {
+    "Suburb": "GAWLER BELT",
+    "Postcode": 5118,
+    "SortCode": "AZ5062"
+  },
+  {
+    "Suburb": "GAWLER EAST",
+    "Postcode": 5118,
+    "SortCode": "AZ5062"
+  },
+  {
+    "Suburb": "GAWLER RIVER",
+    "Postcode": 5118,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GAWLER SOUTH",
+    "Postcode": 5118,
+    "SortCode": "AZ5042"
+  },
+  {
+    "Suburb": "GAWLER WEST",
+    "Postcode": 5118,
+    "SortCode": "AZ5062"
+  },
+  {
+    "Suburb": "HEWETT",
+    "Postcode": 5118,
+    "SortCode": "AZ5062"
+  },
+  {
+    "Suburb": "KALBEEBA",
+    "Postcode": 5118,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KANGAROO FLAT",
+    "Postcode": 5118,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KINGSFORD",
+    "Postcode": 5118,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "REID",
+    "Postcode": 5118,
+    "SortCode": "AZ5062"
+  },
+  {
+    "Suburb": "WARD BELT",
+    "Postcode": 5118,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WILLASTON",
+    "Postcode": 5118,
+    "SortCode": "AZ5062"
+  },
+  {
+    "Suburb": "BUCKLAND PARK",
+    "Postcode": 5120,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "VIRGINIA",
+    "Postcode": 5120,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "EYRE",
+    "Postcode": 5121,
+    "SortCode": "AZ5060"
+  },
+  {
+    "Suburb": "MACDONALD PARK",
+    "Postcode": 5121,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PENFIELD",
+    "Postcode": 5121,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PENFIELD GARDENS",
+    "Postcode": 5121,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GOLDEN GROVE",
+    "Postcode": 5125,
+    "SortCode": "AZ5013"
+  },
+  {
+    "Suburb": "GOLDEN GROVE VILLAGE",
+    "Postcode": 5125,
+    "SortCode": "AZ5013"
+  },
+  {
+    "Suburb": "GREENWITH",
+    "Postcode": 5125,
+    "SortCode": "AZ5013"
+  },
+  {
+    "Suburb": "FAIRVIEW PARK",
+    "Postcode": 5126,
+    "SortCode": "AZ5013"
+  },
+  {
+    "Suburb": "SURREY DOWNS",
+    "Postcode": 5126,
+    "SortCode": "AZ5013"
+  },
+  {
+    "Suburb": "YATALA VALE",
+    "Postcode": 5126,
+    "SortCode": "AZ5013"
+  },
+  {
+    "Suburb": "WYNN VALE",
+    "Postcode": 5127,
+    "SortCode": "AZ5043"
+  },
+  {
+    "Suburb": "HOUGHTON",
+    "Postcode": 5131,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LOWER HERMITAGE",
+    "Postcode": 5131,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "UPPER HERMITAGE",
+    "Postcode": 5131,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PARACOMBE",
+    "Postcode": 5132,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "INGLEWOOD",
+    "Postcode": 5133,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CHERRYVILLE",
+    "Postcode": 5134,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MONTACUTE",
+    "Postcode": 5134,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "NORTON SUMMIT",
+    "Postcode": 5136,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ASHTON",
+    "Postcode": 5137,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MARBLE HILL",
+    "Postcode": 5137,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BASKET RANGE",
+    "Postcode": 5138,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "FOREST RANGE",
+    "Postcode": 5139,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GREENHILL",
+    "Postcode": 5140,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HORSNELL GULLY",
+    "Postcode": 5141,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "SUMMERTOWN",
+    "Postcode": 5141,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "URAIDLA",
+    "Postcode": 5142,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CAREY GULLY",
+    "Postcode": 5144,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "EAGLE ON THE HILL",
+    "Postcode": 5150,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LEAWOOD GARDENS",
+    "Postcode": 5150,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PICCADILLY",
+    "Postcode": 5151,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CLELAND",
+    "Postcode": 5152,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CRAFERS",
+    "Postcode": 5152,
+    "SortCode": "AZ6040"
+  },
+  {
+    "Suburb": "CRAFERS WEST",
+    "Postcode": 5152,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT LOFTY",
+    "Postcode": 5152,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "STIRLING",
+    "Postcode": 5152,
+    "SortCode": "AZ6040"
+  },
+  {
+    "Suburb": "BIGGS FLAT",
+    "Postcode": 5153,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BRADBURY",
+    "Postcode": 5153,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CHAPEL HILL",
+    "Postcode": 5153,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ECHUNGA",
+    "Postcode": 5153,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "FLAXLEY",
+    "Postcode": 5153,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GREEN HILLS RANGE",
+    "Postcode": 5153,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HEATHFIELD",
+    "Postcode": 5153,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "IRONBANK",
+    "Postcode": 5153,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "JUPITER CREEK",
+    "Postcode": 5153,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LONGWOOD",
+    "Postcode": 5153,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MACCLESFIELD",
+    "Postcode": 5153,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MYLOR",
+    "Postcode": 5153,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SCOTT CREEK",
+    "Postcode": 5153,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ALDGATE",
+    "Postcode": 5154,
+    "SortCode": "AZ6040"
+  },
+  {
+    "Suburb": "BRIDGEWATER",
+    "Postcode": 5155,
+    "SortCode": "AZ6040"
+  },
+  {
+    "Suburb": "MOUNT GEORGE",
+    "Postcode": 5155,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "UPPER STURT",
+    "Postcode": 5156,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ASHBOURNE",
+    "Postcode": 5157,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BULL CREEK",
+    "Postcode": 5157,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CHERRY GARDENS",
+    "Postcode": 5157,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CLARENDON",
+    "Postcode": 5157,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COROMANDEL EAST",
+    "Postcode": 5157,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "DORSET VALE",
+    "Postcode": 5157,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KANGARILLA",
+    "Postcode": 5157,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MCHARG CREEK",
+    "Postcode": 5157,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "HALLETT COVE",
+    "Postcode": 5158,
+    "SortCode": "AZ1111"
+  },
+  {
+    "Suburb": "O'HALLORAN HILL",
+    "Postcode": 5158,
+    "SortCode": "AZ1020"
+  },
+  {
+    "Suburb": "SHEIDOW PARK",
+    "Postcode": 5158,
+    "SortCode": "AZ1111"
+  },
+  {
+    "Suburb": "TROTT PARK",
+    "Postcode": 5158,
+    "SortCode": "AZ1111"
+  },
+  {
+    "Suburb": "ABERFOYLE PARK",
+    "Postcode": 5159,
+    "SortCode": "AZ4044"
+  },
+  {
+    "Suburb": "CHANDLERS HILL",
+    "Postcode": 5159,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "FLAGSTAFF HILL",
+    "Postcode": 5159,
+    "SortCode": "AZ4044"
+  },
+  {
+    "Suburb": "HAPPY VALLEY",
+    "Postcode": 5159,
+    "SortCode": "AZ1020"
+  },
+  {
+    "Suburb": "LONSDALE",
+    "Postcode": 5160,
+    "SortCode": "AZ1112"
+  },
+  {
+    "Suburb": "PORT STANVAC",
+    "Postcode": 5160,
+    "SortCode": "AZ1112"
+  },
+  {
+    "Suburb": "OLD REYNELLA",
+    "Postcode": 5161,
+    "SortCode": "AZ1022"
+  },
+  {
+    "Suburb": "REYNELLA",
+    "Postcode": 5161,
+    "SortCode": "AZ1112"
+  },
+  {
+    "Suburb": "REYNELLA EAST",
+    "Postcode": 5161,
+    "SortCode": "AZ1020"
+  },
+  {
+    "Suburb": "MORPHETT VALE",
+    "Postcode": 5162,
+    "SortCode": "AZ1022"
+  },
+  {
+    "Suburb": "WOODCROFT",
+    "Postcode": 5162,
+    "SortCode": "AZ1020"
+  },
+  {
+    "Suburb": "HACKHAM",
+    "Postcode": 5163,
+    "SortCode": "AZ1039"
+  },
+  {
+    "Suburb": "HACKHAM WEST",
+    "Postcode": 5163,
+    "SortCode": "AZ1039"
+  },
+  {
+    "Suburb": "HUNTFIELD HEIGHTS",
+    "Postcode": 5163,
+    "SortCode": "AZ1039"
+  },
+  {
+    "Suburb": "ONKAPARINGA HEIGHTS",
+    "Postcode": 5163,
+    "SortCode": "AZ1039"
+  },
+  {
+    "Suburb": "ONKAPARINGA HILLS",
+    "Postcode": 5163,
+    "SortCode": "AZ1039"
+  },
+  {
+    "Suburb": "CHRISTIE DOWNS",
+    "Postcode": 5164,
+    "SortCode": "AZ1112"
+  },
+  {
+    "Suburb": "CHRISTIES BEACH",
+    "Postcode": 5165,
+    "SortCode": "AZ1047"
+  },
+  {
+    "Suburb": "CHRISTIES BEACH NORTH",
+    "Postcode": 5165,
+    "SortCode": "AZ1047"
+  },
+  {
+    "Suburb": "O'SULLIVAN BEACH",
+    "Postcode": 5166,
+    "SortCode": "AZ1112"
+  },
+  {
+    "Suburb": "PORT NOARLUNGA",
+    "Postcode": 5167,
+    "SortCode": "AZ1047"
+  },
+  {
+    "Suburb": "PORT NOARLUNGA SOUTH",
+    "Postcode": 5167,
+    "SortCode": "AZ1047"
+  },
+  {
+    "Suburb": "NOARLUNGA CENTRE",
+    "Postcode": 5168,
+    "SortCode": "AZ1039"
+  },
+  {
+    "Suburb": "NOARLUNGA DOWNS",
+    "Postcode": 5168,
+    "SortCode": "AZ1047"
+  },
+  {
+    "Suburb": "OLD NOARLUNGA",
+    "Postcode": 5168,
+    "SortCode": "AZ4017"
+  },
+  {
+    "Suburb": "MOANA",
+    "Postcode": 5169,
+    "SortCode": "AZ1080"
+  },
+  {
+    "Suburb": "SEAFORD",
+    "Postcode": 5169,
+    "SortCode": "AZ1080"
+  },
+  {
+    "Suburb": "SEAFORD HEIGHTS",
+    "Postcode": 5169,
+    "SortCode": "AZ1080"
+  },
+  {
+    "Suburb": "SEAFORD MEADOWS",
+    "Postcode": 5169,
+    "SortCode": "AZ1080"
+  },
+  {
+    "Suburb": "SEAFORD RISE",
+    "Postcode": 5169,
+    "SortCode": "AZ1080"
+  },
+  {
+    "Suburb": "MASLIN BEACH",
+    "Postcode": 5170,
+    "SortCode": "AZ4021"
+  },
+  {
+    "Suburb": "BLEWITT SPRINGS",
+    "Postcode": 5171,
+    "SortCode": "AZ4017"
+  },
+  {
+    "Suburb": "MCLAREN FLAT",
+    "Postcode": 5171,
+    "SortCode": "AZ4017"
+  },
+  {
+    "Suburb": "MCLAREN VALE",
+    "Postcode": 5171,
+    "SortCode": "AZ4017"
+  },
+  {
+    "Suburb": "TATACHILLA",
+    "Postcode": 5171,
+    "SortCode": "AZ4021"
+  },
+  {
+    "Suburb": "DINGABLEDINGA",
+    "Postcode": 5172,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HOPE FOREST",
+    "Postcode": 5172,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KUITPO COLONY",
+    "Postcode": 5172,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KYEEMA",
+    "Postcode": 5172,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MONTARRA",
+    "Postcode": 5172,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PAGES FLAT",
+    "Postcode": 5172,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "THE RANGE",
+    "Postcode": 5172,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WHITES VALLEY",
+    "Postcode": 5172,
+    "SortCode": "AZ4021"
+  },
+  {
+    "Suburb": "WILLUNGA",
+    "Postcode": 5172,
+    "SortCode": "AZ4017"
+  },
+  {
+    "Suburb": "WILLUNGA HILL",
+    "Postcode": 5172,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WILLUNGA SOUTH",
+    "Postcode": 5172,
+    "SortCode": "AZ4017"
+  },
+  {
+    "Suburb": "YUNDI",
+    "Postcode": 5172,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ALDINGA",
+    "Postcode": 5173,
+    "SortCode": "AZ4021"
+  },
+  {
+    "Suburb": "ALDINGA BEACH",
+    "Postcode": 5173,
+    "SortCode": "AZ4021"
+  },
+  {
+    "Suburb": "PORT WILLUNGA",
+    "Postcode": 5173,
+    "SortCode": "AZ4021"
+  },
+  {
+    "Suburb": "SILVER SANDS",
+    "Postcode": 5173,
+    "SortCode": "AZ4021"
+  },
+  {
+    "Suburb": "SELLICKS BEACH",
+    "Postcode": 5174,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SELLICKS HILL",
+    "Postcode": 5174,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BLACKFELLOWS CREEK",
+    "Postcode": 5201,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "KUITPO",
+    "Postcode": 5201,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MEADOWS",
+    "Postcode": 5201,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PARIS CREEK",
+    "Postcode": 5201,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PROSPECT HILL",
+    "Postcode": 5201,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HINDMARSH TIERS",
+    "Postcode": 5202,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MYPONGA",
+    "Postcode": 5202,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MYPONGA BEACH",
+    "Postcode": 5202,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BALD HILLS",
+    "Postcode": 5203,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PARAWA",
+    "Postcode": 5203,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TORRENS VALE",
+    "Postcode": 5203,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TUNKALILLA",
+    "Postcode": 5203,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WATTLE FLAT",
+    "Postcode": 5203,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "YANKALILLA",
+    "Postcode": 5203,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CAPE JERVIS",
+    "Postcode": 5204,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CARRICKALINGA",
+    "Postcode": 5204,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "DEEP CREEK",
+    "Postcode": 5204,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "DELAMERE",
+    "Postcode": 5204,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HAY FLAT",
+    "Postcode": 5204,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NORMANVILLE",
+    "Postcode": 5204,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "RAPID BAY",
+    "Postcode": 5204,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SECOND VALLEY",
+    "Postcode": 5204,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SILVERTON",
+    "Postcode": 5204,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WIRRINA COVE",
+    "Postcode": 5204,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT COMPASS",
+    "Postcode": 5210,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT MAGNIFICENT",
+    "Postcode": 5210,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "NANGKITA",
+    "Postcode": 5210,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BACK VALLEY",
+    "Postcode": 5211,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CHITON",
+    "Postcode": 5211,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ENCOUNTER BAY",
+    "Postcode": 5211,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HAYBOROUGH",
+    "Postcode": 5211,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HINDMARSH VALLEY",
+    "Postcode": 5211,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "INMAN VALLEY",
+    "Postcode": 5211,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LOWER INMAN VALLEY",
+    "Postcode": 5211,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MCCRACKEN",
+    "Postcode": 5211,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT JAGGED",
+    "Postcode": 5211,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "VICTOR HARBOR",
+    "Postcode": 5211,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "VICTOR HARBOR CENTRAL",
+    "Postcode": 5211,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WAITPINGA",
+    "Postcode": 5211,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WILLOW CREEK",
+    "Postcode": 5211,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "YILKI",
+    "Postcode": 5211,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PORT ELLIOT",
+    "Postcode": 5212,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MIDDLETON",
+    "Postcode": 5213,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CURRENCY CREEK",
+    "Postcode": 5214,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GOOLWA",
+    "Postcode": 5214,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GOOLWA BEACH",
+    "Postcode": 5214,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GOOLWA NORTH",
+    "Postcode": 5214,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GOOLWA SOUTH",
+    "Postcode": 5214,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HINDMARSH ISLAND",
+    "Postcode": 5214,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOSQUITO HILL",
+    "Postcode": 5214,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MUNDOO ISLAND",
+    "Postcode": 5214,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PARNDANA",
+    "Postcode": 5220,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "AMERICAN RIVER",
+    "Postcode": 5221,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BALLAST HEAD",
+    "Postcode": 5221,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MUSTON",
+    "Postcode": 5221,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "AMERICAN BEACH",
+    "Postcode": 5222,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ANTECHAMBER BAY",
+    "Postcode": 5222,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BAUDIN BEACH",
+    "Postcode": 5222,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BROWN BEACH",
+    "Postcode": 5222,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CUTTLEFISH BAY",
+    "Postcode": 5222,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "DUDLEY EAST",
+    "Postcode": 5222,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "DUDLEY WEST",
+    "Postcode": 5222,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HUNGERFORD",
+    "Postcode": 5222,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "IRONSTONE",
+    "Postcode": 5222,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KANGAROO HEAD",
+    "Postcode": 5222,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PELICAN LAGOON",
+    "Postcode": 5222,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PENNESHAW",
+    "Postcode": 5222,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORKY FLAT",
+    "Postcode": 5222,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SAPPHIRETOWN",
+    "Postcode": 5222,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WILLOUGHBY",
+    "Postcode": 5222,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WILLSON RIVER",
+    "Postcode": 5222,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BAY OF SHOALS",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BIRCHMORE",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BROWNLOW K.I.",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BROWNLOW KI",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CAPE BORDA",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CASSINI",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CYGNET RIVER",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "DE MOLE RIVER",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "D'ESTREES BAY",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "DUNCAN",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "EMU BAY",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "FLINDERS CHASE",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GOSSE",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HAINES",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HARRIET RIVER",
+    "Postcode": 5223,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "KARATTA",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KINGSCOTE",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KOHINOOR",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MACGILLIVRAY",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MENZIES",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MIDDLE RIVER",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NEPEAN BAY",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NEWLAND",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NORTH CAPE",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SEAL BAY",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SEDDON",
+    "Postcode": 5223,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "STOKES BAY",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "STUN'SAIL BOOM",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "VIVONNE BAY",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WESTERN RIVER",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WISANGER",
+    "Postcode": 5223,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CHAIN OF PONDS",
+    "Postcode": 5231,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KERSBROOK",
+    "Postcode": 5231,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MILLBROOK",
+    "Postcode": 5231,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "CUDLEE CREEK",
+    "Postcode": 5232,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "FORRESTON",
+    "Postcode": 5233,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GUMERACHA",
+    "Postcode": 5233,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KENTON VALLEY",
+    "Postcode": 5233,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WARREN",
+    "Postcode": 5233,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BIRDWOOD",
+    "Postcode": 5234,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CROMER",
+    "Postcode": 5235,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "EDEN VALLEY",
+    "Postcode": 5235,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "FLAXMAN VALLEY",
+    "Postcode": 5235,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT PLEASANT",
+    "Postcode": 5235,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SPRINGTON",
+    "Postcode": 5235,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TAUNTON",
+    "Postcode": 5235,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "TUNGKILLO",
+    "Postcode": 5236,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "APAMURRA",
+    "Postcode": 5237,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MILENDELLA",
+    "Postcode": 5237,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PALMER",
+    "Postcode": 5237,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SANDERSTON",
+    "Postcode": 5237,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ANGAS VALLEY",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BIG BEND",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BOLTO",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BOWHILL",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CAURNAMONT",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CLAYPANS",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COWIRRA",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "FIVE MILES",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "FORSTER",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "FRAHNS",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "FRAYVILLE",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "JULANKA HOLDINGS",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LAKE CARLET",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MANNUM",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NILDOTTIE",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "OLD TEAL FLAT",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PELLARING FLAT",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "POMPOOTA",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PONDE",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORT MANNUM",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PUNTHARI",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PURNONG",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PURNONG LANDING",
+    "Postcode": 5238,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ROCKY POINT",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TEAL FLAT",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WALKER FLAT",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WONGULLA",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "YOUNGHUSBAND",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "YOUNGHUSBAND HOLDINGS",
+    "Postcode": 5238,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LENSWOOD",
+    "Postcode": 5240,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LOBETHAL",
+    "Postcode": 5241,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BALHANNAH",
+    "Postcode": 5242,
+    "SortCode": "AZ6040"
+  },
+  {
+    "Suburb": "OAKBANK",
+    "Postcode": 5243,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CHARLESTON",
+    "Postcode": 5244,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HARROGATE",
+    "Postcode": 5244,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "INVERBRACKIE",
+    "Postcode": 5244,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT TORRENS",
+    "Postcode": 5244,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WOODSIDE",
+    "Postcode": 5244,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HAHNDORF",
+    "Postcode": 5245,
+    "SortCode": "AZ6040"
+  },
+  {
+    "Suburb": "PAECHTOWN",
+    "Postcode": 5245,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "VERDUN",
+    "Postcode": 5245,
+    "SortCode": "AZ6040"
+  },
+  {
+    "Suburb": "BLAKISTON",
+    "Postcode": 5250,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LITTLEHAMPTON",
+    "Postcode": 5250,
+    "SortCode": "AZ6071"
+  },
+  {
+    "Suburb": "TOTNESS",
+    "Postcode": 5250,
+    "SortCode": "AZ6071"
+  },
+  {
+    "Suburb": "BUGLE RANGES",
+    "Postcode": 5251,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT BARKER",
+    "Postcode": 5251,
+    "SortCode": "AZ6072"
+  },
+  {
+    "Suburb": "MOUNT BARKER JUNCTION",
+    "Postcode": 5251,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT BARKER SPRINGS",
+    "Postcode": 5251,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT BARKER SUMMIT",
+    "Postcode": 5251,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WISTOW",
+    "Postcode": 5251,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BRUKUNGA",
+    "Postcode": 5252,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "DAWESLEY",
+    "Postcode": 5252,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HAY VALLEY",
+    "Postcode": 5252,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "KANMANTOO",
+    "Postcode": 5252,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NAIRNE",
+    "Postcode": 5252,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SAINT IVES",
+    "Postcode": 5252,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ST IVES",
+    "Postcode": 5252,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "AVOCA DELL",
+    "Postcode": 5253,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BRINKLEY",
+    "Postcode": 5253,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BURDETT",
+    "Postcode": 5253,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CHAPMAN BORE",
+    "Postcode": 5253,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ETTRICK",
+    "Postcode": 5253,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GIFFORD HILL",
+    "Postcode": 5253,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GREENBANKS",
+    "Postcode": 5253,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LONG FLAT",
+    "Postcode": 5253,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOBILONG",
+    "Postcode": 5253,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MONTEITH",
+    "Postcode": 5253,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MURRAWONG",
+    "Postcode": 5253,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MURRAY BRIDGE",
+    "Postcode": 5253,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MURRAY BRIDGE EAST",
+    "Postcode": 5253,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MURRAY BRIDGE NORTH",
+    "Postcode": 5253,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MURRAY BRIDGE SOUTH",
+    "Postcode": 5253,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NORTHERN HEIGHTS",
+    "Postcode": 5253,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "RIVERGLADES",
+    "Postcode": 5253,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "RIVERGLEN",
+    "Postcode": 5253,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SUNNYSIDE",
+    "Postcode": 5253,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SWANPORT",
+    "Postcode": 5253,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TOORA",
+    "Postcode": 5253,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WHITE SANDS",
+    "Postcode": 5253,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WILLOW BANKS",
+    "Postcode": 5253,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WOODS POINT",
+    "Postcode": 5253,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CALLINGTON",
+    "Postcode": 5254,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CALOOTE",
+    "Postcode": 5254,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MONARTO",
+    "Postcode": 5254,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MONARTO SOUTH",
+    "Postcode": 5254,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MYPOLONGA",
+    "Postcode": 5254,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PALLAMANA",
+    "Postcode": 5254,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ROCKLEIGH",
+    "Postcode": 5254,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ROCKY GULLY",
+    "Postcode": 5254,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TEPKO",
+    "Postcode": 5254,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WALL FLAT",
+    "Postcode": 5254,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WHITE HILL",
+    "Postcode": 5254,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WOODLANE",
+    "Postcode": 5254,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ZADOWS LANDING",
+    "Postcode": 5254,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ANGAS PLAINS",
+    "Postcode": 5255,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BELVIDERE",
+    "Postcode": 5255,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BLETCHLEY",
+    "Postcode": 5255,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "FINNISS",
+    "Postcode": 5255,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GEMMELLS",
+    "Postcode": 5255,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HARTLEY",
+    "Postcode": 5255,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HIGHLAND VALLEY",
+    "Postcode": 5255,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LAKE PLAINS",
+    "Postcode": 5255,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LANGHORNE CREEK",
+    "Postcode": 5255,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT OBSERVATION",
+    "Postcode": 5255,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MULGUNDAWA",
+    "Postcode": 5255,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NALPA",
+    "Postcode": 5255,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "RED CREEK",
+    "Postcode": 5255,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SALEM",
+    "Postcode": 5255,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SANDERGROVE",
+    "Postcode": 5255,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "STRATHALBYN",
+    "Postcode": 5255,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TOOPERANG",
+    "Postcode": 5255,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WILLYAROO",
+    "Postcode": 5255,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WOODCHESTER",
+    "Postcode": 5255,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CLAYTON BAY",
+    "Postcode": 5256,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MILANG",
+    "Postcode": 5256,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NURRAGI",
+    "Postcode": 5256,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "POINT STURT",
+    "Postcode": 5256,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TOLDEROL",
+    "Postcode": 5256,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ASHVILLE",
+    "Postcode": 5259,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "JERVOIS",
+    "Postcode": 5259,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KEPA",
+    "Postcode": 5259,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LAKE ALBERT",
+    "Postcode": 5259,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "LAKE ALEXANDRINA",
+    "Postcode": 5259,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MALINONG",
+    "Postcode": 5259,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "NARRUNG",
+    "Postcode": 5259,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NATURI",
+    "Postcode": 5259,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "POINT MCLEAY",
+    "Postcode": 5259,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "POLTALLOCH",
+    "Postcode": 5259,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "RAUKKAN",
+    "Postcode": 5259,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "TAILEM BEND",
+    "Postcode": 5259,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WELLINGTON",
+    "Postcode": 5259,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WELLINGTON EAST",
+    "Postcode": 5259,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ELWOMPLE",
+    "Postcode": 5260,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TAILEM BEND",
+    "Postcode": 5260,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COOKE PLAINS",
+    "Postcode": 5261,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COOMANDOOK",
+    "Postcode": 5261,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CULBURRA",
+    "Postcode": 5261,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KI KI",
+    "Postcode": 5261,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "YUMALI",
+    "Postcode": 5261,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BINNUM",
+    "Postcode": 5262,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "FRANCES",
+    "Postcode": 5262,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HYNAM",
+    "Postcode": 5262,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KYBYBOLITE",
+    "Postcode": 5262,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COONAWARRA",
+    "Postcode": 5263,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COORONG",
+    "Postcode": 5264,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MENINGIE",
+    "Postcode": 5264,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MENINGIE EAST",
+    "Postcode": 5264,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MENINGIE WEST",
+    "Postcode": 5264,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "POLICEMAN POINT",
+    "Postcode": 5264,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "SALT CREEK",
+    "Postcode": 5264,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WALTOWA",
+    "Postcode": 5264,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COONALPYN",
+    "Postcode": 5265,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "FIELD",
+    "Postcode": 5265,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BUNBURY",
+    "Postcode": 5266,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "COLEBATCH",
+    "Postcode": 5266,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "DEEPWATER",
+    "Postcode": 5266,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TINTINARA",
+    "Postcode": 5266,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BRIMBAGO",
+    "Postcode": 5267,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COOMBE",
+    "Postcode": 5267,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KEITH",
+    "Postcode": 5267,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LAFFER",
+    "Postcode": 5267,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MAKIN",
+    "Postcode": 5267,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MCCALLUM",
+    "Postcode": 5267,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT CHARLES",
+    "Postcode": 5267,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PETHERICK",
+    "Postcode": 5267,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SHAUGH",
+    "Postcode": 5267,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SHERWOOD",
+    "Postcode": 5267,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WILLALOOKA",
+    "Postcode": 5267,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WIRREGA",
+    "Postcode": 5267,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BANGHAM",
+    "Postcode": 5268,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BORDERTOWN",
+    "Postcode": 5268,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BORDERTOWN SOUTH",
+    "Postcode": 5268,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CANNAWIGARA",
+    "Postcode": 5268,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LOWAN VALE",
+    "Postcode": 5268,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "POOGINAGORIC",
+    "Postcode": 5268,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "SENIOR",
+    "Postcode": 5268,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WESTERN FLAT",
+    "Postcode": 5268,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "CUSTON",
+    "Postcode": 5269,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PINE HILL",
+    "Postcode": 5269,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WOLSELEY",
+    "Postcode": 5269,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BUCKINGHAM",
+    "Postcode": 5270,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "CAREW",
+    "Postcode": 5270,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KONGAL",
+    "Postcode": 5270,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MUNDULLA",
+    "Postcode": 5270,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MUNDULLA WEST",
+    "Postcode": 5270,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "SWEDE FLAT",
+    "Postcode": 5270,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BOOL LAGOON",
+    "Postcode": 5271,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CADGEE",
+    "Postcode": 5271,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "JOANNA",
+    "Postcode": 5271,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "KEPPOCH",
+    "Postcode": 5271,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KOPPAMURRA",
+    "Postcode": 5271,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LAURIE PARK",
+    "Postcode": 5271,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LOCHABER",
+    "Postcode": 5271,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MARCOLLAT",
+    "Postcode": 5271,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT LIGHT",
+    "Postcode": 5271,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOYHALL",
+    "Postcode": 5271,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NARACOORTE",
+    "Postcode": 5271,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PADTHAWAY",
+    "Postcode": 5271,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SPENCE",
+    "Postcode": 5271,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "STEWART RANGE",
+    "Postcode": 5271,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "STRUAN",
+    "Postcode": 5271,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "THE GAP",
+    "Postcode": 5271,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WILD DOG VALLEY",
+    "Postcode": 5271,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WRATTONBULLY",
+    "Postcode": 5271,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COLES",
+    "Postcode": 5272,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CONMURRA",
+    "Postcode": 5272,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "FOX",
+    "Postcode": 5272,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GREENWAYS",
+    "Postcode": 5272,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LUCINDALE",
+    "Postcode": 5272,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WOOLUMBOOL",
+    "Postcode": 5272,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "AVENUE RANGE",
+    "Postcode": 5273,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BLACKFORD",
+    "Postcode": 5275,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BOATSWAIN POINT",
+    "Postcode": 5275,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CAPE JAFFA",
+    "Postcode": 5275,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KEILIRA",
+    "Postcode": 5275,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KINGSTON S.E.",
+    "Postcode": 5275,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KINGSTON SE",
+    "Postcode": 5275,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT BENSON",
+    "Postcode": 5275,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PINKS BEACH",
+    "Postcode": 5275,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "REEDY CREEK",
+    "Postcode": 5275,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ROSETOWN",
+    "Postcode": 5275,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SANDY GROVE",
+    "Postcode": 5275,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TARATAP",
+    "Postcode": 5275,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TILLEY SWAMP",
+    "Postcode": 5275,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WANGOLINA",
+    "Postcode": 5275,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WEST RANGE",
+    "Postcode": 5275,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WYOMI",
+    "Postcode": 5275,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BRAY",
+    "Postcode": 5276,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NORA CREINA",
+    "Postcode": 5276,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ROBE",
+    "Postcode": 5276,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COMAUM",
+    "Postcode": 5277,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "GLENROY",
+    "Postcode": 5277,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MAAOUPE",
+    "Postcode": 5277,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MONBULLA",
+    "Postcode": 5277,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "NANGWARRY",
+    "Postcode": 5277,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PENOLA",
+    "Postcode": 5277,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PLEASANT PARK",
+    "Postcode": 5277,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TARPEENA",
+    "Postcode": 5277,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KALANGADOO",
+    "Postcode": 5278,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KRONGART",
+    "Postcode": 5278,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MOERLONG",
+    "Postcode": 5278,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WEPAR",
+    "Postcode": 5278,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KOORINE",
+    "Postcode": 5279,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT BURR",
+    "Postcode": 5279,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT MCINTYRE",
+    "Postcode": 5279,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SHORT",
+    "Postcode": 5279,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "TRIHI",
+    "Postcode": 5279,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WATTLE RANGE EAST",
+    "Postcode": 5279,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BEACHPORT",
+    "Postcode": 5280,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CANUNDA",
+    "Postcode": 5280,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "CLAY WELLS",
+    "Postcode": 5280,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "FURNER",
+    "Postcode": 5280,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GERMAN FLAT",
+    "Postcode": 5280,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "HATHERLEIGH",
+    "Postcode": 5280,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KANGAROO INN",
+    "Postcode": 5280,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MAGAREY",
+    "Postcode": 5280,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MILLICENT",
+    "Postcode": 5280,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "RENDELSHAM",
+    "Postcode": 5280,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ROCKY CAMP",
+    "Postcode": 5280,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "SEBASTOPOL",
+    "Postcode": 5280,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SOUTHEND",
+    "Postcode": 5280,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TANTANOOLA",
+    "Postcode": 5280,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "THORNLEA",
+    "Postcode": 5280,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WATTLE RANGE",
+    "Postcode": 5280,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT GAMBIER",
+    "Postcode": 5290,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ALLENDALE EAST",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BLACKFELLOWS CAVES",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BURRUNGULE",
+    "Postcode": 5291,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "CAPE DOUGLAS",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CAROLINE",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CARPENTER ROCKS",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CAVETON",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COMPTON",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "DISMAL SWAMP",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "DONOVANS",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "EIGHT MILE CREEK",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GERMAN CREEK",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GLENBURNIE",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GLENCOE",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GLENCOE WEST",
+    "Postcode": 5291,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "KONGORONG",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MIL-LEL",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MINGBOOL",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOORAK",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT GAMBIER EAST",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT GAMBIER WEST",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT SCHANK",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NENE VALLEY",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "OB FLAT",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PELICAN POINT",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORT MACDONNELL",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "RACECOURSE BAY",
+    "Postcode": 5291,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "SQUARE MILE",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SUTTONTOWN",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WANDILO",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WORROLONG",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WYE",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "YAHL",
+    "Postcode": 5291,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CARCUMA",
+    "Postcode": 5301,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "GERANIUM",
+    "Postcode": 5301,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "JABUK",
+    "Postcode": 5301,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOORLANDS",
+    "Postcode": 5301,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NETHERTON",
+    "Postcode": 5301,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PARRAKIE",
+    "Postcode": 5301,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PEAKE",
+    "Postcode": 5301,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SHERLOCK",
+    "Postcode": 5301,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WILKAWATT",
+    "Postcode": 5301,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "LAMEROO",
+    "Postcode": 5302,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NGARKAT",
+    "Postcode": 5302,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PARILLA",
+    "Postcode": 5303,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KARTE",
+    "Postcode": 5304,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "KRINGIN",
+    "Postcode": 5304,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PEEBINGA",
+    "Postcode": 5304,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PINNAROO",
+    "Postcode": 5304,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WYNARKA",
+    "Postcode": 5306,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KAROONDA",
+    "Postcode": 5307,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KULKAMI",
+    "Postcode": 5307,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MARAMA",
+    "Postcode": 5307,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOOTATUNGA",
+    "Postcode": 5307,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "COPEVILLE",
+    "Postcode": 5308,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GALGA",
+    "Postcode": 5308,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KALYAN",
+    "Postcode": 5308,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MANTUNG",
+    "Postcode": 5308,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MERCUNDA",
+    "Postcode": 5308,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PERPONDA",
+    "Postcode": 5308,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BORRIKA",
+    "Postcode": 5309,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HALIDON",
+    "Postcode": 5309,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MINDARIE",
+    "Postcode": 5309,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SANDALWOOD",
+    "Postcode": 5309,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CALIPH",
+    "Postcode": 5310,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WANBI",
+    "Postcode": 5310,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ALAWOONA",
+    "Postcode": 5311,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BILLIATT",
+    "Postcode": 5311,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BUGLE HUT",
+    "Postcode": 5311,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MAGGEA",
+    "Postcode": 5311,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MALPAS",
+    "Postcode": 5311,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MERIBAH",
+    "Postcode": 5311,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PARUNA",
+    "Postcode": 5311,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SCHELL WELL",
+    "Postcode": 5311,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "TALDRA",
+    "Postcode": 5311,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TAPLAN",
+    "Postcode": 5311,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "VEITCH",
+    "Postcode": 5311,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WOODLEIGH",
+    "Postcode": 5311,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WUNKAR",
+    "Postcode": 5311,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BEATTY",
+    "Postcode": 5320,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BEAUMONTS",
+    "Postcode": 5320,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BRENDA PARK",
+    "Postcode": 5320,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BUNDEY",
+    "Postcode": 5320,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "EBA",
+    "Postcode": 5320,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "LINDLEY",
+    "Postcode": 5320,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MAUDE",
+    "Postcode": 5320,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MORGAN",
+    "Postcode": 5320,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MORPHETTS FLAT",
+    "Postcode": 5320,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MURBKO",
+    "Postcode": 5320,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NORTH WEST BEND",
+    "Postcode": 5320,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "STUART",
+    "Postcode": 5320,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WESTONS FLAT",
+    "Postcode": 5320,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WOMBATS REST",
+    "Postcode": 5320,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "CADELL",
+    "Postcode": 5321,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CADELL LAGOON",
+    "Postcode": 5321,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "GOLDEN HEIGHTS",
+    "Postcode": 5322,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "QUALCO",
+    "Postcode": 5322,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "RAMCO",
+    "Postcode": 5322,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "RAMCO HEIGHTS",
+    "Postcode": 5322,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SUNLANDS",
+    "Postcode": 5322,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BOOLGUN",
+    "Postcode": 5330,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "DEVLINS POUND",
+    "Postcode": 5330,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GOOD HOPE LANDING",
+    "Postcode": 5330,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HAWKS NEST STATION",
+    "Postcode": 5330,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "HOLDER",
+    "Postcode": 5330,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HOLDER SIDING",
+    "Postcode": 5330,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KANNI",
+    "Postcode": 5330,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LOWBANK",
+    "Postcode": 5330,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MARKARANKA",
+    "Postcode": 5330,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "OVERLAND CORNER",
+    "Postcode": 5330,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "POOGINOOK",
+    "Postcode": 5330,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "STOCKYARD PLAIN",
+    "Postcode": 5330,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TAYLORVILLE",
+    "Postcode": 5330,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TAYLORVILLE STATION",
+    "Postcode": 5330,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WAIKERIE",
+    "Postcode": 5330,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WIGLEY FLAT",
+    "Postcode": 5330,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WOOLPUNDA",
+    "Postcode": 5330,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KINGSTON ON MURRAY",
+    "Postcode": 5331,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOOROOK",
+    "Postcode": 5332,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOOROOK SOUTH",
+    "Postcode": 5332,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WAPPILKA",
+    "Postcode": 5332,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "YINKANIE",
+    "Postcode": 5332,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BOOKPURNONG",
+    "Postcode": 5333,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LOXTON",
+    "Postcode": 5333,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LOXTON NORTH",
+    "Postcode": 5333,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NEW RESIDENCE",
+    "Postcode": 5333,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PATA",
+    "Postcode": 5333,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PYAP",
+    "Postcode": 5333,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PYAP WEST",
+    "Postcode": 5333,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MUNDIC CREEK",
+    "Postcode": 5340,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MURTHO",
+    "Postcode": 5340,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PARINGA",
+    "Postcode": 5340,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PIKE RIVER",
+    "Postcode": 5340,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WONUARRA",
+    "Postcode": 5340,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "YAMBA",
+    "Postcode": 5340,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CALPERUM STATION",
+    "Postcode": 5341,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "CHAFFEY",
+    "Postcode": 5341,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CHOWILLA",
+    "Postcode": 5341,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "COOLTONG",
+    "Postcode": 5341,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CRESCENT",
+    "Postcode": 5341,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "OLD CALPERUM",
+    "Postcode": 5341,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "RENMARK",
+    "Postcode": 5341,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "RENMARK NORTH",
+    "Postcode": 5341,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "RENMARK SOUTH",
+    "Postcode": 5341,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "RENMARK WEST",
+    "Postcode": 5341,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MONASH",
+    "Postcode": 5342,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BERRI",
+    "Postcode": 5343,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GERARD",
+    "Postcode": 5343,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GURRA GURRA",
+    "Postcode": 5343,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KATARAPKO",
+    "Postcode": 5343,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LYRUP",
+    "Postcode": 5343,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WINKIE",
+    "Postcode": 5343,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GLOSSOP",
+    "Postcode": 5344,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BARMERA",
+    "Postcode": 5345,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LOVEDAY",
+    "Postcode": 5345,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SPECTACLE LAKE",
+    "Postcode": 5345,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COBDOGLA",
+    "Postcode": 5346,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ROSEDALE",
+    "Postcode": 5350,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SANDY CREEK",
+    "Postcode": 5350,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ALTONA",
+    "Postcode": 5351,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BAROSSA GOLDFIELDS",
+    "Postcode": 5351,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "COCKATOO VALLEY",
+    "Postcode": 5351,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LYNDOCH",
+    "Postcode": 5351,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT CRAWFORD",
+    "Postcode": 5351,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PEWSEY VALE",
+    "Postcode": 5351,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WILLIAMSTOWN",
+    "Postcode": 5351,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BETHANY",
+    "Postcode": 5352,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GOMERSAL",
+    "Postcode": 5352,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KRONDORF",
+    "Postcode": 5352,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ROWLAND FLAT",
+    "Postcode": 5352,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "STONE WELL",
+    "Postcode": 5352,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TANUNDA",
+    "Postcode": 5352,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "VINE VALE",
+    "Postcode": 5352,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ANGASTON",
+    "Postcode": 5353,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BLACK HILL",
+    "Postcode": 5353,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CAMBRAI",
+    "Postcode": 5353,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KEYNETON",
+    "Postcode": 5353,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KONGOLIA",
+    "Postcode": 5353,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "LANGS LANDING",
+    "Postcode": 5353,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MOCULTA",
+    "Postcode": 5353,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT MCKENZIE",
+    "Postcode": 5353,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PENRICE",
+    "Postcode": 5353,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PUNYELROO",
+    "Postcode": 5353,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SEDAN",
+    "Postcode": 5353,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SUNNYDALE",
+    "Postcode": 5353,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TOWITTA",
+    "Postcode": 5353,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BAKARA",
+    "Postcode": 5354,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BAKARA WELL",
+    "Postcode": 5354,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "FISHER",
+    "Postcode": 5354,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "GREENWAYS LANDING",
+    "Postcode": 5354,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MARKS LANDING",
+    "Postcode": 5354,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "NAIDIA",
+    "Postcode": 5354,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "SWAN REACH",
+    "Postcode": 5354,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "DAVEYSTON",
+    "Postcode": 5355,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "EBENEZER",
+    "Postcode": 5355,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LIGHT PASS",
+    "Postcode": 5355,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MARANANGA",
+    "Postcode": 5355,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOPPA",
+    "Postcode": 5355,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "NURIOOTPA",
+    "Postcode": 5355,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SEPPELTSFIELD",
+    "Postcode": 5355,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "STOCKWELL",
+    "Postcode": 5355,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ANNADALE",
+    "Postcode": 5356,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "DUTTON",
+    "Postcode": 5356,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "DUTTON EAST",
+    "Postcode": 5356,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "SANDLETON",
+    "Postcode": 5356,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ST KITTS",
+    "Postcode": 5356,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "STEINFELD",
+    "Postcode": 5356,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "STONEFIELD",
+    "Postcode": 5356,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "TRURO",
+    "Postcode": 5356,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BLANCHETOWN",
+    "Postcode": 5357,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MCBEAN POUND",
+    "Postcode": 5357,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "NEW WELL",
+    "Postcode": 5357,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NOTTS WELL",
+    "Postcode": 5357,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PAISLEY",
+    "Postcode": 5357,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GREENOCK",
+    "Postcode": 5360,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NAIN",
+    "Postcode": 5360,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MORN HILL",
+    "Postcode": 5371,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ROSEWORTHY",
+    "Postcode": 5371,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SHEA-OAK LOG",
+    "Postcode": 5371,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TEMPLERS",
+    "Postcode": 5371,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "FREELING",
+    "Postcode": 5372,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ALLENDALE NORTH",
+    "Postcode": 5373,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BAGOT WELL",
+    "Postcode": 5373,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BETHEL",
+    "Postcode": 5373,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "FORDS",
+    "Postcode": 5373,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "HAMILTON",
+    "Postcode": 5373,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "KAPUNDA",
+    "Postcode": 5373,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KOONUNGA",
+    "Postcode": 5373,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ST JOHNS",
+    "Postcode": 5373,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "AUSTRALIA PLAINS",
+    "Postcode": 5374,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BOWER",
+    "Postcode": 5374,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BROWNLOW",
+    "Postcode": 5374,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BUCHANAN",
+    "Postcode": 5374,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "EUDUNDA",
+    "Postcode": 5374,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "FRANKTON",
+    "Postcode": 5374,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "HAMPDEN",
+    "Postcode": 5374,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HANSBOROUGH",
+    "Postcode": 5374,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "JULIA",
+    "Postcode": 5374,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT MARY",
+    "Postcode": 5374,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "NEALES FLAT",
+    "Postcode": 5374,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NGAPALA",
+    "Postcode": 5374,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PEEP HILL",
+    "Postcode": 5374,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "POINT PASS",
+    "Postcode": 5374,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SUTHERLANDS",
+    "Postcode": 5374,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BRADY CREEK",
+    "Postcode": 5381,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BRIGHT",
+    "Postcode": 5381,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "EMU DOWNS",
+    "Postcode": 5381,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GERANIUM PLAINS",
+    "Postcode": 5381,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "HALLELUJAH HILLS",
+    "Postcode": 5381,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ROBERTSTOWN",
+    "Postcode": 5381,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ROCKY PLAIN",
+    "Postcode": 5381,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WORLDS END",
+    "Postcode": 5381,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WORLDS END CREEK",
+    "Postcode": 5381,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MAGDALA",
+    "Postcode": 5400,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PINKERTON PLAINS",
+    "Postcode": 5400,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WASLEYS",
+    "Postcode": 5400,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WOOLSHEDS",
+    "Postcode": 5400,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ALMA",
+    "Postcode": 5401,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HAMLEY BRIDGE",
+    "Postcode": 5401,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SALTER SPRINGS",
+    "Postcode": 5401,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LINWOOD",
+    "Postcode": 5410,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "STOCKPORT",
+    "Postcode": 5410,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GILES CORNER",
+    "Postcode": 5411,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TARLEE",
+    "Postcode": 5411,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NAVAN",
+    "Postcode": 5412,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "RHYNIE",
+    "Postcode": 5412,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "RIVERTON",
+    "Postcode": 5412,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WOOLSHED FLAT",
+    "Postcode": 5412,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "APOINGA",
+    "Postcode": 5413,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BLACK SPRINGS",
+    "Postcode": 5413,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MARRABEL",
+    "Postcode": 5413,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SADDLEWORTH",
+    "Postcode": 5413,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "STEELTON",
+    "Postcode": 5413,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TARNMA",
+    "Postcode": 5413,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TOTHILL BELT",
+    "Postcode": 5413,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TOTHILL CREEK",
+    "Postcode": 5413,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WATERLOO",
+    "Postcode": 5413,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MANOORA",
+    "Postcode": 5414,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MINTARO",
+    "Postcode": 5415,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "STANLEY",
+    "Postcode": 5415,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "FARRELL FLAT",
+    "Postcode": 5416,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORTER LAGOON",
+    "Postcode": 5416,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BALAH",
+    "Postcode": 5417,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BALDINA",
+    "Postcode": 5417,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BOOBOROWIE",
+    "Postcode": 5417,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BUNYUNG",
+    "Postcode": 5417,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BURRA",
+    "Postcode": 5417,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BURRA EASTERN DISTRICTS",
+    "Postcode": 5417,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CANEGRASS",
+    "Postcode": 5417,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "DANGGALI",
+    "Postcode": 5417,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "FARAWAY HILL",
+    "Postcode": 5417,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "GLUEPOT",
+    "Postcode": 5417,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "GUM CREEK",
+    "Postcode": 5417,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "HANSON",
+    "Postcode": 5417,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KOONOONA",
+    "Postcode": 5417,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "LEIGHTON",
+    "Postcode": 5417,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MONGOLATA",
+    "Postcode": 5417,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NORTH BOOBOROWIE",
+    "Postcode": 5417,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "OAKVALE STATION",
+    "Postcode": 5417,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "OLD KOOMOOLOO",
+    "Postcode": 5417,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PARCOOLA",
+    "Postcode": 5417,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PINE VALLEY STATION",
+    "Postcode": 5417,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "QUONDONG",
+    "Postcode": 5417,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "STURT VALE",
+    "Postcode": 5417,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WARNES",
+    "Postcode": 5417,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "COLLINSVILLE",
+    "Postcode": 5418,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT BRYAN",
+    "Postcode": 5418,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CANOWIE",
+    "Postcode": 5419,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HALLETT",
+    "Postcode": 5419,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT BRYAN EAST",
+    "Postcode": 5419,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PINE CREEK",
+    "Postcode": 5419,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ULOOLOO",
+    "Postcode": 5419,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WILLALO",
+    "Postcode": 5419,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WONNA",
+    "Postcode": 5419,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "CANOWIE BELT",
+    "Postcode": 5420,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WHYTE YARCOWIE",
+    "Postcode": 5420,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "FRANKLYN",
+    "Postcode": 5421,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "TEROWIE",
+    "Postcode": 5421,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CAVENAGH",
+    "Postcode": 5422,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "DAWSON",
+    "Postcode": 5422,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ERSKINE",
+    "Postcode": 5422,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HARDY",
+    "Postcode": 5422,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MANNANARIE",
+    "Postcode": 5422,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MINVALARA",
+    "Postcode": 5422,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "OODLA WIRRA",
+    "Postcode": 5422,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PARATOO",
+    "Postcode": 5422,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PARNAROO",
+    "Postcode": 5422,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PETERBOROUGH",
+    "Postcode": 5422,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SUNNYBRAE",
+    "Postcode": 5422,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "UCOLTA",
+    "Postcode": 5422,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WAROONEE",
+    "Postcode": 5422,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "YATINA",
+    "Postcode": 5422,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "AMYTON",
+    "Postcode": 5431,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BLACK ROCK",
+    "Postcode": 5431,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COOMOOROO",
+    "Postcode": 5431,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "EURELIA",
+    "Postcode": 5431,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HAMMOND",
+    "Postcode": 5431,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "JOHNBURGH",
+    "Postcode": 5431,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MINBURRA",
+    "Postcode": 5431,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MINBURRA PLAIN",
+    "Postcode": 5431,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MINBURRA STATION",
+    "Postcode": 5431,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MORCHARD",
+    "Postcode": 5431,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NORTH HILLS",
+    "Postcode": 5431,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ORROROO",
+    "Postcode": 5431,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PEKINA",
+    "Postcode": 5431,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TARCOWIE",
+    "Postcode": 5431,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WALLOWAY",
+    "Postcode": 5431,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WILLOWIE",
+    "Postcode": 5431,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "YALPARA",
+    "Postcode": 5431,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BARATTA",
+    "Postcode": 5432,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BELTON",
+    "Postcode": 5432,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BIBLIANDO",
+    "Postcode": 5432,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "CARRIETON",
+    "Postcode": 5432,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CRADOCK",
+    "Postcode": 5432,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HOLOWILIENA",
+    "Postcode": 5432,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "HOLOWILIENA SOUTH",
+    "Postcode": 5432,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MOOCKRA",
+    "Postcode": 5432,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "THREE CREEKS",
+    "Postcode": 5432,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WILCOWIE",
+    "Postcode": 5432,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WILLIPPA",
+    "Postcode": 5432,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WITCHITIE",
+    "Postcode": 5432,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "YANYARRIE",
+    "Postcode": 5432,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BRUCE",
+    "Postcode": 5433,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "QUORN",
+    "Postcode": 5433,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SALTIA",
+    "Postcode": 5433,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "STEPHENSTON",
+    "Postcode": 5433,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WILLOCHRA",
+    "Postcode": 5433,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "YARRAH",
+    "Postcode": 5433,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BARNDIOOTA",
+    "Postcode": 5434,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BLACK HILL STATION",
+    "Postcode": 5434,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "FLINDERS RANGES",
+    "Postcode": 5434,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HAWKER",
+    "Postcode": 5434,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KANYAKA",
+    "Postcode": 5434,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT HAVELOCK",
+    "Postcode": 5434,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PRELINNA",
+    "Postcode": 5434,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "SHAGGY RIDGE",
+    "Postcode": 5434,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "UPALINNA",
+    "Postcode": 5434,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WILLOW SPRINGS",
+    "Postcode": 5434,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WORUMBA",
+    "Postcode": 5434,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ABMINGA STATION",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BENDA",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BILLEROO WEST",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BIMBOWRIE",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BINDARRAH",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BOOLCOOMATTA",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BULLOO CREEK",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "COCKBURN",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "CURNAMONA",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "DEVONBOROUGH DOWNS",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ERUDINA",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "FLORINA STATION",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "FROME DOWNS",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "GRAMPUS",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "KALABITY",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "KALKAROO",
+    "Postcode": 5440,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KOONAMORE",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "LAKE FROME",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MANNA HILL",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MANUNDA STATION",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MARTINS WELL",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MELTON STATION",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MINGARY",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MOOLEULOOLOO",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MOUNT VICTOR STATION",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MULYUNGARIE",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MUNDI MUNDI",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MUTOOROO",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "NACKARA",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "NETLEY GAP",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "OLARY",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "OULNINA",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "OULNINA PARK",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "OUTALPA",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PINE CREEK STATION",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PLUMBAGO",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PUALCO RANGE",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "QUINYAMBIE",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "TEPCO STATION",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "TIKALINA",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WADNAMINGA",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WAUKARINGA",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WEEKEROO",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WIAWERA",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WINNININNIE",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WOMPINIE",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "YARRAMBA",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "YUNTA",
+    "Postcode": 5440,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "AUBURN",
+    "Postcode": 5451,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "UNDALYA",
+    "Postcode": 5451,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LEASINGHAM",
+    "Postcode": 5452,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WATERVALE",
+    "Postcode": 5452,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ARMAGH",
+    "Postcode": 5453,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BARINIA",
+    "Postcode": 5453,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BENBOURNIE",
+    "Postcode": 5453,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BOCONNOC PARK",
+    "Postcode": 5453,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CLARE",
+    "Postcode": 5453,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "EMU FLAT",
+    "Postcode": 5453,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GILLENTOWN",
+    "Postcode": 5453,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HILL RIVER",
+    "Postcode": 5453,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HOYLETON",
+    "Postcode": 5453,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KYBUNGA",
+    "Postcode": 5453,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PENWORTHAM",
+    "Postcode": 5453,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "POLISH HILL RIVER",
+    "Postcode": 5453,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SEVENHILL",
+    "Postcode": 5453,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SPRING FARM",
+    "Postcode": 5453,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SPRING GULLY",
+    "Postcode": 5453,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "STANLEY FLAT",
+    "Postcode": 5453,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ANDREWS",
+    "Postcode": 5454,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BROUGHTON RIVER VALLEY",
+    "Postcode": 5454,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "EUROMINA",
+    "Postcode": 5454,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "HACKLINS CORNER",
+    "Postcode": 5454,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MAYFIELD",
+    "Postcode": 5454,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "SPALDING",
+    "Postcode": 5454,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WASHPOOL",
+    "Postcode": 5454,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HILLTOWN",
+    "Postcode": 5455,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BARABBA",
+    "Postcode": 5460,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "OWEN",
+    "Postcode": 5460,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PINERY",
+    "Postcode": 5460,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "STOCKYARD CREEK",
+    "Postcode": 5460,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BALAKLAVA",
+    "Postcode": 5461,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BOWILLIA",
+    "Postcode": 5461,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "DALKEY",
+    "Postcode": 5461,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ERITH",
+    "Postcode": 5461,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "EVERARD CENTRAL",
+    "Postcode": 5461,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GOYDER",
+    "Postcode": 5461,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HALBURY",
+    "Postcode": 5461,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HOSKIN CORNER",
+    "Postcode": 5461,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT TEMPLETON",
+    "Postcode": 5461,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SAINTS",
+    "Postcode": 5461,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "STOW",
+    "Postcode": 5461,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WATCHMAN",
+    "Postcode": 5461,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WHITWARTA",
+    "Postcode": 5461,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BLYTH",
+    "Postcode": 5462,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ANAMA",
+    "Postcode": 5464,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BRINKWORTH",
+    "Postcode": 5464,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BUNGAREE",
+    "Postcode": 5464,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CONDOWIE",
+    "Postcode": 5464,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HART",
+    "Postcode": 5464,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KOOLUNGA",
+    "Postcode": 5464,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MAROLA",
+    "Postcode": 5464,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ROCHESTER",
+    "Postcode": 5464,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "YACKA",
+    "Postcode": 5470,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GULNARE",
+    "Postcode": 5471,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GEORGETOWN",
+    "Postcode": 5472,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GLADSTONE",
+    "Postcode": 5473,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "APPILA",
+    "Postcode": 5480,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LAURA",
+    "Postcode": 5480,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "STONE HUT",
+    "Postcode": 5480,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BANGOR",
+    "Postcode": 5481,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MURRAY TOWN",
+    "Postcode": 5481,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WIRRABARA",
+    "Postcode": 5481,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WONGYARRA",
+    "Postcode": 5481,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BOOLEROO CENTRE",
+    "Postcode": 5482,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WEPOWIE",
+    "Postcode": 5482,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MELROSE",
+    "Postcode": 5483,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WILMINGTON",
+    "Postcode": 5485,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CALTOWIE",
+    "Postcode": 5490,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CALTOWIE NORTH",
+    "Postcode": 5490,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CALTOWIE WEST",
+    "Postcode": 5490,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BELALIE EAST",
+    "Postcode": 5491,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BELALIE NORTH",
+    "Postcode": 5491,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BUNDALEER GARDENS",
+    "Postcode": 5491,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BUNDALEER NORTH",
+    "Postcode": 5491,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HORNSDALE",
+    "Postcode": 5491,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "JAMESTOWN",
+    "Postcode": 5491,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WEST BUNDALEER",
+    "Postcode": 5491,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "YONGALA",
+    "Postcode": 5493,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BAROOTA",
+    "Postcode": 5495,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GERMEIN BAY",
+    "Postcode": 5495,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MAMBRAY CREEK",
+    "Postcode": 5495,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NECTAR BROOK",
+    "Postcode": 5495,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORT FLINDERS",
+    "Postcode": 5495,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PORT GERMEIN",
+    "Postcode": 5495,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "AVON",
+    "Postcode": 5501,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CALOMBA",
+    "Postcode": 5501,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "DUBLIN",
+    "Postcode": 5501,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LEWISTON",
+    "Postcode": 5501,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LONG PLAINS",
+    "Postcode": 5501,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LOWER LIGHT",
+    "Postcode": 5501,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MIDDLE BEACH",
+    "Postcode": 5501,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PARHAM",
+    "Postcode": 5501,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORT GAWLER",
+    "Postcode": 5501,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "THOMPSON BEACH",
+    "Postcode": 5501,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TWO WELLS",
+    "Postcode": 5501,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WEBB BEACH",
+    "Postcode": 5501,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WILD HORSE PLAINS",
+    "Postcode": 5501,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WINDSOR",
+    "Postcode": 5501,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "FISCHER",
+    "Postcode": 5502,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "GRACE PLAINS",
+    "Postcode": 5502,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "KORUNYE",
+    "Postcode": 5502,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MALLALA",
+    "Postcode": 5502,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "REDBANKS",
+    "Postcode": 5502,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "REEVES PLAINS",
+    "Postcode": 5502,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LOCHIEL",
+    "Postcode": 5510,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BARUNGA GAP",
+    "Postcode": 5520,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BUMBUNGA",
+    "Postcode": 5520,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BURNSFIELD",
+    "Postcode": 5520,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GLEESON HILL",
+    "Postcode": 5520,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "SNOWTOWN",
+    "Postcode": 5520,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WOKURNA",
+    "Postcode": 5520,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "REDHILL",
+    "Postcode": 5521,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "FISHERMAN BAY",
+    "Postcode": 5522,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORT BROUGHTON",
+    "Postcode": 5522,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WARD HILL",
+    "Postcode": 5522,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BEETALOO",
+    "Postcode": 5523,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BEETALOO VALLEY",
+    "Postcode": 5523,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CLEMENTS GAP",
+    "Postcode": 5523,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CRYSTAL BROOK",
+    "Postcode": 5523,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HUDDLESTON",
+    "Postcode": 5523,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MERRITON",
+    "Postcode": 5523,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NARRIDY",
+    "Postcode": 5523,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NUROM",
+    "Postcode": 5523,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WANDEARAH",
+    "Postcode": 5523,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WANDEARAH EAST",
+    "Postcode": 5523,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WANDEARAH WEST",
+    "Postcode": 5523,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BUNGAMA",
+    "Postcode": 5540,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COONAMIA",
+    "Postcode": 5540,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LOWER BROUGHTON",
+    "Postcode": 5540,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NAPPERBY",
+    "Postcode": 5540,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NELSHABY",
+    "Postcode": 5540,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PIRIE EAST",
+    "Postcode": 5540,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORT DAVIS",
+    "Postcode": 5540,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PORT PIRIE",
+    "Postcode": 5540,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORT PIRIE SOUTH",
+    "Postcode": 5540,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORT PIRIE WEST",
+    "Postcode": 5540,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "RISDON PARK",
+    "Postcode": 5540,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "RISDON PARK SOUTH",
+    "Postcode": 5540,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SOLOMONTOWN",
+    "Postcode": 5540,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TELOWIE",
+    "Postcode": 5540,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WARNERTOWN",
+    "Postcode": 5540,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BEAUFORT",
+    "Postcode": 5550,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BOWMANS",
+    "Postcode": 5550,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "INKERMAN",
+    "Postcode": 5550,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KALLORA",
+    "Postcode": 5550,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NANTAWARRA",
+    "Postcode": 5550,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORT WAKEFIELD",
+    "Postcode": 5550,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PROOF RANGE",
+    "Postcode": 5550,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SOUTH HUMMOCKS",
+    "Postcode": 5550,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KAINTON",
+    "Postcode": 5552,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KULPARA",
+    "Postcode": 5552,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MELTON",
+    "Postcode": 5552,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PASKEVILLE",
+    "Postcode": 5552,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORT ARTHUR",
+    "Postcode": 5552,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SUNNYVALE",
+    "Postcode": 5552,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "THRINGTON",
+    "Postcode": 5552,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BOORS PLAIN",
+    "Postcode": 5554,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "CUNLIFFE",
+    "Postcode": 5554,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "JERICHO",
+    "Postcode": 5554,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "JERUSALEM",
+    "Postcode": 5554,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KADINA",
+    "Postcode": 5554,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MATTA FLAT",
+    "Postcode": 5554,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NEW TOWN",
+    "Postcode": 5554,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "THOMAS PLAIN",
+    "Postcode": 5554,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WALLAROO MINES",
+    "Postcode": 5554,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WILLAMULKA",
+    "Postcode": 5554,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ALFORD",
+    "Postcode": 5555,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COLLINSFIELD",
+    "Postcode": 5555,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "DOWLING",
+    "Postcode": 5555,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "HOPE GAP",
+    "Postcode": 5555,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LAKE VIEW",
+    "Postcode": 5555,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MUNDOORA",
+    "Postcode": 5555,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TICKERA",
+    "Postcode": 5555,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "NORTH BEACH",
+    "Postcode": 5556,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WALLAROO",
+    "Postcode": 5556,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WALLAROO PLAIN",
+    "Postcode": 5556,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WARBURTO",
+    "Postcode": 5556,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "AGERY",
+    "Postcode": 5558,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CROSS ROADS",
+    "Postcode": 5558,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "EAST MOONTA",
+    "Postcode": 5558,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HAMLEY",
+    "Postcode": 5558,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KOOROONA",
+    "Postcode": 5558,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOONTA",
+    "Postcode": 5558,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOONTA BAY",
+    "Postcode": 5558,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOONTA MINES",
+    "Postcode": 5558,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NALYAPPA",
+    "Postcode": 5558,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NORTH MOONTA",
+    "Postcode": 5558,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NORTH YELTA",
+    "Postcode": 5558,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PARAMATTA",
+    "Postcode": 5558,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORT HUGHES",
+    "Postcode": 5558,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "YELTA",
+    "Postcode": 5558,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BUTE",
+    "Postcode": 5560,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NINNES",
+    "Postcode": 5560,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CLINTON",
+    "Postcode": 5570,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CLINTON CENTRE",
+    "Postcode": 5570,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORT CLINTON",
+    "Postcode": 5570,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PRICE",
+    "Postcode": 5570,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WINULTA",
+    "Postcode": 5570,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ARDROSSAN",
+    "Postcode": 5571,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BLACK POINT",
+    "Postcode": 5571,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CUNNINGHAM",
+    "Postcode": 5571,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "DOWLINGVILLE",
+    "Postcode": 5571,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "JAMES WELL",
+    "Postcode": 5571,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PETERSVILLE",
+    "Postcode": 5571,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PINE POINT",
+    "Postcode": 5571,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ROGUES POINT",
+    "Postcode": 5571,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SANDILANDS",
+    "Postcode": 5571,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TIDDY WIDDY BEACH",
+    "Postcode": 5571,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ARTHURTON",
+    "Postcode": 5572,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BALGOWAN",
+    "Postcode": 5573,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CHINAMAN WELLS",
+    "Postcode": 5573,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MAITLAND",
+    "Postcode": 5573,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "POINT PEARCE",
+    "Postcode": 5573,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORT VICTORIA",
+    "Postcode": 5573,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SOUTH KILKERRAN",
+    "Postcode": 5573,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "URANIA",
+    "Postcode": 5573,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WAURALTEE",
+    "Postcode": 5573,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WEETULTA",
+    "Postcode": 5573,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "YORKE VALLEY",
+    "Postcode": 5573,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BLUFF BEACH",
+    "Postcode": 5575,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BRENTWOOD",
+    "Postcode": 5575,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CORNY POINT",
+    "Postcode": 5575,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HARDWICKE BAY",
+    "Postcode": 5575,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KOOLYWURTIE",
+    "Postcode": 5575,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MARION BAY",
+    "Postcode": 5575,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MINLATON",
+    "Postcode": 5575,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PARSONS BEACH",
+    "Postcode": 5575,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "POINT TURTON",
+    "Postcode": 5575,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORT RICKABY",
+    "Postcode": 5575,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "RAMSAY",
+    "Postcode": 5575,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "STENHOUSE BAY",
+    "Postcode": 5575,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WHITE HUT",
+    "Postcode": 5575,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WOOL BAY",
+    "Postcode": 5575,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HONITON",
+    "Postcode": 5576,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORT MOOROWIE",
+    "Postcode": 5576,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "YORKETOWN",
+    "Postcode": 5576,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COUCH BEACH",
+    "Postcode": 5577,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "FOUL BAY",
+    "Postcode": 5577,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "INNESTON",
+    "Postcode": 5577,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "POINT SOUTTAR",
+    "Postcode": 5577,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "THE PINES",
+    "Postcode": 5577,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WAROOKA",
+    "Postcode": 5577,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CURRAMULKA",
+    "Postcode": 5580,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORT JULIA",
+    "Postcode": 5580,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORT VINCENT",
+    "Postcode": 5581,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SHEAOAK FLAT",
+    "Postcode": 5581,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORT GILES",
+    "Postcode": 5582,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "STANSBURY",
+    "Postcode": 5582,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COOBOWIE",
+    "Postcode": 5583,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "EDITHBURGH",
+    "Postcode": 5583,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SULTANA POINT",
+    "Postcode": 5583,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WHYALLA",
+    "Postcode": 5600,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WHYALLA PLAYFORD",
+    "Postcode": 5600,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BACKY POINT",
+    "Postcode": 5601,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BARSON",
+    "Postcode": 5601,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "COWLEDS LANDING",
+    "Postcode": 5601,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "CULTANA",
+    "Postcode": 5601,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "DOUGLAS POINT",
+    "Postcode": 5601,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "DOUGLAS POINT SOUTH",
+    "Postcode": 5601,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "FALSE BAY",
+    "Postcode": 5601,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "FITZGERALD BAY",
+    "Postcode": 5601,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MULLAQUANA",
+    "Postcode": 5601,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MURNINNIE BEACH",
+    "Postcode": 5601,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "POINT LOWLY",
+    "Postcode": 5601,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "POINT LOWLY NORTH",
+    "Postcode": 5601,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORT BONYTHON",
+    "Postcode": 5601,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WHYALLA BARSON",
+    "Postcode": 5601,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COWELL",
+    "Postcode": 5602,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LUCKY BAY",
+    "Postcode": 5602,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MANGALO",
+    "Postcode": 5602,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MIDGEE",
+    "Postcode": 5602,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MILTALIE",
+    "Postcode": 5602,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MINBRIE",
+    "Postcode": 5602,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MITCHELLVILLE",
+    "Postcode": 5602,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MURNINNIE",
+    "Postcode": 5602,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PORT GIBBON",
+    "Postcode": 5602,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ARNO BAY",
+    "Postcode": 5603,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HINCKS",
+    "Postcode": 5603,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "VERRAN",
+    "Postcode": 5603,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WHARMINDA",
+    "Postcode": 5603,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORT NEILL",
+    "Postcode": 5604,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BUTLER",
+    "Postcode": 5605,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TUMBY BAY",
+    "Postcode": 5605,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KIRTON POINT",
+    "Postcode": 5606,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PORT LINCOLN",
+    "Postcode": 5606,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORT LINCOLN SOUTH",
+    "Postcode": 5606,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BOSTON",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BROOKER",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CHARLTON GULLY",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COFFIN BAY",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COOMUNGA",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COULTA",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "DUCK PONDS",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "FARM BEACH",
+    "Postcode": 5607,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "FOUNTAIN",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GREEN PATCH",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HAWSON",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KELLIDIE BAY",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KIANA",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KOPPIO",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LINCOLN NATIONAL PARK",
+    "Postcode": 5607,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "LIPSON",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LITTLE DOUGLAS",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LOUTH BAY",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOODY",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT DRUMMOND",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT DUTTON BAY",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT HOPE",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MURDINGA",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NORTH SHIELDS",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PEACHNA",
+    "Postcode": 5607,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PEARLAH",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "POINT BOSTON",
+    "Postcode": 5607,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "POONINDIE",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SHERINGA",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SLEAFORD",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SULLIVAN",
+    "Postcode": 5607,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "TIATUKIA",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TOOLIGIE",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TOOTENILLA",
+    "Postcode": 5607,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "TULKA",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TULKA NORTH",
+    "Postcode": 5607,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ULEY",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "UNGARRA",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "VENUS BAY",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WANGARY",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WANILLA",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WARRACHIE",
+    "Postcode": 5607,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WARROW",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WARUNDA",
+    "Postcode": 5607,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WHITES FLAT",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WHITES RIVER",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "YALLUNDA FLAT",
+    "Postcode": 5607,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MULLAQUANA",
+    "Postcode": 5608,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WHYALLA NORRIE",
+    "Postcode": 5608,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WHYALLA NORRIE EAST",
+    "Postcode": 5608,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WHYALLA NORRIE NORTH",
+    "Postcode": 5608,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WHYALLA STUART",
+    "Postcode": 5608,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COWLEDS LANDING",
+    "Postcode": 5609,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MIDDLEBACK RANGE",
+    "Postcode": 5609,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MURNINNIE BEACH",
+    "Postcode": 5609,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WHYALLA JENKINS",
+    "Postcode": 5609,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COOYERDOO",
+    "Postcode": 5611,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "CORUNNA STATION",
+    "Postcode": 5611,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "GILLES DOWNS",
+    "Postcode": 5611,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "IRON BARON",
+    "Postcode": 5611,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "IRON KNOB",
+    "Postcode": 5611,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KATUNGA STATION",
+    "Postcode": 5611,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "LAKE GILLES",
+    "Postcode": 5611,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MYOLA STATION",
+    "Postcode": 5611,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "SECRET ROCKS",
+    "Postcode": 5611,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "EDILLILIE",
+    "Postcode": 5630,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COCKALEECHIE",
+    "Postcode": 5631,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CUMMINS",
+    "Postcode": 5631,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KAPINNIE",
+    "Postcode": 5632,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KARKOO",
+    "Postcode": 5632,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MITCHELL",
+    "Postcode": 5632,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "YEELANNA",
+    "Postcode": 5632,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BOONERDO",
+    "Postcode": 5633,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LOCK",
+    "Postcode": 5633,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ULYERRA",
+    "Postcode": 5633,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "CAMPOONA",
+    "Postcode": 5640,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CLEVE",
+    "Postcode": 5640,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "JAMIESON",
+    "Postcode": 5640,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WADDIKEE",
+    "Postcode": 5640,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BARNA",
+    "Postcode": 5641,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BUCKLEBOO",
+    "Postcode": 5641,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BUNGEROO",
+    "Postcode": 5641,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "CARALUE",
+    "Postcode": 5641,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CORTLINYE",
+    "Postcode": 5641,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CUNYARIE",
+    "Postcode": 5641,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KELLY",
+    "Postcode": 5641,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KIMBA",
+    "Postcode": 5641,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOSELEY",
+    "Postcode": 5641,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PANITYA",
+    "Postcode": 5641,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PINKAWILLINIE",
+    "Postcode": 5641,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SOLOMON",
+    "Postcode": 5641,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WILCHERRY",
+    "Postcode": 5641,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "YALANDA",
+    "Postcode": 5641,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "YELTANA",
+    "Postcode": 5641,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "DARKE PEAK",
+    "Postcode": 5642,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "HAMBIDGE",
+    "Postcode": 5642,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "KIELPA",
+    "Postcode": 5642,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MURLONG",
+    "Postcode": 5642,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "RUDALL",
+    "Postcode": 5642,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COOTRA",
+    "Postcode": 5650,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KOONGAWA",
+    "Postcode": 5650,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WARRAMBOO",
+    "Postcode": 5650,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KYANCUTTA",
+    "Postcode": 5651,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PANEY",
+    "Postcode": 5652,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PYGERY",
+    "Postcode": 5652,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WUDINNA",
+    "Postcode": 5652,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "YANINEE",
+    "Postcode": 5653,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COCATA",
+    "Postcode": 5654,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "KARCULTABY",
+    "Postcode": 5654,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MINNIPA",
+    "Postcode": 5654,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT DAMPER",
+    "Postcode": 5654,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BOCKELBERG",
+    "Postcode": 5655,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "GAWLER RANGES",
+    "Postcode": 5655,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KALDOONERA",
+    "Postcode": 5655,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LOCKES CLAYPAN",
+    "Postcode": 5655,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "NARLABY",
+    "Postcode": 5655,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "POOCHERA",
+    "Postcode": 5655,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CHILPENUNDA",
+    "Postcode": 5660,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "CUNGENA",
+    "Postcode": 5660,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KOOLGERA",
+    "Postcode": 5661,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PIMBAACLA",
+    "Postcode": 5661,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WALLALA",
+    "Postcode": 5661,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WIRRULLA",
+    "Postcode": 5661,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "YANTANABIE",
+    "Postcode": 5661,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BRAMFIELD",
+    "Postcode": 5670,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COLTON",
+    "Postcode": 5670,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COOLILLIE",
+    "Postcode": 5670,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ELLISTON",
+    "Postcode": 5670,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KAPPAWANTA",
+    "Postcode": 5670,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT JOY",
+    "Postcode": 5670,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOUNT WEDGE",
+    "Postcode": 5670,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PALKAGEE",
+    "Postcode": 5670,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "POLDA",
+    "Postcode": 5670,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "TALIA",
+    "Postcode": 5670,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ULYERRA",
+    "Postcode": 5670,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BAIRD BAY",
+    "Postcode": 5671,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CALCA",
+    "Postcode": 5671,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COLLEY",
+    "Postcode": 5671,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MORTANA",
+    "Postcode": 5671,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MOUNT COOPER",
+    "Postcode": 5671,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORT KENNY",
+    "Postcode": 5671,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "TYRINGA",
+    "Postcode": 5671,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WITERA",
+    "Postcode": 5671,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "CARAWA",
+    "Postcode": 5680,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CHANDADA",
+    "Postcode": 5680,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CHINBINGINA",
+    "Postcode": 5680,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "EBA ANCHORAGE",
+    "Postcode": 5680,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "HASLAM",
+    "Postcode": 5680,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "INKSTER",
+    "Postcode": 5680,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "LAURA BAY",
+    "Postcode": 5680,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MARYVALE",
+    "Postcode": 5680,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MUDAMUCKLA",
+    "Postcode": 5680,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NUNJIKOMPITA",
+    "Postcode": 5680,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PERLUBIE",
+    "Postcode": 5680,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PETINA",
+    "Postcode": 5680,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PIEDNIPPIE",
+    "Postcode": 5680,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PINJARRA STATION",
+    "Postcode": 5680,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PUNTABIE",
+    "Postcode": 5680,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PUREBA",
+    "Postcode": 5680,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "SCEALE BAY",
+    "Postcode": 5680,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SMOKY BAY",
+    "Postcode": 5680,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "STREAKY BAY",
+    "Postcode": 5680,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WESTALL",
+    "Postcode": 5680,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "YANERBIE",
+    "Postcode": 5680,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BOOKABIE",
+    "Postcode": 5690,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CEDUNA",
+    "Postcode": 5690,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CEDUNA WATERS",
+    "Postcode": 5690,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "CHARRA",
+    "Postcode": 5690,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CHUNDARIA",
+    "Postcode": 5690,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "COORABIE",
+    "Postcode": 5690,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "DENIAL BAY",
+    "Postcode": 5690,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "FOWLERS BAY",
+    "Postcode": 5690,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KALANBI",
+    "Postcode": 5690,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "KOONIBBA",
+    "Postcode": 5690,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MALTEE",
+    "Postcode": 5690,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MERGHINY",
+    "Postcode": 5690,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MITCHIDY MOOLA",
+    "Postcode": 5690,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "NADIA",
+    "Postcode": 5690,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NANBONA",
+    "Postcode": 5690,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "NULLARBOR",
+    "Postcode": 5690,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NUNDROO",
+    "Postcode": 5690,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "OAK VALLEY",
+    "Postcode": 5690,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PENONG",
+    "Postcode": 5690,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "THEVENARD",
+    "Postcode": 5690,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "UWORRA",
+    "Postcode": 5690,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WANDANA",
+    "Postcode": 5690,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WATRABA",
+    "Postcode": 5690,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WESTERN",
+    "Postcode": 5690,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WHITE WELL CORNER",
+    "Postcode": 5690,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "YALATA",
+    "Postcode": 5690,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "YELLABINNA",
+    "Postcode": 5690,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "YUMBARRA",
+    "Postcode": 5690,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BLANCHE HARBOR",
+    "Postcode": 5700,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "COMMISSARIAT POINT",
+    "Postcode": 5700,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "CULTANA",
+    "Postcode": 5700,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "DAVENPORT",
+    "Postcode": 5700,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MIRANDA",
+    "Postcode": 5700,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MUNDALLIO",
+    "Postcode": 5700,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PORT AUGUSTA",
+    "Postcode": 5700,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORT AUGUSTA NORTH",
+    "Postcode": 5700,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORT AUGUSTA WEST",
+    "Postcode": 5700,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PORT PATERSON",
+    "Postcode": 5700,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "UNINCORPORATED SA",
+    "Postcode": 5700,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WAMI KATA",
+    "Postcode": 5700,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WINNINOWIE",
+    "Postcode": 5700,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ARKAROOLA VILLAGE",
+    "Postcode": 5701,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "COOK",
+    "Postcode": 5701,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "TARCOOLA",
+    "Postcode": 5701,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WOOLUNDUNGA",
+    "Postcode": 5701,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "STIRLING NORTH",
+    "Postcode": 5710,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "EMEROO",
+    "Postcode": 5713,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ISLAND LAGOON",
+    "Postcode": 5713,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "KOOTABERRA",
+    "Postcode": 5713,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "LAKE TORRENS",
+    "Postcode": 5713,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "LAKE TORRENS STATION",
+    "Postcode": 5713,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MOUNT ARDEN",
+    "Postcode": 5713,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "OAKDEN HILLS",
+    "Postcode": 5713,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PERNATTY",
+    "Postcode": 5713,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "SOUTH GAP",
+    "Postcode": 5713,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WALLERBERDINA",
+    "Postcode": 5713,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WILKATANA STATION",
+    "Postcode": 5713,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WINTABATINYANA",
+    "Postcode": 5713,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "YADLAMALKA",
+    "Postcode": 5713,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "CARRIEWERLOO",
+    "Postcode": 5715,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ILLEROO",
+    "Postcode": 5715,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "LINCOLN GAP",
+    "Postcode": 5715,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PANDURRA",
+    "Postcode": 5715,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WARTAKA",
+    "Postcode": 5715,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "YALYMBOO",
+    "Postcode": 5715,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "YUDNAPINNA",
+    "Postcode": 5715,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "HILTABA",
+    "Postcode": 5717,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "KOKATHA",
+    "Postcode": 5717,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "KOLENDO",
+    "Postcode": 5717,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "KONDOOLKA",
+    "Postcode": 5717,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "LAKE EVERARD",
+    "Postcode": 5717,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "LAKE GAIRDNER",
+    "Postcode": 5717,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "LAKE MACFARLANE",
+    "Postcode": 5717,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MAHANEWO",
+    "Postcode": 5717,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MOONAREE",
+    "Postcode": 5717,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MOUNT IVE",
+    "Postcode": 5717,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "NONNING",
+    "Postcode": 5717,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "SIAM",
+    "Postcode": 5717,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "THURLGA",
+    "Postcode": 5717,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "UNO",
+    "Postcode": 5717,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "YARDEA",
+    "Postcode": 5717,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BON BON",
+    "Postcode": 5719,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BULGUNNIA",
+    "Postcode": 5719,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "COMMONWEALTH HILL",
+    "Postcode": 5719,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "COONDAMBO",
+    "Postcode": 5719,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "GLENDAMBO",
+    "Postcode": 5719,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "KINGOONYA",
+    "Postcode": 5719,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "LAKE HARRIS",
+    "Postcode": 5719,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MULGATHING",
+    "Postcode": 5719,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WILGENA",
+    "Postcode": 5719,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WIRRAMINNA",
+    "Postcode": 5719,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ARCOONA",
+    "Postcode": 5720,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BILLA KALINA",
+    "Postcode": 5720,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BOSWORTH",
+    "Postcode": 5720,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MILLERS CREEK",
+    "Postcode": 5720,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MOUNT EBA",
+    "Postcode": 5720,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MOUNT VIVIAN",
+    "Postcode": 5720,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PARAKYLIA",
+    "Postcode": 5720,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PIMBA",
+    "Postcode": 5720,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PURPLE DOWNS",
+    "Postcode": 5720,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "STUARTS CREEK",
+    "Postcode": 5720,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WOOMERA",
+    "Postcode": 5720,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ANDAMOOKA",
+    "Postcode": 5722,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ANDAMOOKA STATION",
+    "Postcode": 5722,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ALLANDALE STATION",
+    "Postcode": 5723,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ANNA CREEK",
+    "Postcode": 5723,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ARCKARINGA",
+    "Postcode": 5723,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "COOBER PEDY",
+    "Postcode": 5723,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "EVELYN DOWNS",
+    "Postcode": 5723,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "INGOMAR",
+    "Postcode": 5723,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MABEL CREEK",
+    "Postcode": 5723,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MCDOUALL PEAK",
+    "Postcode": 5723,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MOUNT BARRY",
+    "Postcode": 5723,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MOUNT CLARENCE STATION",
+    "Postcode": 5723,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MOUNT WILLOUGHBY",
+    "Postcode": 5723,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "NILPINNA STATION",
+    "Postcode": 5723,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WILLIAM CREEK",
+    "Postcode": 5723,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WINTINNA",
+    "Postcode": 5723,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MARLA",
+    "Postcode": 5724,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MINTABIE",
+    "Postcode": 5724,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "WELBOURN HILL",
+    "Postcode": 5724,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "OLYMPIC DAM",
+    "Postcode": 5725,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ROXBY DOWNS",
+    "Postcode": 5725,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ROXBY DOWNS STATION",
+    "Postcode": 5725,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "ALPANA",
+    "Postcode": 5730,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ANGORIGINA",
+    "Postcode": 5730,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BELTANA",
+    "Postcode": 5730,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "BELTANA STATION",
+    "Postcode": 5730,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BLINMAN",
+    "Postcode": 5730,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "EDIACARA",
+    "Postcode": 5730,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "GUM CREEK STATION",
+    "Postcode": 5730,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MOOLOOLOO",
+    "Postcode": 5730,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MOORILLAH",
+    "Postcode": 5730,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MOTPENA",
+    "Postcode": 5730,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MOUNT FALKLAND",
+    "Postcode": 5730,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "NARRINA",
+    "Postcode": 5730,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "NILPENA",
+    "Postcode": 5730,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ORATUNGA STATION",
+    "Postcode": 5730,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PARACHILNA",
+    "Postcode": 5730,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "PUTTAPA",
+    "Postcode": 5730,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WARRAWEENA",
+    "Postcode": 5730,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WIRREALPA",
+    "Postcode": 5730,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BOLLARDS LAGOON",
+    "Postcode": 5731,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "COOPERS CREEK",
+    "Postcode": 5731,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "CORDILLO DOWNS",
+    "Postcode": 5731,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "DURHAM DOWNS",
+    "Postcode": 5731,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "FARINA",
+    "Postcode": 5731,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "FARINA STATION",
+    "Postcode": 5731,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "GIDGEALPA",
+    "Postcode": 5731,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "INNAMINCKA",
+    "Postcode": 5731,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "LEIGH CREEK",
+    "Postcode": 5731,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "LEIGH CREEK STATION",
+    "Postcode": 5731,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "LINDON",
+    "Postcode": 5731,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "LYNDHURST",
+    "Postcode": 5731,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MERTY MERTY",
+    "Postcode": 5731,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MOUNT FREELING",
+    "Postcode": 5731,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MOUNT LYNDHURST",
+    "Postcode": 5731,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MULGARIA",
+    "Postcode": 5731,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MURNPEOWIE",
+    "Postcode": 5731,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MYRTLE SPRINGS",
+    "Postcode": 5731,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "STRZELECKI DESERT",
+    "Postcode": 5731,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WITCHELINA",
+    "Postcode": 5731,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ANGEPENA",
+    "Postcode": 5732,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ARKAROOLA",
+    "Postcode": 5732,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "BURR WELL",
+    "Postcode": 5732,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "COPLEY",
+    "Postcode": 5732,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "GAMMON RANGES",
+    "Postcode": 5732,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MANNERS WELL",
+    "Postcode": 5732,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MOOLAWATANA",
+    "Postcode": 5732,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MOUNT SERLE",
+    "Postcode": 5732,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MULGA VIEW",
+    "Postcode": 5732,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "NEPABUNNA",
+    "Postcode": 5732,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NORTH MOOLOOLOO",
+    "Postcode": 5732,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PINDA SPRINGS",
+    "Postcode": 5732,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "UMBERATANA",
+    "Postcode": 5732,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WERTALOONA",
+    "Postcode": 5732,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WOOLTANA",
+    "Postcode": 5732,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "YANKANINNA",
+    "Postcode": 5732,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ALTON DOWNS STATION",
+    "Postcode": 5733,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "CALLANNA",
+    "Postcode": 5733,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "CLAYTON STATION",
+    "Postcode": 5733,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "CLIFTON HILLS STATION",
+    "Postcode": 5733,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "COWARIE",
+    "Postcode": 5733,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "DULKANINNA",
+    "Postcode": 5733,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ETADUNNA",
+    "Postcode": 5733,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "FARINA",
+    "Postcode": 5733,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "FARINA STATION",
+    "Postcode": 5733,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "KALAMURINA",
+    "Postcode": 5733,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "LAKE EYRE",
+    "Postcode": 5733,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MARREE",
+    "Postcode": 5733,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MARREE STATION",
+    "Postcode": 5733,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MULKA",
+    "Postcode": 5733,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MULOORINA",
+    "Postcode": 5733,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MUNDOWDNA",
+    "Postcode": 5733,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MUNGERANIE",
+    "Postcode": 5733,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PANDIE PANDIE",
+    "Postcode": 5733,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "CROWN POINT",
+    "Postcode": 5734,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ERINGA",
+    "Postcode": 5734,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MACUMBA",
+    "Postcode": 5734,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MOUNT SARAH",
+    "Postcode": 5734,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "OODNADATTA",
+    "Postcode": 5734,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "SIMPSON DESERT",
+    "Postcode": 5734,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "TODMORDEN",
+    "Postcode": 5734,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WITJIRA",
+    "Postcode": 5734,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "ADELAIDE AIRPORT",
+    "Postcode": 5950,
+    "SortCode": "AZ2003"
+  },
+  {
+    "Suburb": "EXPORT PARK",
+    "Postcode": 5950,
+    "SortCode": "AZ2003"
+  },
+  {
+    "Suburb": "GARDEN ISLAND",
+    "Postcode": 5960,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "TORRENS ISLAND",
+    "Postcode": 5960,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "IWANTJA",
+    "Postcode": 872,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "KALKA",
+    "Postcode": 872,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "KALTJITI",
+    "Postcode": 872,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "KANPI",
+    "Postcode": 872,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "MURPUTJA",
+    "Postcode": 872,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PIPALYATJARA",
+    "Postcode": 872,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PUKATJA",
+    "Postcode": 872,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "UMUWA",
+    "Postcode": 872,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WATARRU",
+    "Postcode": 872,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "WATINUMA",
+    "Postcode": 872,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "YUNYARINYI",
+    "Postcode": 872,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "RIVERLEA PARK",
+    "Postcode": 5120,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "KANGAROO ISLAND",
+    "Postcode": 5223,
+    "SortCode": "A-CTY"
+  },
+  {
+    "Suburb": "PETWOOD",
+    "Postcode": 5252,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "NULLABOR",
+    "Postcode": 5690,
+    "SortCode": "A-CCH"
+  },
+  {
+    "Suburb": "MOOMBA",
+    "Postcode": 5733,
+    "SortCode": "A-CTY"
+  }
+]

@@ -346,33 +346,6 @@ document.addEventListener('DOMContentLoaded', () => {
   if (modalCloseButton) {
     modalCloseButton.addEventListener('click', () => { popupOverlay.style.display = 'none'; });
   }
-
-// --- Auto reload khi quay lại tab trình duyệt ---
-(function enableAutoReloadOnTabFocus() {
-  const MIN_RELOAD_INTERVAL_MS = 5000; // tránh reload liên tục nếu chuyển tab nhanh
-  let lastReload = Date.now();
-
-  function safeReload(hard = false) {
-    const now = Date.now();
-    if (now - lastReload < MIN_RELOAD_INTERVAL_MS) return;
-    lastReload = now;
-    // hard=true sẽ bỏ cache (như Ctrl+F5); false là reload thường
-    window.location.reload(hard);
-  }
-
-  // Ưu tiên Page Visibility API
-  document.addEventListener('visibilitychange', () => {
-    // Khi tab trở lại visible thì reload
-    if (!document.hidden) safeReload(false);
-  });
-
-  // Fallback: một số trình duyệt tin vào focus hơn
-  window.addEventListener('focus', () => {
-    // Chỉ reload nếu thực sự quay lại cửa sổ/tab này
-    safeReload(false);
-  });
-})();
-
   // ===== Default chọn VIC khi vào trang /vic/ =====
   const defaultOpt = listbox.querySelector('[data-value="VIC"]');
   if (defaultOpt) defaultOpt.setAttribute('aria-selected', 'true');

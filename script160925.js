@@ -305,6 +305,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         result.style.display = 'block';
+        void result.offsetWidth;
+        result.style.animation = 'resIn .2s ease-out forwards';
         suggestions.innerHTML = '';
         suggestions.style.display = 'none';
       });

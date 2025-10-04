@@ -305,6 +305,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         result.style.display = 'block';
+        void result.offsetWidth;
+        result.style.animation = 'resIn .2s ease-out forwards';
         suggestions.innerHTML = '';
         suggestions.style.display = 'none';
       });
@@ -346,7 +348,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (modalCloseButton) {
     modalCloseButton.addEventListener('click', () => { popupOverlay.style.display = 'none'; });
   }
-  // ===== Default chọn VIC khi vào trang /vic/ =====
+  // ===== Default chọn NSW - SydneyZone khi vào trang =====
   const defaultOpt = listbox.querySelector('[data-value="VIC"]');
   if (defaultOpt) defaultOpt.setAttribute('aria-selected', 'true');
   selectState('VIC', 'VIC');

@@ -339,3 +339,76 @@ footer { margin-top: 60px; }
   50%  { transform: translateX(30%);   }
   100% { transform: translateX(100%);  }
 }
+
+
+/* =====================
+   Animations (added 1,2,3,4,5,8)
+   ===================== */
+
+/* 1) Combo open/close */
+.combo-list { transform-origin: top center; transform: translateY(-6px) scale(.98); opacity: 0; }
+.combo.open .combo-list { animation: comboIn .18s ease-out forwards; }
+@keyframes comboIn { to { transform: translateY(0) scale(1); opacity: 1; } }
+
+/* 2) Suggestions fade + stagger */
+#suggestions > * {
+  opacity: 0; transform: translateY(4px);
+  animation: sugIn .16s ease-out forwards;
+}
+#suggestions > *:nth-child(1){ animation-delay: 10ms }
+#suggestions > *:nth-child(2){ animation-delay: 25ms }
+#suggestions > *:nth-child(3){ animation-delay: 40ms }
+#suggestions > *:nth-child(4){ animation-delay: 55ms }
+#suggestions > *:nth-child(5){ animation-delay: 70ms }
+@keyframes sugIn { to { opacity:1; transform:none; } }
+
+/* 3) Progress bar fill & glow */
+.data-progress-bar { box-shadow: 0 0 0 rgba(40,167,69,0); }
+.data-progress-bar:not(.indeterminate) { transition: width .15s linear, box-shadow .2s ease; }
+.data-progress-bar:not(.indeterminate)[style*="width"] { box-shadow: 0 0 10px rgba(40,167,69,.25); }
+
+/* 4) Toast slide-in */
+.data-toast { transform: translateY(-8px); opacity: 0; }
+.data-toast[style*="display: block"] { animation: toastIn .22s cubic-bezier(.2,.8,.2,1) forwards; }
+@keyframes toastIn { to { transform:none; opacity:1; } }
+
+/* 5) Result card lift-in */
+#result { will-change: transform, opacity; transform: translateY(6px); opacity: 0; }
+#result[style*="display: block"] { animation: resIn .2s ease-out forwards; }
+@keyframes resIn { to { transform:none; opacity:1; } }
+
+/* 8) Floating label caret shimmer */
+.input-group { position: relative; }
+.input-group label { position: relative; }
+.input-group input:focus + label::after {
+  content:""; position:absolute; left:0; right:0; bottom:-2px; height:2px;
+  background: linear-gradient(90deg, transparent, #007BFF, transparent);
+  animation: caretSweep .8s linear;
+}
+@keyframes caretSweep { from { transform: translateX(-100%);} to { transform: translateX(100%);} }
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+
+
+/* === Combo trigger caret (dropdown arrow) === */
+.combo-trigger{ position: relative; padding-right: 2rem; }
+.combo-trigger::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: .75rem;
+  width: 8px; height: 8px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: translateY(-60%) rotate(45deg);
+  opacity: .7;
+  transition: transform .16s ease, opacity .16s ease;
+  pointer-events: none; /* decorative */
+}
+.combo:hover .combo-trigger::after{ opacity: .9; }
+.combo.open .combo-trigger::after{
+  transform: translateY(-40%) rotate(-135deg);
+}

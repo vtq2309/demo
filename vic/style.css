@@ -401,3 +401,38 @@ footer { margin-top: 60px; }
 .combo.open .combo-trigger::after{
   transform: translateY(-40%) rotate(-135deg);
 }
+
+
+/* =====================
+   Focus-visible (a11y) — (2)
+   ===================== */
+:focus { outline: none; }
+:focus-visible {
+  outline: 2px solid #007BFF;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+/* Emphasize key interactive controls */
+.combo-trigger:focus-visible,
+input:focus-visible,
+button:focus-visible,
+.small-button:focus-visible,
+.map-button:focus-visible,
+.popup-close:focus-visible {
+  box-shadow: 0 0 0 3px rgba(0,123,255,0.20);
+}
+
+
+/* =====================
+   Toast progress bar — (8)
+   ===================== */
+.data-toast { position: relative; overflow: hidden; }
+.data-toast::after{
+  content:""; position: absolute; left:0; bottom:0; height:3px; width:100%;
+  background: currentColor;
+  transform: scaleX(1); transform-origin: left;
+  animation: toastTimer 3s linear forwards; /* match TOAST_DURATION_MS = 2000 */
+}
+/* Error toast uses 2500ms in JS */
+.data-toast.error::after { animation-duration: 3s; }
+@keyframes toastTimer { to { transform: scaleX(0); } }

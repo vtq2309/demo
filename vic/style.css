@@ -431,8 +431,8 @@ button:focus-visible,
   content:""; position: absolute; left:0; bottom:0; height:3px; width:100%;
   background: currentColor;
   transform: scaleX(1); transform-origin: left;
-  animation: toastTimer 3s linear forwards; /* match TOAST_DURATION_MS = 2000 */
+  animation: toastTimer 3s linear forwards; /* match TOAST_DURATION_MS = 3000 */
 }
-/* Error toast uses 2500ms in JS */
+/* Error toast uses 3000ms in JS */
 .data-toast.error::after { animation-duration: 3s; }
 @keyframes toastTimer { to { transform: scaleX(0); } }

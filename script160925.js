@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
     progressBar.style.width = '0%';
   }
 
-  const TOAST_DURATION_MS = 2000;
+  const TOAST_DURATION_MS = 3000;
   function showToastLoaded(label) {
     if (!dataToast) return;
     dataToast.classList.remove('error');
@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
     dataToast.classList.add('error');
     dataToast.innerHTML = `<span class="cross">❌</span> ${message}`;
     dataToast.style.display = 'block';
-    setTimeout(() => { dataToast.style.display = 'none'; }, 2500);
+    setTimeout(() => { dataToast.style.display = 'none'; }, 3000);
   }
 
   // ---------- Fetch with real progress ----------

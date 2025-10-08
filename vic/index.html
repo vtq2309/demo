@@ -1,104 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Suburb Lookup</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Demo Notice | cpsuburb.au/vic</title>
+  <meta name="description" content="This demo has been discontinued. Please visit cpsuburb.au/vic to use the official application." />
+  <meta name="robots" content="noindex, nofollow" />
+  <style>
+    :root {
+      --bg: #0b1020;
+      --card: #0f172a;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --accent: #60a5fa;
+      --accent-press: #3b82f6;
+      --ring: rgba(96,165,250,.45);
+    }
+    @media (prefers-color-scheme: light) {
+      :root { --bg:#f6f8fb; --card:#ffffff; --text:#0f172a; --muted:#475569; --accent:#2563eb; --accent-press:#1d4ed8; --ring: rgba(37,99,235,.25);} }
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2ZW63C8F6D"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){ dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-2ZW63C8F6D');
-  </script>
-
-  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-  <link rel="manifest" href="images/site.webmanifest">
-  <link rel="stylesheet" href="style.css">
-
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0; background: radial-gradient(1200px 600px at 50% -10%, rgba(96,165,250,.15), transparent 60%), var(--bg);
+      color: var(--text); font: 16px/1.55 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      display: grid; place-items: center; padding: 24px;
+    }
+    .card {
+      width: min(680px, 92vw); background: linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.00)), var(--card);
+      border: 1px solid rgba(148,163,184,.15); border-radius: 20px; box-shadow: 0 30px 70px rgba(2,6,23,.35);
+      padding: clamp(20px, 5vw, 36px); text-align: center; animation: floatIn .6s ease-out both;
+    }
+    @keyframes floatIn { from { transform: translateY(10px); opacity: 0 } to { transform: translateY(0); opacity: 1 } }
+    h1 { margin: 0 0 8px; letter-spacing: .2px; font-weight: 800; font-size: clamp(22px, 3.6vw, 34px); }
+    p { margin: 10px 0; color: var(--muted); font-size: clamp(14px, 2.2vw, 16px); }
+    .badge { display:inline-flex; align-items:center; gap:.5ch; padding:6px 10px; border-radius: 999px; font-weight:600; font-size:12px; color: var(--accent);
+      background: rgba(96,165,250,.10); border:1px solid rgba(96,165,250,.25); }
+    .btn {
+      display:inline-block; margin-top: 16px; padding: 12px 18px; border-radius: 12px; font-weight: 700; letter-spacing: .2px; text-decoration: none; color: #fff;
+      background: linear-gradient(180deg, var(--accent), var(--accent-press)); box-shadow: 0 10px 20px var(--ring);
+    }
+    .btn:focus-visible { outline: 3px solid var(--ring); outline-offset: 2px; }
+    .link { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    footer { margin-top: 16px; font-size: 13px; color: var(--muted); }
+  </style>
 </head>
 <body>
-  <div class="container">
-    <div class="logo-title">
-      <a href="index.html" id="logo-link">
-        <img src="images/logo.png" alt="Suburb Lookup Logo" class="logo">
-      </a>
-      <h1>Suburb Lookup</h1>
-    </div>
-
-    <!-- Dropdown chọn state -->
-    <div class="state-picker" aria-label="Select state">
-      <div id="state-combobox" class="combo" role="combobox" aria-haspopup="listbox" aria-expanded="false">
-        <button id="state-trigger" class="combo-trigger" aria-controls="state-list" aria-label="Choose state" type="button">
-          Choose…
-        </button>
-        <div id="state-list" class="combo-list" role="listbox">
-          <!-- Giá trị nội bộ data-value dùng để ánh xạ data file -->
-          <div role="option" class="combo-option" data-value="NSW">NSW - All</div>
-          <div role="option" class="combo-option" data-value="NSW_SYDNEYZONE">NSW - SydneyZone</div>
-          <div role="option" class="combo-option" data-value="VIC">VIC</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Thanh tiến trình tải data -->
-    <div id="data-progress" class="data-progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-hidden="true">
-      <div id="data-progress-bar" class="data-progress-bar"></div>
-    </div>
-
-    <!-- Toast báo tải xong / lỗi -->
-    <div id="data-toast" class="data-toast" role="status" aria-live="polite"></div>
-
-    <!-- Search -->
-    <div class="input-section">
-      <div class="input-container">
-        <input type="text" id="suburb-input" placeholder=" " required disabled>
-        <label for="suburb-input">Enter Suburb or Postcode</label>
-      </div>
-    </div>
-
-    <div id="suggestions"></div>
-
-    <!-- KẾT QUẢ: Suburb, Postcode cố định; các field khác render động -->
-    <div id="result" style="display:none;">
-      <p><strong>Suburb:</strong> <span id="suburb"></span></p>
-      <p><strong>Postcode:</strong> <span id="postcode"></span></p>
-      <div id="dynamic-fields"></div>
-      <!-- Dưới đây sẽ tự chèn link “Show all Run Numbers in Zone …” khi phù hợp -->
-    </div>
-
-    <!-- Nút map: CHỈ hiện khi NSW - SydneyZone -->
-    <div id="map-button-container" class="map-button-container" style="display:none;">
-      <a href="cpmap/index.html" class="map-button">
-        <img src="images/iconmap.ico" alt="Hình bàn tay trỏ" class="pointing-hand-image">
-        Pemulwuy Depot Map
-      </a>
-    </div>
-
-    <footer>
-      <div class="footer-content">
-        <a href="report/index.html" class="small-button">Report Missing Data</a>
-        <p>Created by: Thien Quang VU</p>
-        <p>(CTY AM Shift - Pemulwuy)</p>
-      </div>
-    </footer>
-  </div>
-
-  <!-- Popup cho “Show all Run Numbers in Zone …” -->
-  <div id="popupOverlay" class="popup-overlay" style="display:none;">
-    <div class="popup">
-      <h2 id="modal-title">Run Numbers</h2>
-      <div id="modalRunList" class="popup-content"></div>
-      <button id="modalCloseButton" class="popup-close">Close</button>
-    </div>
-  </div>
-
-  <script src="script160925.js"></script>
+  <main class="card" role="main" aria-labelledby="title">
+    <div class="badge" aria-hidden="true">Notice</div>
+    <h1 id="title">This is a demo version, and it has been discontinued.</h1>
+    <p>Please visit the official link to use the application:</p>
+    <p>
+      <a class="btn" href="https://cpsuburb.au/vic" target="_blank" rel="noopener noreferrer" aria-label="Open cpsuburb.au in a new tab">Go to cpsuburb.au/vic</a>
+    </p>
+    <p>Or copy this URL: <span class="link">https://cpsuburb.au/vic</span></p>
+    <footer>Thank you.</footer>
+  </main>
 </body>
 </html>
-
-

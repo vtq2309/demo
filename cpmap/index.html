@@ -1,244 +1,385 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pemulwuy Depot Map</title>
-     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2ZW63C8F6D"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-2ZW63C8F6D');
-    </script>
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            padding: 10px;
-            box-sizing: border-box;
-            text-align: center;
-        }
-        #logo {
-            width: 100%;
-            max-width: 300px;
-            height: auto;
-            margin-bottom: 20px;
-        }
-        h1 {
-            margin-bottom: 10px;
-        }
-        #back-button-container {
-            margin-bottom: 20px;
-            display: flex;
-            align-items: center;
-        }
-        #back-button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            text-decoration: none;
-            color: white;
-            background-color: #007BFF;
-            border: none;
-            border-radius: 5px;
-            display: flex;
-            align-items: center;
-        }
-        #back-button img {
-            margin-left: 10px;
-            width: 20px;
-            height: 20px;
-        }
-        #back-button .icon-left {
-            margin-right: 10px;
-            margin-left: 0;
-        }
-        #search-container {
-            position: relative;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-bottom: 20px;
-            width: 100%;
-            max-width: 400px;
-        }
-        #search-box {
-            padding: 10px;
-            width: 60%;
-            box-sizing: border-box;
-            margin-bottom: 10px;
-        }
-        #suggestions {
-            border: 1px solid #ddd;
-            max-height: 150px;
-            overflow-y: auto;
-            background: white;
-            z-index: 1000;
-            width: 60%;
-            box-sizing: border-box;
-        }
-        #suggestions div {
-            padding: 10px;
-            cursor: pointer;
-        }
-        #suggestions div:hover {
-            background-color: #f0f0f0;
-        }
-        #image-container {
-            position: relative;
-            display: inline-block;
-            width: 100%;
-            max-width: 600px;
-        }
-        #image-container img {
-            display: block;
-            width: 100%;
-            height: auto;
-        }
-        .highlight {
-            position: absolute;
-            border: 4px solid black;
-            border-radius: 50%;
-            pointer-events: none;
-            transform: translate(-50%, -50%);
-            animation: blink 1s infinite;
-        }
-        @keyframes blink {
-            0% { opacity: 1; }
-            50% { opacity: 0; }
-            100% { opacity: 1; }
-        }
-        .blinking-text {
-            animation: blink 1s infinite;
-        }
-        footer {
-            margin-top: 5px;
-        }
-        #selected-info {
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-        .footer-content p:first-of-type { /* "Created by: Thien Quang VU" */
-            font-size: 13px;
-            font-weight: 500;  
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pemulwuy Depot Map</title>
 
-        .footer-content p:last-of-type {  /* "(CTY AM Shift)" */
-            font-size: 12px;
-            font-style: italic; /* tùy chọn */
-    </style>
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="manifest" href="images/site.webmanifest">
+  <!-- Google tag (gtag.js) - kept from your original file -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2ZW63C8F6D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-2ZW63C8F6D');
+  </script>
+
+  <style>
+    :root {
+      --radius: 10px;
+      --shadow-sm: 0 2px 8px rgba(0,0,0,0.06);
+      --shadow-md: 0 8px 24px rgba(0,0,0,0.10);
+      --brand: #007BFF;
+      --border: #ddd;
+      --danger: #b3261e;
+      --danger-bg: #fef3f2;
+      --danger-br: #f9d3d3;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      padding: 10px;
+      text-align: center;
+      background: #fff;
+    }
+
+    #logo {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    h1 { margin: 0 0 10px 0; }
+
+    #back-button-container {
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+    }
+
+    /* Back button: rounded + shadow */
+    #back-button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+      color: white;
+      background-color: var(--brand);
+      border: none;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      gap: 10px;
+    }
+    #back-button img { width: 20px; height: 20px; }
+    #back-button .icon-left { margin-right: 0; }
+
+    /* ---------- LOCK PANEL (visible until unlocked) ---------- */
+    #lock-panel {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      padding: 12px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-sm);
+      background: #fff;
+      width: min(350px, 92vw);
+      margin: 6px auto 14px;
+    }
+    #lock-fields {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      width: 100%;
+    }
+    #lock-input {
+      padding: 10px;
+      width: 220px;              /* ~220px as requested */
+      max-width: 60vw;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      outline: none;
+      box-shadow: var(--shadow-sm);
+    }
+    #lock-input:focus {
+      border-color: var(--brand);
+      box-shadow: 0 0 0 3px rgba(0,123,255,0.15);
+    }
+    #unlock-btn {
+      padding: 10px 14px;
+      border: none;
+      border-radius: var(--radius);
+      background: var(--brand);
+      color: #fff;
+      cursor: pointer;
+      box-shadow: var(--shadow-sm);
+      white-space: nowrap;
+    }
+    /* Professional error message centered below input row */
+    #lock-msg {
+      display: none;             /* only shown on error */
+      width: 100%;
+      text-align: center;        /* centered */
+      font-size: 12px;
+      color: var(--danger);
+      background: var(--danger-bg);
+      border: 1px solid var(--danger-br);
+      border-radius: 8px;
+      padding: 8px 10px;
+      min-height: 1em;
+    }
+
+    /* ---------- SEARCH (hidden while locked) ---------- */
+    #search-container {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+      width: 100%;
+      max-width: 400px;
+    }
+    #search-box {
+      padding: 10px;
+      width: 60%;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      outline: none;
+    }
+    #search-box:focus {
+      border-color: var(--brand);
+      box-shadow: 0 0 0 3px rgba(0,123,255,0.15);
+    }
+
+    /* Suggestions overlay */
+    #suggestions {
+      position: absolute;
+      top: calc(100% + 5px);
+      left: 20%;
+      width: 60%;
+      max-height: 200px;
+      overflow-y: auto;
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.10);
+      z-index: 1000;
+    }
+    #suggestions div { padding: 10px; cursor: pointer; }
+    #suggestions div:hover { background-color: #f0f0f0; }
+
+    /* Map card */
+    #image-container {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+      max-width: 600px;
+      border: 1px solid color-mix(in oklab, #e5e7eb, transparent 50%);
+      background: linear-gradient(to bottom, rgba(0,0,0,.02), transparent);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    #number-image { display: block; width: 100%; height: auto; image-rendering: auto; }
+
+    .highlight {
+      position: absolute;
+      border: 4px solid black;
+      border-radius: 50%;
+      pointer-events: none;
+      transform: translate(-50%, -50%);
+      animation: blink 1s infinite;
+    }
+    @keyframes blink { 0%{opacity:1} 50%{opacity:0} 100%{opacity:1} }
+    .blinking-text { animation: blink 1s infinite; }
+
+    footer { margin-top: 5px; }
+    #selected-info { font-weight: bold; margin-bottom: 20px; }
+
+    .footer-content p:first-of-type { font-size: 13px; font-weight: 500; }
+    .footer-content p:last-of-type  { font-size: 12px; font-style: italic; }
+
+    /* Hidden state for protected blocks */
+    .protected[aria-hidden="true"] { display: none !important; }
+  </style>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
 </head>
+
 <body>
+  <img src="images/logo.png" alt="Logo" id="logo">
+  <h1>Pemulwuy Depot Map</h1>
 
-    <img src="images/logo.png" alt="Logo" id="logo">
-    <h1>Pemulwuy Depot Map</h1>
-    <div id="back-button-container">
-        <a href="../index.html" id="back-button">
-            <img src="images/back.png" alt="Back Icon" class="icon-left">
-            Back to Suburb Lookup
-            <img src="images/lookupicon.ico" alt="Icon">
-        </a>
+  <div id="back-button-container">
+    <a href="../index.html" id="back-button" aria-label="Back to Suburb Lookup">
+      <img src="images/back.png" alt="Back Icon" class="icon-left">
+      Back to Suburb Lookup
+      <img src="images/lookupicon.ico" alt="Icon">
+    </a>
+  </div>
+
+  <!-- LOCK PANEL (always visible until unlocked) -->
+  <div id="lock-panel" role="region" aria-label="Login to unlock map & search">
+    <div id="lock-fields">
+      <input id="lock-input" type="password" placeholder="Enter password" autocomplete="current-password" />
+      <button id="unlock-btn" type="button">Unlock</button>
     </div>
-    <div id="search-container">
-        <input type="text" id="search-box" pattern="[0-9]*" inputmode="numeric" placeholder="Enter Run Number" oninput="updateSuggestions()">
-        <div id="suggestions"></div>
+    <div id="lock-msg" role="status" aria-live="polite"></div>
+  </div>
+
+  <!-- PROTECTED AREA: hidden while locked -->
+  <div id="search-container" class="protected" aria-hidden="true">
+    <input
+      type="text"
+      id="search-box"
+      pattern="[0-9]*"
+      inputmode="numeric"
+      placeholder="Enter Run Number"
+      oninput="updateSuggestions()"
+      aria-label="Run number"
+    >
+    <div id="suggestions" role="listbox" aria-label="Run suggestions"></div>
+  </div>
+
+  <div id="selected-info" class="protected" aria-hidden="true"></div>
+
+  <div id="image-container" class="protected" aria-hidden="true">
+    <!-- Delay loading image until unlocked -->
+    <img alt="Number map" id="number-image">
+  </div>
+
+  <script>
+    // ====== Password (edit to your own) ======
+    const PASSWORD = "1234";
+
+    // ====== App state ======
+    let numberCoords = {};
+    let imageWidth, imageHeight;
+    let appInitialized = false;
+
+    // Initialize resources after unlock only
+    async function initApp() {
+      if (appInitialized) return;
+      try {
+        const response = await fetch('coords.json', { cache: 'no-store' });
+        numberCoords = await response.json();
+      } catch (err) {
+        console.error('Error loading coordinates:', err);
+      }
+
+      const numberImage = document.getElementById('number-image');
+      numberImage.src = 'images/map.png';
+      numberImage.onload = resizeImage;
+
+      appInitialized = true;
+    }
+
+    function unlockIfValid() {
+      const input = document.getElementById('lock-input');
+      const msg = document.getElementById('lock-msg');
+      const pwd = input.value.trim();
+
+      if (pwd === PASSWORD) {
+        // Clear message & hide lock panel
+        msg.textContent = "";
+        msg.style.display = 'none';
+        document.getElementById('lock-panel').style.display = 'none';
+
+        // Reveal protected blocks
+        document.querySelectorAll('.protected').forEach(el => {
+          el.setAttribute('aria-hidden', 'false');
+        });
+
+        // Load data & focus
+        initApp();
+        const s = document.getElementById('search-box');
+        if (s) s.focus();
+      } else {
+        msg.textContent = "Incorrect password. Please contact the administrator.";
+        msg.style.display = 'block';
+      }
+    }
+
+    document.getElementById('unlock-btn').addEventListener('click', unlockIfValid);
+    document.getElementById('lock-input').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') unlockIfValid();
+    });
+
+    // ====== Original logic (unchanged) ======
+    function updateSuggestions() {
+      const query = document.getElementById('search-box').value;
+      const suggestions = document.getElementById('suggestions');
+      suggestions.innerHTML = '';
+
+      if (query) {
+        for (const number in numberCoords) {
+          if (number.startsWith(query)) {
+            const suggestion = document.createElement('div');
+            suggestion.textContent = number;
+            suggestion.setAttribute('role', 'option');
+            suggestion.onclick = () => {
+              document.getElementById('search-box').value = '';
+              document.getElementById('suggestions').innerHTML = '';
+              displaySelectedNumber(number);
+              highlightNumber(number);
+            };
+            suggestions.appendChild(suggestion);
+          }
+        }
+      }
+    }
+
+    function displaySelectedNumber(number) {
+      const info = document.getElementById('selected-info');
+      info.innerHTML =
+        `Run Number: ${number} <br> Please follow the <span class="blinking-text">blinking circle</span> below.`;
+    }
+
+    function highlightNumber(searchValue) {
+      const imageContainer = document.getElementById('image-container');
+      const numberImage = document.getElementById('number-image');
+
+      const existingHighlight = document.querySelector('.highlight');
+      if (existingHighlight) existingHighlight.remove();
+
+      if (numberCoords[searchValue]) {
+        const coords = numberCoords[searchValue];
+        const highlight = document.createElement('div');
+        highlight.className = 'highlight';
+
+        const scaleX = numberImage.clientWidth / imageWidth;
+        const scaleY = numberImage.clientHeight / imageHeight;
+
+        highlight.style.left = `${coords[0] * scaleX}px`;
+        highlight.style.top = `${coords[1] * scaleY}px`;
+        highlight.style.width = `${coords[2] * scaleX}px`;
+        highlight.style.height = `${coords[3] * scaleY}px`;
+
+        imageContainer.appendChild(highlight);
+      }
+    }
+
+    function resizeImage() {
+      const numberImage = document.getElementById('number-image');
+      imageWidth = numberImage.naturalWidth;
+      imageHeight = numberImage.naturalHeight;
+    }
+  </script>
+
+  <footer>
+    <div class="footer-content">
+      <p>Created by: Thien Quang VU</p>
+      <p>(CTY AM Shift - Pemulwuy)</p>
     </div>
-    <div id="selected-info"></div> <!-- Phần tử hiển thị thông báo -->
-    <div id="image-container">
-        <img src="images/map.png" alt="Sơ đồ số" id="number-image" onload="resizeImage()">
-    </div>
-
-    <script>
-        let numberCoords = {};
-
-        let imageWidth, imageHeight;
-
-        fetch('coords.json')
-            .then(response => response.json())
-            .then(data => {
-                numberCoords = data;
-            })
-            .catch(error => console.error('Error loading coordinates:', error));
-
-        function updateSuggestions() {
-            const query = document.getElementById('search-box').value;
-            const suggestions = document.getElementById('suggestions');
-            suggestions.innerHTML = '';
-
-            if (query) {
-                for (const number in numberCoords) {
-                    if (number.startsWith(query)) {
-                        const suggestion = document.createElement('div');
-                        suggestion.textContent = number;
-                        suggestion.onclick = () => {
-                            document.getElementById('search-box').value = '';
-                            document.getElementById('suggestions').innerHTML = '';
-                            displaySelectedNumber(number);
-                            highlightNumber(number);
-                        };
-                        suggestions.appendChild(suggestion);
-                    }
-                }
-            }
-        }
-
-        function displaySelectedNumber(number) {
-            const info = document.getElementById('selected-info');
-            info.innerHTML = `Run Number: ${number} <br> Please follow the <span class="blinking-text">blinking circle</span> below.`;
-        }
-
-        function highlightNumber(searchValue) {
-            const imageContainer = document.getElementById('image-container');
-            const numberImage = document.getElementById('number-image');
-
-            const existingHighlight = document.querySelector('.highlight');
-            if (existingHighlight) {
-                existingHighlight.remove();
-            }
-
-            if (numberCoords[searchValue]) {
-                const coords = numberCoords[searchValue];
-                const highlight = document.createElement('div');
-                highlight.className = 'highlight';
-
-                const scaleX = numberImage.clientWidth / imageWidth;
-                const scaleY = numberImage.clientHeight / imageHeight;
-
-                highlight.style.left = `${coords[0] * scaleX}px`;
-                highlight.style.top = `${coords[1] * scaleY}px`;
-                highlight.style.width = `${coords[2] * scaleX}px`;
-                highlight.style.height = `${coords[3] * scaleY}px`;
-
-                imageContainer.appendChild(highlight);
-            }
-        }
-
-        function resizeImage() {
-            const numberImage = document.getElementById('number-image');
-            imageWidth = numberImage.naturalWidth;
-            imageHeight = numberImage.naturalHeight;
-        }
-    </script>
-
-    <footer>
-        <div class="footer-content">
-            <p>Created by: Thien Quang VU</p>
-            <p>(CTY AM Shift - Pemulwuy)</p>
-        </div>
-    </footer>
-
+  </footer>
 </body>
 </html>
-
-

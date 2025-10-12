@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pemulwuy Depot Map</title>
 
-  <!-- Google tag (gtag.js) - kept from your original file -->
+  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-2ZW63C8F6D"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -15,19 +15,7 @@
   </script>
 
   <style>
-    :root {
-      --radius: 10px;
-      --shadow-sm: 0 2px 8px rgba(0,0,0,0.06);
-      --shadow-md: 0 8px 24px rgba(0,0,0,0.10);
-      --brand: #007BFF;
-      --border: #ddd;
-      --danger: #b3261e;
-      --danger-bg: #fef3f2;
-      --danger-br: #f9d3d3;
-    }
-
-    * { box-sizing: border-box; }
-
+    /* ====== (GIỮ NGUYÊN) CSS GỐC CỦA BẠN ====== */
     body {
       display: flex;
       flex-direction: column;
@@ -37,6 +25,7 @@
       margin: 0;
       font-family: Arial, sans-serif;
       padding: 10px;
+      box-sizing: border-box;
       text-align: center;
       background: #fff;
     }
@@ -48,91 +37,43 @@
       margin-bottom: 20px;
     }
 
-    h1 { margin: 0 0 10px 0; }
+    h1 {
+      margin-bottom: 10px;
+    }
 
     #back-button-container {
-      margin-bottom: 16px;
+      margin-bottom: 20px;
       display: flex;
       align-items: center;
     }
 
-    /* Back button: rounded + shadow */
+    /* nút Back: bo góc + đổ bóng */
     #back-button {
       padding: 10px 20px;
       font-size: 16px;
       cursor: pointer;
       text-decoration: none;
       color: white;
-      background-color: var(--brand);
+      background-color: #007BFF;
       border: none;
       border-radius: 8px;
       display: flex;
       align-items: center;
       box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-      gap: 10px;
-    }
-    #back-button img { width: 20px; height: 20px; }
-    #back-button .icon-left { margin-right: 0; }
-
-    /* ---------- LOCK PANEL (visible until unlocked) ---------- */
-    #lock-panel {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 8px;
-      padding: 12px;
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow-sm);
-      background: #fff;
-      width: min(350px, 92vw);
-      margin: 6px auto 14px;
-    }
-    #lock-fields {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 8px;
-      width: 100%;
-    }
-    #lock-input {
-      padding: 10px;
-      width: 220px;              /* ~220px as requested */
-      max-width: 60vw;
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      outline: none;
-      box-shadow: var(--shadow-sm);
-    }
-    #lock-input:focus {
-      border-color: var(--brand);
-      box-shadow: 0 0 0 3px rgba(0,123,255,0.15);
-    }
-    #unlock-btn {
-      padding: 10px 14px;
-      border: none;
-      border-radius: var(--radius);
-      background: var(--brand);
-      color: #fff;
-      cursor: pointer;
-      box-shadow: var(--shadow-sm);
-      white-space: nowrap;
-    }
-    /* Professional error message centered below input row */
-    #lock-msg {
-      display: none;             /* only shown on error */
-      width: 100%;
-      text-align: center;        /* centered */
-      font-size: 12px;
-      color: var(--danger);
-      background: var(--danger-bg);
-      border: 1px solid var(--danger-br);
-      border-radius: 8px;
-      padding: 8px 10px;
-      min-height: 1em;
     }
 
-    /* ---------- SEARCH (hidden while locked) ---------- */
+    #back-button img {
+      margin-left: 10px;
+      width: 20px;
+      height: 20px;
+    }
+
+    #back-button .icon-left {
+      margin-right: 10px;
+      margin-left: 0;
+    }
+
+    /* container tìm kiếm */
     #search-container {
       position: relative;
       display: flex;
@@ -142,6 +83,8 @@
       width: 100%;
       max-width: 400px;
     }
+
+    /* ô input: bo góc + đổ bóng */
     #search-box {
       padding: 10px;
       width: 60%;
@@ -152,12 +95,13 @@
       box-shadow: 0 2px 8px rgba(0,0,0,0.06);
       outline: none;
     }
+
     #search-box:focus {
-      border-color: var(--brand);
+      border-color: #007BFF;
       box-shadow: 0 0 0 3px rgba(0,123,255,0.15);
     }
 
-    /* Suggestions overlay */
+    /* gợi ý dạng overlay */
     #suggestions {
       position: absolute;
       top: calc(100% + 5px);
@@ -171,10 +115,17 @@
       box-shadow: 0 8px 24px rgba(0,0,0,0.10);
       z-index: 1000;
     }
-    #suggestions div { padding: 10px; cursor: pointer; }
-    #suggestions div:hover { background-color: #f0f0f0; }
 
-    /* Map card */
+    #suggestions div {
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    #suggestions div:hover {
+      background-color: #f0f0f0;
+    }
+
+    /* (6) Card ảnh map tinh tế hơn */
     #image-container {
       position: relative;
       display: inline-block;
@@ -186,7 +137,13 @@
       border-radius: 12px;
       overflow: hidden;
     }
-    #number-image { display: block; width: 100%; height: auto; image-rendering: auto; }
+
+    #image-container img {
+      display: block;
+      width: 100%;
+      height: auto;
+      image-rendering: auto;
+    }
 
     .highlight {
       position: absolute;
@@ -196,17 +153,97 @@
       transform: translate(-50%, -50%);
       animation: blink 1s infinite;
     }
-    @keyframes blink { 0%{opacity:1} 50%{opacity:0} 100%{opacity:1} }
-    .blinking-text { animation: blink 1s infinite; }
 
-    footer { margin-top: 5px; }
-    #selected-info { font-weight: bold; margin-bottom: 20px; }
+    @keyframes blink {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
 
-    .footer-content p:first-of-type { font-size: 13px; font-weight: 500; }
-    .footer-content p:last-of-type  { font-size: 12px; font-style: italic; }
+    .blinking-text {
+      animation: blink 1s infinite;
+    }
 
-    /* Hidden state for protected blocks */
+    footer {
+      margin-top: 5px;
+    }
+
+    #selected-info {
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .footer-content p:first-of-type {
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    .footer-content p:last-of-type {
+      font-size: 12px;
+      font-style: italic;
+    }
+
+    /* ====== (BỔ SUNG) CHỈ THÊM CSS CHO PASSWORD-GATE, KHÔNG ĐỤNG VÀO CSS KHÁC ====== */
+    /* Ẩn khu vực bảo vệ khi chưa mở khoá */
     .protected[aria-hidden="true"] { display: none !important; }
+
+    /* Khối nhập mật khẩu (không ảnh hưởng style khác) */
+    #lock-panel {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      background: #fff;
+      width: min(300px, 92vw);
+      margin: 6px auto 14px;
+    }
+    #lock-fields {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      width: 100%;
+    }
+    #lock-input {
+      width: 220px;               /* ~220px như yêu cầu */
+      max-width: 60vw;
+      padding: 10px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      outline: none;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    #lock-input:focus {
+      border-color: #007BFF;
+      box-shadow: 0 0 0 3px rgba(0,123,255,0.15);
+    }
+    #unlock-btn {
+      padding: 10px 14px;
+      border: none;
+      border-radius: 10px;
+      background: #007BFF;
+      color: #fff;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      white-space: nowrap;
+    }
+    /* Thông điệp lỗi: hiển thị bên dưới, căn giữa, chuyên nghiệp */
+    #lock-msg {
+      display: none;              /* chỉ hiển thị khi sai */
+      width: 100%;
+      text-align: center;
+      font-size: 12px;
+      color: #b3261e;
+      background: #fef3f2;
+      border: 1px solid #f9d3d3;
+      border-radius: 8px;
+      padding: 8px 10px;
+      min-height: 1em;
+    }
   </style>
 
   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
@@ -220,14 +257,14 @@
   <h1>Pemulwuy Depot Map</h1>
 
   <div id="back-button-container">
-    <a href="../index.html" id="back-button" aria-label="Back to Suburb Lookup">
+    <a href="../index.html" id="back-button">
       <img src="images/back.png" alt="Back Icon" class="icon-left">
       Back to Suburb Lookup
       <img src="images/lookupicon.ico" alt="Icon">
     </a>
   </div>
 
-  <!-- LOCK PANEL (always visible until unlocked) -->
+  <!-- (BỔ SUNG) KHỐI MẬT KHẨU — luôn hiển thị cho tới khi mở khoá -->
   <div id="lock-panel" role="region" aria-label="Login to unlock map & search">
     <div id="lock-fields">
       <input id="lock-input" type="password" placeholder="Enter password" autocomplete="current-password" />
@@ -236,85 +273,29 @@
     <div id="lock-msg" role="status" aria-live="polite"></div>
   </div>
 
-  <!-- PROTECTED AREA: hidden while locked -->
+  <!-- (SỬA NHẸ) Đánh dấu các khu vực cần ẩn khi chưa đúng mật khẩu -->
   <div id="search-container" class="protected" aria-hidden="true">
-    <input
-      type="text"
-      id="search-box"
-      pattern="[0-9]*"
-      inputmode="numeric"
-      placeholder="Enter Run Number"
-      oninput="updateSuggestions()"
-      aria-label="Run number"
-    >
-    <div id="suggestions" role="listbox" aria-label="Run suggestions"></div>
+    <input type="text" id="search-box" pattern="[0-9]*" inputmode="numeric"
+           placeholder="Enter Run Number" oninput="updateSuggestions()">
+    <div id="suggestions"></div>
   </div>
 
   <div id="selected-info" class="protected" aria-hidden="true"></div>
 
   <div id="image-container" class="protected" aria-hidden="true">
-    <!-- Delay loading image until unlocked -->
-    <img alt="Number map" id="number-image">
+    <img src="images/map.png" alt="Number map" id="number-image" onload="resizeImage()">
   </div>
 
   <script>
-    // ====== Password (edit to your own) ======
-    const PASSWORD = "1234";
-
-    // ====== App state ======
+    /* ====== (GIỮ NGUYÊN) LOGIC GỐC ====== */
     let numberCoords = {};
     let imageWidth, imageHeight;
-    let appInitialized = false;
 
-    // Initialize resources after unlock only
-    async function initApp() {
-      if (appInitialized) return;
-      try {
-        const response = await fetch('coords.json', { cache: 'no-store' });
-        numberCoords = await response.json();
-      } catch (err) {
-        console.error('Error loading coordinates:', err);
-      }
+    fetch('coords.json')
+      .then(response => response.json())
+      .then(data => { numberCoords = data; })
+      .catch(error => console.error('Error loading coordinates:', error));
 
-      const numberImage = document.getElementById('number-image');
-      numberImage.src = 'images/map.png';
-      numberImage.onload = resizeImage;
-
-      appInitialized = true;
-    }
-
-    function unlockIfValid() {
-      const input = document.getElementById('lock-input');
-      const msg = document.getElementById('lock-msg');
-      const pwd = input.value.trim();
-
-      if (pwd === PASSWORD) {
-        // Clear message & hide lock panel
-        msg.textContent = "";
-        msg.style.display = 'none';
-        document.getElementById('lock-panel').style.display = 'none';
-
-        // Reveal protected blocks
-        document.querySelectorAll('.protected').forEach(el => {
-          el.setAttribute('aria-hidden', 'false');
-        });
-
-        // Load data & focus
-        initApp();
-        const s = document.getElementById('search-box');
-        if (s) s.focus();
-      } else {
-        msg.textContent = "Incorrect password. Please contact the administrator.";
-        msg.style.display = 'block';
-      }
-    }
-
-    document.getElementById('unlock-btn').addEventListener('click', unlockIfValid);
-    document.getElementById('lock-input').addEventListener('keydown', (e) => {
-      if (e.key === 'Enter') unlockIfValid();
-    });
-
-    // ====== Original logic (unchanged) ======
     function updateSuggestions() {
       const query = document.getElementById('search-box').value;
       const suggestions = document.getElementById('suggestions');
@@ -325,7 +306,6 @@
           if (number.startsWith(query)) {
             const suggestion = document.createElement('div');
             suggestion.textContent = number;
-            suggestion.setAttribute('role', 'option');
             suggestion.onclick = () => {
               document.getElementById('search-box').value = '';
               document.getElementById('suggestions').innerHTML = '';
@@ -373,6 +353,43 @@
       imageWidth = numberImage.naturalWidth;
       imageHeight = numberImage.naturalHeight;
     }
+  </script>
+
+  <!-- (BỔ SUNG) SCRIPT NHỎ CHO PASSWORD-GATE — không đụng vào logic gốc -->
+  <script>
+    // Thay mật khẩu tại đây nếu cần
+    const PASSWORD = "1234";
+
+    function unlockIfValid() {
+      const input = document.getElementById('lock-input');
+      const msg   = document.getElementById('lock-msg');
+      const pwd   = input.value.trim();
+
+      if (pwd === PASSWORD) {
+        // Ẩn thông báo + ẩn hẳn khối nhập mật khẩu
+        msg.textContent = "";
+        msg.style.display = 'none';
+        document.getElementById('lock-panel').style.display = 'none';
+
+        // Hiện các khu vực được bảo vệ
+        document.querySelectorAll('.protected').forEach(el => {
+          el.setAttribute('aria-hidden', 'false');
+        });
+
+        // Đưa focus vào ô search
+        const s = document.getElementById('search-box');
+        if (s) s.focus();
+      } else {
+        // Thông báo ngắn gọn, chuyên nghiệp; hiển thị bên dưới, căn giữa
+        msg.textContent = "Incorrect password. Please contact the administrator.";
+        msg.style.display = 'block';
+      }
+    }
+
+    document.getElementById('unlock-btn').addEventListener('click', unlockIfValid);
+    document.getElementById('lock-input').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') unlockIfValid();
+    });
   </script>
 
   <footer>

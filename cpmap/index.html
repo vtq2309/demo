@@ -94,6 +94,7 @@
       border-radius: 10px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.06);
       outline: none;
+	  font-size: 16px;   
     }
 
     #search-box:focus {
@@ -216,6 +217,7 @@
       border-radius: 10px;
       outline: none;
       box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+	  font-size: 16px;
     }
     #lock-input:focus {
       border-color: #007BFF;
@@ -264,14 +266,20 @@
     </a>
   </div>
 
-  <!-- (BỔ SUNG) KHỐI MẬT KHẨU — luôn hiển thị cho tới khi mở khoá -->
-  <div id="lock-panel" role="region" aria-label="Login to unlock map & search">
-    <div id="lock-fields">
-      <input id="lock-input" type="password" placeholder="Enter password" autocomplete="current-password" />
-      <button id="unlock-btn" type="button">Unlock</button>
-    </div>
-    <div id="lock-msg" role="status" aria-live="polite"></div>
+  <!-- LOCK PANEL (always visible until unlocked) -->
+<div id="lock-panel" role="region" aria-label="Login to unlock map & search">
+  <div id="lock-fields">
+    <!-- Giữ NGUYÊN input -->
+    <input id="lock-input" type="password" placeholder="Enter password" autocomplete="current-password" />
   </div>
+
+  <!-- Thông báo lỗi: vẫn ở dưới, giữa ô nhập -->
+  <div id="lock-msg" role="status" aria-live="polite"></div>
+
+  <!-- NÚT ĐƯỢC ĐƯA XUỐNG DƯỚI, Ở GIỮA -->
+  <button id="unlock-btn" type="button">Unlock</button>
+</div>
+
 
   <!-- (SỬA NHẸ) Đánh dấu các khu vực cần ẩn khi chưa đúng mật khẩu -->
   <div id="search-container" class="protected" aria-hidden="true">
